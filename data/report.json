@@ -1,0 +1,170 @@
+{
+"last_agenda_run": "2026-11-07",
+"districts_read": 119,
+"new_matches": 340,
+"feed_size": 340,
+"walked_total": 119,
+"icp_with_reader": 119,
+"blocked": [
+{
+"district": "Memphis-Shelby County Schools",
+"state": "Tennessee",
+"nces_id": "4700148",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/tn/scsk12/Board.nsf/Public"
+},
+{
+"district": "AUSTIN ISD",
+"state": "Texas",
+"nces_id": "4808940",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/tx/austinisd/Board.nsf/Public"
+},
+{
+"district": "Jefferson County School District No. R-1",
+"state": "Colorado",
+"nces_id": "804800",
+"why": "blocked: robots.txt disallows https://www.jeffcopublicschools.org/fs/pages/2234"
+},
+{
+"district": "Long Beach Unified",
+"state": "California",
+"nces_id": "622500",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/lbusd/Board.nsf/Public"
+},
+{
+"district": "Knox County",
+"state": "Tennessee",
+"nces_id": "4702220",
+"why": "blocked: robots.txt disallows https://www.knoxschools.org/fs/resource-manager/view/b9cbc2e3-4b36-4797-bd4a-20e8bffc6b4f"
+},
+{
+"district": "Jordan District",
+"state": "Utah",
+"nces_id": "4900420",
+"why": "blocked: robots.txt disallows https://jordandistrict.org/wp-content/uploads/bma_20260728.pdf"
+},
+{
+"district": "Cumberland County Schools",
+"state": "North Carolina",
+"nces_id": "3700011",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nc/ccsd/Board.nsf/Public"
+},
+{
+"district": "San Francisco Unified",
+"state": "California",
+"nces_id": "634410",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/sfusd/Board.nsf/Public"
+},
+{
+"district": "Detroit Public Schools Community District",
+"state": "Michigan",
+"nces_id": "2601103",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/detroit/Board.nsf/Public"
+},
+{
+"district": "Horry 01",
+"state": "South Carolina",
+"nces_id": "4502490",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/sc/horry/Board.nsf/Public"
+},
+{
+"district": "Columbus City Schools District",
+"state": "Ohio",
+"nces_id": "3904380",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/columbus/Board.nsf/Public"
+},
+{
+"district": "San Bernardino City Unified",
+"state": "California",
+"nces_id": "634170",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/sbcusd/Board.nsf/Public"
+},
+{
+"district": "LAMAR CISD",
+"state": "Texas",
+"nces_id": "4826580",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5626/bond_2025_props_flyer.pdf"
+},
+{
+"district": "Kern High",
+"state": "California",
+"nces_id": "619540",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/khsd/Board.nsf/Public"
+},
+{
+"district": "Anchorage School District",
+"state": "Alaska",
+"nces_id": "200180",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ak/asdk12/Board.nsf/Public"
+},
+{
+"district": "Charleston 01",
+"state": "South Carolina",
+"nces_id": "4501440",
+"why": "blocked: HTTP 403 at http://ccsd.sharpschool.net/UserFiles/Servers/Server_2973281/File/Commitee/AFAGENDA20170606%20(REVISED).pdf"
+},
+{
+"district": "Union County Public Schools",
+"state": "North Carolina",
+"nces_id": "3704620",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nc/ucps/Board.nsf/Public"
+},
+{
+"district": "Clovis Unified",
+"state": "California",
+"nces_id": "609030",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/6245/cusd_school_leadership_bsc_agenda_92526.pdf"
+},
+{
+"district": "Berkeley 01",
+"state": "South Carolina",
+"nces_id": "4501170",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/sc/berkeley/Board.nsf/Public"
+},
+{
+"district": "Aurora Joint District No. 28 of the counties of Adams and A",
+"state": "Colorado",
+"nces_id": "802340",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/co/aurora/Board.nsf/Public"
+},
+{
+"district": "Garden Grove Unified",
+"state": "California",
+"nces_id": "614880",
+"why": "blocked: robots.txt disallows https://www.ggusd.us/umbraco/surface/home/latestboardagenda"
+},
+{
+"district": "Sacramento City Unified",
+"state": "California",
+"nces_id": "633840",
+"why": "blocked: robots.txt disallows https://www.scusd.edu/fs/resource-manager/view/964b973d-1f4d-4bfb-b067-8aa19c6daa4a"
+},
+{
+"district": "Washington District",
+"state": "Utah",
+"nces_id": "4901140",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ut/washk12/Board.nsf/Public"
+},
+{
+"district": "Cincinnati Public Schools",
+"state": "Ohio",
+"nces_id": "3904375",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/cps/Board.nsf/Public"
+},
+{
+"district": "Cabarrus County Schools",
+"state": "North Carolina",
+"nces_id": "3700530",
+"why": "blocked: HTTP 403 at https://www.cabarrus.k12.nc.us/2730_2"
+},
+{
+"district": "Adams 12 Five Star Schools",
+"state": "Colorado",
+"nces_id": "806900",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/co/adams12/Board.nsf/Public"
+}
+],
+"errors": [],
+"minutes": 2.8,
+"last_money_run": "2026-11-07",
+"new_money_matches": 176
+}

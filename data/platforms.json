@@ -1,0 +1,902 @@
+{
+"101920": {
+"agenda_url": "https://www.jefcoed.com/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"102370": {
+"agenda_url": "https://www.mcpss.com/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"1100030": {
+"agenda_url": "https://dcps.dc.gov/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"1300120": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1301020": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1301110": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1301230": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4038",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "simbli"
+},
+"1301290": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1301740": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1302220": {
+"agenda_url": "https://www.forsyth.k12.ga.us/inside-fcs/board-of-education/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"1302280": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1302550": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1302820": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1500030": {
+"agenda_url": "https://hawaiipublicschools.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"1602100": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"1709930": {
+"agenda_url": "http://www.cps.k12.il.us",
+"checked": "2026-11-07",
+"note": "unreachable: ConnectionError",
+"platform": "none"
+},
+"200180": {
+"agenda_url": "https://go.boarddocs.com/ak/asdk12/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"2012990": {
+"agenda_url": "https://www.usd259.org/about-wps/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2101860": {
+"agenda_url": "https://www.fcps.net/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2102990": {
+"agenda_url": "https://www.jefferson.kyschools.us/page/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2200540": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"2200840": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"2201650": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"2400060": {
+"agenda_url": "https://www.aacps.org/page/board-of-education-overview",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2400090": {
+"agenda_url": "https://www.baltimorecityschools.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"2400120": {
+"agenda_url": "https://www.bcps.org/board_of_education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2400330": {
+"agenda_url": "https://www.fcps.org/board_of_education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2400390": {
+"agenda_url": "https://www.hcps.org/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2400420": {
+"agenda_url": "https://www.hcpss.org/board/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2400480": {
+"agenda_url": "https://www.montgomeryschoolsmd.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"2400510": {
+"agenda_url": "https://www.pgcps.org/offices/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"2502790": {
+"agenda_url": "https://www.bostonpublicschools.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"2601103": {
+"agenda_url": "https://go.boarddocs.com/mi/detroit/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"2703180": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/2720",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"2801320": {
+"agenda_url": "https://www.desotocountyschools.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"3172840": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3174820": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3200001": {
+"agenda_url": "https://charterschools.nv.gov/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"3200060": {
+"agenda_url": "https://www.ccsd.net/about/school-board#meetings",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3200480": {
+"agenda_url": "https://www.washoeschools.net/trustees/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3411340": {
+"agenda_url": "https://www.nps.k12.nj.us/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3500060": {
+"agenda_url": "http://www.aps.edu",
+"checked": "2026-11-07",
+"note": "HTTP 403 at http://www.aps.edu",
+"platform": "blocked"
+},
+"3600077": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600087": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600098": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600100": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600102": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600103": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600123": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3600151": {
+"agenda_url": "",
+"checked": "2026-11-07",
+"note": "no website in NCES",
+"platform": "none"
+},
+"3700011": {
+"agenda_url": "https://go.boarddocs.com/nc/ccsd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boarddocs"
+},
+"3700530": {
+"agenda_url": "https://www.cabarrus.k12.nc.us/19903_1",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3701500": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030885",
+"checked": "2026-11-07",
+"note": "",
+"platform": "simbli"
+},
+"3701920": {
+"agenda_url": "https://www.gcsnc.com/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3702370": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031048",
+"checked": "2026-11-07",
+"note": "",
+"platform": "simbli"
+},
+"3702970": {
+"agenda_url": "https://www.cmsk12.org/board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3704620": {
+"agenda_url": "https://go.boarddocs.com/nc/ucps/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"3704720": {
+"agenda_url": "https://www.wcpss.net/about-us/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"3904375": {
+"agenda_url": "https://go.boarddocs.com/oh/cps/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boarddocs"
+},
+"3904380": {
+"agenda_url": "https://go.boarddocs.com/oh/columbus/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"401870": {
+"agenda_url": "https://www.cusd80.com/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"404970": {
+"agenda_url": "https://www.mpsaz.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"408800": {
+"agenda_url": "http://www.tusd1.org",
+"checked": "2026-11-07",
+"note": "unreachable: HTTPError",
+"platform": "none"
+},
+"4101920": {
+"agenda_url": "https://www.beaverton.k12.or.us/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4110040": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/915",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4110820": {
+"agenda_url": "https://salkeiz.k12.or.us/about/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4218990": {
+"agenda_url": "https://www.philasd.org/schoolboard/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4501170": {
+"agenda_url": "https://go.boarddocs.com/sc/berkeley/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"4501440": {
+"agenda_url": "https://www.ccsdschools.com/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4502310": {
+"agenda_url": "https://www.greenville.k12.sc.us/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4502490": {
+"agenda_url": "https://go.boarddocs.com/sc/horry/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"4700148": {
+"agenda_url": "https://go.boarddocs.com/tn/scsk12/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"4701590": {
+"agenda_url": "https://hcde.org/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4702220": {
+"agenda_url": "https://www.knoxschools.org/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4703030": {
+"agenda_url": "https://www.cmcss.net/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4703180": {
+"agenda_url": "https://www.mnps.org/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4703690": {
+"agenda_url": "https://www.rcschools.net/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4704530": {
+"agenda_url": "https://www.wcs.edu/about-us/meetings",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4800211": {
+"agenda_url": "https://ideapublicschools.org/our-story/national-board-of-directors/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4807710": {
+"agenda_url": "http://www.aldineisd.org",
+"checked": "2026-11-07",
+"note": "HTTP 403 at http://www.aldineisd.org",
+"platform": "blocked"
+},
+"4807830": {
+"agenda_url": "https://meetings.boardbook.org/public/Organization/770",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boardbook"
+},
+"4808700": {
+"agenda_url": "https://www.aisd.net/district/board/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4808940": {
+"agenda_url": "https://go.boarddocs.com/tx/austinisd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boarddocs"
+},
+"4811680": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/2175",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boardbook"
+},
+"4814280": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1940",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4815000": {
+"agenda_url": "https://www.conroeisd.net/page/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4816110": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/668",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boardbook"
+},
+"4816230": {
+"agenda_url": "https://www.dallasisd.org/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4818300": {
+"agenda_url": "https://www.episd.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4819650": {
+"agenda_url": "http://www.fortbend.k12.tx.us/",
+"checked": "2026-11-07",
+"note": "unreachable: ConnectionError",
+"platform": "none"
+},
+"4819700": {
+"agenda_url": "https://www.fwisd.org/board/our-school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4820010": {
+"agenda_url": "https://www.friscoisd.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4820340": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1084",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4823640": {
+"agenda_url": "https://www.houstonisd.org/board-governance/our-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4823910": {
+"agenda_url": "https://www.humbleisd.net/o/humbleisd/page/board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4825170": {
+"agenda_url": "https://www.katyisd.org/board/board/board-meeting-videos",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4825660": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1051",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boardbook"
+},
+"4825740": {
+"agenda_url": "https://www.kleinisd.net/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4826580": {
+"agenda_url": "https://www.lcisd.org/trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4827030": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/795",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4827300": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1194",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4828920": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1116",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boardbook"
+},
+"4830390": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1314",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4832940": {
+"agenda_url": "https://www.neisd.net/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4833120": {
+"agenda_url": "https://www.nisd.net/board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4834320": {
+"agenda_url": "https://www1.pasadenaisd.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"4835100": {
+"agenda_url": "https://www.pisd.edu/about-our-district/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4837020": {
+"agenda_url": "http://www.risd.org",
+"checked": "2026-11-07",
+"note": "unreachable: ConnectTimeout",
+"platform": "none"
+},
+"4838080": {
+"agenda_url": "https://www.roundrockisd.org/o/rrisd/page/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4838730": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/1982",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4840710": {
+"agenda_url": "https://www.sisd.net/page/board-of-trustees",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4843650": {
+"agenda_url": "https://meetings.boardbook.org/public/Organization/2029",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boardbook"
+},
+"4900030": {
+"agenda_url": "https://www.alpineschools.org/o/asd/page/board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4900210": {
+"agenda_url": "https://vhs.davis.k12.ut.us/o/dsd/page/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4900360": {
+"agenda_url": "https://www.graniteschools.org/blog/2026/11/06/board-meeting-agenda-november-10-2026/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4900420": {
+"agenda_url": "https://jordandistrict.org/board/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4900630": {
+"agenda_url": "https://www.nebo.edu/page/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"4901140": {
+"agenda_url": "https://go.boarddocs.com/ut/washk12/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boarddocs"
+},
+"5100810": {
+"agenda_url": "https://www.cpschools.com/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"5100840": {
+"agenda_url": "http://www.mychesterfieldschools.com/",
+"checked": "2026-11-07",
+"note": "HTTP 403 at http://www.mychesterfieldschools.com/",
+"platform": "blocked"
+},
+"5101260": {
+"agenda_url": "https://www.fcps.edu/about-fcps/leadership/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5101890": {
+"agenda_url": "https://www.henricoschools.us/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5102250": {
+"agenda_url": "https://www.lcps.org/page/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5103130": {
+"agenda_url": "https://www.pwcs.edu/about/school_board/index",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5103840": {
+"agenda_url": "https://www.vbschools.com/about/newsroom/pressreleases/release-details/~board/press-releases/post/vbcps-to-be-represented-in-leadership-roles-with-the-national-school-boards-association-and-virginia-school-boards-association",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5307710": {
+"agenda_url": "https://www.seattleschools.org/about/school-board/meetings/",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"5509600": {
+"agenda_url": "http://www.milwaukee.k12.wi.us",
+"checked": "2026-11-07",
+"note": "unreachable: SSLError",
+"platform": "none"
+},
+"607440": {
+"agenda_url": "https://www.capousd.org/__catapult_pages/ba415866-59f4-4d65-a129-b118ad9212a0/index.html",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"609030": {
+"agenda_url": "https://www.cusd.com/board-agendas-meetings-archives",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"609850": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030741",
+"checked": "2026-11-07",
+"note": "",
+"platform": "simbli"
+},
+"612330": {
+"agenda_url": "https://www.egusd.net/District/About-EGUSD/Board-of-Education/index.html",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"614550": {
+"agenda_url": "https://www.fresnounified.org/departments/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"614880": {
+"agenda_url": "https://www.ggusd.us/board/meeting-agendas",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"619540": {
+"agenda_url": "https://go.boarddocs.com/ca/khsd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"622500": {
+"agenda_url": "https://go.boarddocs.com/ca/lbusd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"622710": {
+"agenda_url": "https://www.lausd.org/boe",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"633150": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030406",
+"checked": "2026-11-07",
+"note": "",
+"platform": "simbli"
+},
+"633840": {
+"agenda_url": "https://www.scusd.edu/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"634170": {
+"agenda_url": "https://go.boarddocs.com/ca/sbcusd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"634320": {
+"agenda_url": "https://www.sandiegounified.org/about/board_of_education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"634410": {
+"agenda_url": "https://go.boarddocs.com/ca/sfusd/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+},
+"634620": {
+"agenda_url": "https://www.sanjuan.edu/our-district/school-board",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"635310": {
+"agenda_url": "http://www.sausd.k12.ca.us",
+"checked": "2026-11-07",
+"note": "unreachable: ConnectionError",
+"platform": "none"
+},
+"684500": {
+"agenda_url": "https://iusd.org/boardmeetings",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"802340": {
+"agenda_url": "https://go.boarddocs.com/co/aurora/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "boarddocs"
+},
+"802910": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031898",
+"checked": "2026-11-07",
+"note": "via board page",
+"platform": "simbli"
+},
+"803360": {
+"agenda_url": "https://www.dpsk12.org/",
+"checked": "2026-11-07",
+"note": "no board link found; homepage only",
+"platform": "site"
+},
+"803450": {
+"agenda_url": "https://www.dcsdk12.org/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"804800": {
+"agenda_url": "https://www.jeffcopublicschools.org/about/board-of-education",
+"checked": "2026-11-07",
+"note": "board page on district site",
+"platform": "site"
+},
+"806900": {
+"agenda_url": "https://go.boarddocs.com/co/adams12/Board.nsf/Public",
+"checked": "2026-11-07",
+"note": "",
+"platform": "boarddocs"
+}
+}
