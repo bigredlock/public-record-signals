@@ -1,4 +1,4 @@
-"""Settings for the FlipLok District Signals crawler.
+"""Settings for the District Signals crawler.
 
 Everything here is a plain constant so the job is easy to tune without touching code.
 """
@@ -34,5 +34,5 @@ MAX_PDF_PAGES = 60
 REQUEST_TIMEOUT = 25
 PER_HOST_DELAY = 1.0        # seconds between requests to the same host
 WORKERS = 8
-USER_AGENT = "FlipLokSignals/1.0 (+https://fliplok.com; school-safety research; contact nikko@fliplok.com)"
+USER_AGENT = "PublicRecordSignals/1.0 (school-safety public-records research; contact sales@fliplok.com)"
 SNIPPET_CHARS = 260
