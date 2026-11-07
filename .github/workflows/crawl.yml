@@ -9,7 +9,7 @@ on:
     inputs:
       limit:
         description: "Districts to classify / read this run"
-        default: "400"
+        default: "1500"
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Classify, read agendas, pull money feeds
-        run: python run.py all --limit ${{ github.event.inputs.limit || 400 }} --budget-min 140
+        run: python run.py all --limit ${{ github.event.inputs.limit || 1500 }} --budget-min 140
       - name: Commit the feed
         run: |
           git config user.name "signals-bot"
