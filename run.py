@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""FlipLok District Signals crawler.
+"""Public Record Signals crawler.
 
 Usage:
   python run.py classify  [--limit N]        # find each ICP district's agenda platform (cached, resumable)
@@ -9,7 +9,7 @@ Usage:
 
 Outputs (committed by the GitHub Action):
   data/platforms.json   platform per district
-  data/matches.json     the feed the District Signals runs read: {"generated", "matches": [...]}
+  data/matches.json     the feed the review step reads: {"generated", "matches": [...]}
   data/state.json       walk position, so each run continues where the last stopped
   data/report.json      counts, blocked hosts, errors (the runs list these as gaps)
 """
@@ -56,7 +56,9 @@ STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "C
 
 def cmd_classify(args):
     plat = classify.load(DATA / "platforms.json")
-    todo = [d for d in districts() if d["id"] not in plat][: args.limit]
+    recheck = (dt.date.today() - dt.timedelta(days=30)).isoformat()
+    todo = [d for d in districts() if d["id"] not in plat
+            or (plat[d["id"]].get("platform") in ("none", "blocked") and plat[d["id"]].get("checked", "") < recheck)][: args.limit]
     print(f"classify: {len(todo)} districts to check ({len(plat)} done)")
     done = 0
     with ThreadPoolExecutor(config.WORKERS) as ex:
@@ -83,6 +85,14 @@ def read_one(d, p, since):
     try:
         return d, reader(d, p["agenda_url"], since, TODAY), None
     except http.Blocked as e:
+        # The portal refuses automated reading. Fall back to the district's own board page, if it has one,
+        # and record the block either way so the runs can list it as a gap.
+        fb = p.get("fallback") or ""
+        if fb and fb != p["agenda_url"]:
+            try:
+                return d, boards.generic(d, fb, since, TODAY), f"blocked: {e} (read district site instead)"
+            except Exception:
+                pass
         return d, [], f"blocked: {e}"
     except Exception as e:
         return d, [], f"error: {type(e).__name__}: {str(e)[:100]}"
