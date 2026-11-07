@@ -1,4 +1,4 @@
-"""Settings for the District Signals crawler.
+"""Settings for the Public Record Signals crawler.
 
 Everything here is a plain constant so the job is easy to tune without touching code.
 """
@@ -12,14 +12,14 @@ KEYWORDS = [
     r"access\s+control", r"vestibule", r"school\s+resource\s+officer|\bSRO\b",
     r"active\s+shooter", r"threat\s+assessment", r"safe\s+room", r"shelter[- ]in[- ]place",
     r"SAFE\s+grant", r"STOP\s+School\s+Violence", r"COPS\s+(?:grant|SVPP)",
-    r"nightlock", r"bearacade", r"barracuda\s+(?:intruder|door)", r"lockblok", r"fliplok",
+    r"nightlock", r"bearacade", r"barracuda\s+(?:intruder|door)", r"lockblok",
 ]
 KEYWORD_RE = re.compile("|".join(f"(?:{k})" for k in KEYWORDS), re.IGNORECASE)
 
 # Stronger terms: a hit on one of these is flagged `strong: true` so the runs can grade it first.
 STRONG_RE = re.compile(
     r"classroom\s+door|door\s+lock|door\s+hardware|lock(?:ing)?\s+hardware|barricade|intruder|access\s+control|"
-    r"nightlock|bearacade|lockblok|fliplok|secur(?:e|ing)\s+(?:classroom|the\s+classroom)\s+doors?",
+    r"nightlock|bearacade|lockblok|secur(?:e|ing)\s+(?:classroom|the\s+classroom)\s+doors?",
     re.IGNORECASE,
 )
 
