@@ -1,7 +1,9 @@
 """Find each district's board-agenda platform from its website. Result cached in data/platforms.json.
 
 platforms.json: { "<nces id>": {"platform": "boarddocs|boardbook|simbli|legistar|site|blocked|none",
-                                "agenda_url": "...", "checked": "YYYY-MM-DD", "note": "..."} }
+                                "agenda_url": "...", "fallback": "<board page on the district's own site, if any>",
+                                "checked": "YYYY-MM-DD", "note": "..."} }
+If a portal refuses automated reading, run.py falls back to the district's own board page.
 """
 import json
 import re
@@ -33,6 +35,14 @@ def classify_one(district: dict, today: str) -> dict:
     except Exception as e:
         return {"platform": "none", "agenda_url": web, "checked": today, "note": f"unreachable: {type(e).__name__}"}
     html = r.text
+    soup = BeautifulSoup(html, "lxml")
+    fallback = ""
+    for a in soup.find_all("a", href=True):
+        label = " ".join(a.get_text(" ").split())
+        href = http.absolute(r.url, a["href"])
+        if (AGENDA_WORDS.search(label) or AGENDA_WORDS.search(href)) and http.host_of(href) == http.host_of(r.url):
+            fallback = href
+            break
     for name, rx in PLATFORM_HOSTS:
         m = rx.search(html)
         if m:
@@ -41,9 +51,8 @@ def classify_one(district: dict, today: str) -> dict:
                 url = "https://" + url
             if name == "boarddocs":
                 url = url + "/Public"
-            return {"platform": name, "agenda_url": url, "checked": today, "note": ""}
+            return {"platform": name, "agenda_url": url, "fallback": fallback or r.url, "checked": today, "note": ""}
     # Second hop: follow the first board/agenda link on the site and look again.
-    soup = BeautifulSoup(html, "lxml")
     for a in soup.find_all("a", href=True):
         label = " ".join(a.get_text(" ").split())
         if AGENDA_WORDS.search(label) or AGENDA_WORDS.search(a["href"]):
@@ -54,7 +63,7 @@ def classify_one(district: dict, today: str) -> dict:
                     if not url.startswith("http"):
                         url = "https://" + url
                     return {"platform": name, "agenda_url": url + ("/Public" if name == "boarddocs" else ""),
-                            "checked": today, "note": "via link"}
+                            "fallback": fallback or r.url, "checked": today, "note": "via link"}
             if http.host_of(href) == http.host_of(r.url):
                 try:
                     sub = http.get(href).text
@@ -67,9 +76,9 @@ def classify_one(district: dict, today: str) -> dict:
                         if not url.startswith("http"):
                             url = "https://" + url
                         return {"platform": name, "agenda_url": url + ("/Public" if name == "boarddocs" else ""),
-                                "checked": today, "note": "via board page"}
-                return {"platform": "site", "agenda_url": href, "checked": today, "note": "board page on district site"}
-    return {"platform": "site", "agenda_url": r.url, "checked": today, "note": "no board link found; homepage only"}
+                                "fallback": href, "checked": today, "note": "via board page"}
+                return {"platform": "site", "agenda_url": href, "fallback": "", "checked": today, "note": "board page on district site"}
+    return {"platform": "site", "agenda_url": r.url, "fallback": "", "checked": today, "note": "no board link found; homepage only"}
 
 
 def load(path: Path) -> dict:
