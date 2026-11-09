@@ -3,7 +3,7 @@ name: District Signals crawl
 on:
   schedule:
     # Every day at 02:15 UTC (about 8:15 PM Central). The morning Claude run at 7:07 AM Central
-    # reads data/matches.json by raw URL.
+    # reads data/ledger/ through tools/feed.py (a cursor it checkpoints), not matches.json.
     - cron: "15 2 * * *"
   workflow_dispatch:
     inputs:
@@ -28,14 +28,19 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      - name: OCR tools for scanned agenda PDFs
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr poppler-utils
       - run: pip install -r requirements.txt
+      - name: Tests (completeness, restart, diagnosis)
+        run: python -m pytest tests -q
       - name: Classify, read agendas, pull money feeds
         run: python run.py all --limit ${{ github.event.inputs.limit || 1500 }} --budget-min 140
       - name: Commit the feed
+        if: always()
         run: |
           git config user.name "signals-bot"
           git config user.email "signals-bot@users.noreply.github.com"
-          git add data/platforms.json data/matches.json data/state.json data/report.json
+          git add data/ledger data/runs.json data/diagnostics.json data/recovery.json data/platforms.json data/matches.json data/state.json data/report.json
           git diff --cached --quiet && exit 0
           git commit -m "crawl $(date -u +%FT%H:%M)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 10; done
