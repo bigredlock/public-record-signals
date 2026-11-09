@@ -187,6 +187,8 @@ def generic(district, site_url, since, today):
     """Read the district's own board/agenda and bond pages, and the first few PDFs they link."""
     out = []
     home = http.get(site_url)
+    if http.looks_js_only(home.content):
+        raise http.JsRequired(f"page needs JavaScript: {site_url}")
     soup = BeautifulSoup(home.content, "lxml")
     pages = []
     for a in soup.find_all("a", href=True):
@@ -232,3 +234,5 @@ def generic(district, site_url, since, today):
 
 
 READERS = {"boarddocs": boarddocs, "boardbook": boardbook, "simbli": simbli, "legistar": legistar, "site": generic}
+# Platforms we detect but cannot read automatically; their districts go to the recovery queue.
+NO_READER = {"diligent", "eboard", "civicclerk", "granicus", "blocked", "none"}
