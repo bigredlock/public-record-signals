@@ -1,4 +1,7 @@
-requests>=2.31
-beautifulsoup4>=4.12
-lxml>=5.0
-pypdf>=4.0
+requests
+beautifulsoup4
+lxml
+pypdf
+pdf2image
+pytesseract
+pytest
