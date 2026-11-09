@@ -82,3 +82,37 @@ def test_diagnose_codes():
     assert http.diagnose(requests.Timeout()) == "timeout"
     assert http.diagnose(http.JsRequired()) == "js_required"
     assert http.looks_js_only("<html><body>Please enable JavaScript to view this site.</body></html>")
+
+
+def test_hung_reads_cannot_hold_the_run_past_budget(tmp_path):
+    """Nov 9 run #6: reads hung for 90+ minutes, the budget check never ran, the job was killed and nothing
+    was saved. Now the run stops at the budget even when no read ever returns, and checkpoints what it has."""
+    import threading
+    import time as _t
+    data, dirs = setup(tmp_path, 40)
+    config.WORKERS = 4
+    gate = threading.Event()
+
+    def reader(d, p, since):
+        if int(d["id"]) >= 10:
+            gate.wait(600)  # hangs like a stuck socket
+        return fake_reader(d, p, since)
+
+    run.START = _t.monotonic() - (2.0 * 60 - 3)  # 3 real seconds of budget left (floor is 60s otherwise)
+    args = argparse.Namespace(limit=40, budget_min=2.0)
+    r = run.Run()
+    led = Ledger(data / "ledger")
+    t0 = _t.monotonic()
+    import builtins
+    real_max = builtins.max
+    run.max = lambda *a: a[1] if len(a) == 2 and a[0] == 60.0 else real_max(*a)  # drop the 60s floor for the test
+    try:
+        run.cmd_agendas(args, r, led, reader=reader, clock=_t.monotonic)
+    finally:
+        del run.max
+        gate.set()
+    assert _t.monotonic() - t0 < 30
+    st = json.loads((data / "state.json").read_text())
+    assert len(st["walked"]) + len(st["failures"]) <= 10
+    assert len(st["deferred"]) >= 30
+    assert (data / "diagnostics.json").exists()

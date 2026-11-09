@@ -29,13 +29,16 @@ import sys
 import time
 import traceback
 from collections import Counter
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import TimeoutError as FutTimeout
 from pathlib import Path
 
 from crawler import classify, config, http
 from crawler.ledger import Ledger
 from crawler.sources import boards, money
 
+START = time.monotonic()
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 TODAY = dt.date.today().isoformat()
@@ -115,9 +118,12 @@ def cmd_classify(args, run: Run):
             or (plat[d["id"]].get("platform") in boards.NO_READER and plat[d["id"]].get("checked", "") < recheck)][: args.limit]
     print(f"classify: {len(todo)} districts to check ({len(plat)} done)")
     done = 0
-    with ThreadPoolExecutor(config.WORKERS) as ex:
-        futs = {ex.submit(classify.classify_one, d, TODAY): d for d in todo}
-        for f in as_completed(futs):
+    cap = (args.budget_min or 0) * 60 * 0.3  # classification gets at most 30% of the run budget
+    t0 = time.monotonic()
+    ex = ThreadPoolExecutor(config.WORKERS)
+    futs = {ex.submit(classify.classify_one, d, TODAY): d for d in todo}
+    try:
+        for f in as_completed(futs, timeout=cap or None):
             d = futs[f]
             try:
                 new = f.result()
@@ -127,6 +133,12 @@ def cmd_classify(args, run: Run):
             done += 1
             if done % 50 == 0:
                 classify.save(DATA / "platforms.json", plat)
+            if cap and time.monotonic() - t0 > cap:
+                print("  classify time cap reached; the rest go next run")
+                break
+    except FutTimeout:
+        print("  classify time cap reached (reads still in flight); the rest go next run")
+    ex.shutdown(wait=False, cancel_futures=True)
     classify.save(DATA / "platforms.json", plat)
     run.rec["counts"]["classified"] = done
     run.source("classify", True)
@@ -202,10 +214,19 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
         save_json(DATA / "state.json", state)
         run.save()
 
-    with ThreadPoolExecutor(config.WORKERS) as ex:
-        futs = {ex.submit(reader, d, plat[d["id"]], since): d for d in todo}
-        for f in as_completed(futs):
-            d, matches, code, note = f.result()
+    real0 = time.monotonic()
+    ex = ThreadPoolExecutor(config.WORKERS)
+    futs = {ex.submit(reader, d, plat[d["id"]], since): d for d in todo}
+    # Hard stop: a hung read can no longer hold the run past the budget, because as_completed gives up
+    # when the budget runs out even if nothing finishes, and the pool is never joined.
+    # Budget counts from process start, so classification time comes out of it too.
+    wall = max(60.0, args.budget_min * 60 - (time.monotonic() - START)) if args.budget_min else None
+    try:
+        for f in as_completed(futs, timeout=wall):
+            try:
+                d, matches, code, note = f.result()
+            except Exception as e:
+                d, matches, code, note = futs[f], [], "server_error", f"reader crashed: {type(e).__name__}"
             finished.add(d["id"])
             if code:
                 prev = failures.get(d["id"], {})
@@ -225,12 +246,15 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
             record(led, c, matches)
             if len(finished) % config.CHECKPOINT_EVERY == 0:
                 checkpoint()
-                print(f"  checkpoint: {len(finished)}/{len(todo)}")
-            if args.budget_min and (clock() - t0) / 60 > args.budget_min:
-                print("  time budget reached; stopping after in-flight reads")
+                print(f"  checkpoint: {len(finished)}/{len(todo)}", flush=True)
+            if args.budget_min and ((clock() - t0) / 60 > args.budget_min or time.monotonic() - real0 > wall):
+                print("  time budget reached; stopping (in-flight reads abandoned)", flush=True)
                 stopped = True
-                ex.shutdown(cancel_futures=True)
                 break
+    except FutTimeout:
+        print("  time budget reached while reads were hung; stopping", flush=True)
+        stopped = True
+    ex.shutdown(wait=False, cancel_futures=True)
     checkpoint()
     c["deferred"] = len(state["deferred"])
     c["not_queued"] = max(0, len(pool) - len(todo))
@@ -338,8 +362,11 @@ def main():
         led.save()
         run.save()
         write_compat(run, led)
-        sys.exit(1)
+        sys.stdout.flush()
+        os._exit(1)
     write_compat(run, led)
+    sys.stdout.flush()
+    os._exit(0)  # abandoned reader threads (hung sockets) must not keep the job alive
 
 
 if __name__ == "__main__":
