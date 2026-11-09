@@ -1,1239 +1,1227 @@
 {
-"last_agenda_run": "2026-11-08",
-"districts_read": 1275,
-"new_matches": 1410,
-"feed_size": 3398,
-"walked_total": 2654,
-"icp_with_reader": 2654,
+"last_agenda_run": "2026-11-09",
+"districts_read": 1281,
+"new_matches": 904,
+"feed_size": 4303,
+"walked_total": 3935,
+"icp_with_reader": 3935,
 "blocked": [
 {
-"district": "Elyria City Schools",
-"state": "Ohio",
-"nces_id": "3904394",
-"why": "blocked: HTTP 403 at https://www.elyriaschools.org/district/board_of_education/meeting_agenda_and_minutes"
+"district": "Dennis-Yarmouth",
+"state": "Massachusetts",
+"nces_id": "2504140",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9178/4-6-26_minutes_approved.pdf"
 },
 {
-"district": "VAN BUREN SCHOOL DISTRICT",
-"state": "Arkansas",
-"nces_id": "513410",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ar/vbsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Findlay City",
-"state": "Ohio",
-"nces_id": "3910000",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/findlay/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Little Miami Local",
-"state": "Ohio",
-"nces_id": "3905044",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/lmls/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "DAYTON ISD",
-"state": "Texas",
-"nces_id": "4816410",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10566/20261027_agenda.pdf"
-},
-{
-"district": "Delaware City",
-"state": "Ohio",
-"nces_id": "3904387",
-"why": "blocked: robots.txt disallows https://www.dcs.k12.oh.us/fs/pages/1324"
-},
-{
-"district": "LINDENHURST UNION FREE SCHOOL DISTRICT",
+"district": "CORNWALL CENTRAL SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3617380",
-"why": "blocked: HTTP 403 at https://www.lindenhurstschools.org/47006_2"
+"nces_id": "3608430",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/cornw/Board.nsf/Public"
 },
 {
-"district": "HEMPSTEAD UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3614130",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/hempstead/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Franklin-McKinley Elementary",
+"district": "Eastside Union Elementary",
 "state": "California",
-"nces_id": "614370",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/fmsd/Board.nsf/files/DF7PEK644590/$file/Mar%2011%20Minutes_APPRVD.pdf"
+"nces_id": "611910",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/86e9/10/28/25/211307-5d5e6dec-7840-46b1-af38-3d854f4f1cb1.pdf"
 },
 {
-"district": "Oak Harbor School District",
-"state": "Washington",
-"nces_id": "5305940",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wa/ohsd/Board.nsf/Public"
+"district": "Russell County",
+"state": "Kentucky",
+"nces_id": "2105160",
+"why": "blocked: robots.txt disallows https://www.russell.kyschools.us/fs/resource-manager/view/fcb62ad5-ce77-40b2-89e9-e10b67fe4bf6"
 },
 {
-"district": "Beaufort County Schools",
+"district": "Maple Heights City",
+"state": "Ohio",
+"nces_id": "3904430",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/mapleheights/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "BREWSTER CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3605310",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/brewster/Board.nsf/files/DFKLKE56DABE/$file/March%2011%2C%202025%20Regular%20Meeting%20Minutes%20(1).pdf"
+},
+{
+"district": "Calloway County",
+"state": "Kentucky",
+"nces_id": "2100870",
+"why": "blocked: robots.txt disallows https://www.calloway.kyschools.us/fs/pages/1981"
+},
+{
+"district": "Alliance City",
+"state": "Ohio",
+"nces_id": "3904349",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/alcoh/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "MANHASSET UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3618270",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/manhps/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Clinton City Schools",
 "state": "North Carolina",
-"nces_id": "3700330",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nc/beaufort/Board.nsf/Public (read district site instead)"
+"nces_id": "3700930",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nc/clintoncs/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Arlington School District",
-"state": "Washington",
-"nces_id": "5300240",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/WA/apswa/Board.nsf/Public (read district site instead)"
+"district": "Cedar Springs Public Schools",
+"state": "Michigan",
+"nces_id": "2608520",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/csps/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Perrysburg Exempted Village",
-"state": "Ohio",
-"nces_id": "3904558",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/perrysburg/Board.nsf/Public (read district site instead)"
+"district": "MCALESTER",
+"state": "Oklahoma",
+"nces_id": "4019440",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8239/11-9-26_mps_board_agenda.pdf"
 },
 {
-"district": "Central York SD",
-"state": "Pennsylvania",
-"nces_id": "4205490",
-"why": "blocked: robots.txt disallows https://www.cysd.k12.pa.us/fs/pages/4259"
-},
-{
-"district": "Fair Lawn Public School District",
-"state": "New Jersey",
-"nces_id": "3404980",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/flps/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "BALDWINSVILLE CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3603870",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/bville/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Haysville",
+"district": "Great Bend",
 "state": "Kansas",
-"nces_id": "2007050",
-"why": "blocked: robots.txt disallows https://www.usd261.com/fs/resource-manager/view/9255d8d1-c49b-40e7-8ab1-3a911c9fbf41"
+"nces_id": "2006660",
+"why": "blocked: robots.txt disallows https://www.greatbendschools.net/fs/resource-manager/view/e7e8842a-45ef-4eae-bb87-5309ea65c61b"
 },
 {
-"district": "Canon-McMillan SD",
-"state": "Pennsylvania",
-"nces_id": "4204890",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/cnmc/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Hackensack School District",
-"state": "New Jersey",
-"nces_id": "3406270",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10155/october_agedna.pdf"
-},
-{
-"district": "Hanford Elementary",
-"state": "California",
-"nces_id": "616470",
-"why": "blocked: robots.txt disallows https://www.hanfordesd.org/fs/resource-manager/view/5ef03d1a-76d9-4a5f-a260-a7ff0497a749"
-},
-{
-"district": "COMMACK UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3608130",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/commack/Board.nsf/Public"
-},
-{
-"district": "Cheatham County",
-"state": "Tennessee",
-"nces_id": "4700570",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/5963/08/03/23/151907-8dd55260-4e5f-4095-81ff-eb4a2e9a375a.pdf"
-},
-{
-"district": "Hamden School District",
-"state": "Connecticut",
-"nces_id": "901860",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13638/boeagenda_nov102026.pdf"
-},
-{
-"district": "ELMIRA CITY SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3610560",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/elmira/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Billings H S",
-"state": "Montana",
-"nces_id": "3003900",
-"why": "blocked: robots.txt disallows https://www.billingsschools.org/fs/resource-manager/view/3644a6e9-3920-4215-8e6c-838b05313781"
-},
-{
-"district": "Arlington Heights SD 25",
-"state": "Illinois",
-"nces_id": "1704140",
-"why": "blocked: robots.txt disallows https://www.sd25.org/fs/resource-manager/view/45c856a7-4772-45ff-8573-52efe277f336"
-},
-{
-"district": "Grand Ledge Public Schools",
-"state": "Michigan",
-"nces_id": "2616410",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/glp/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "LONG BRANCH PUBLIC SCHOOL District",
-"state": "New Jersey",
-"nces_id": "3408940",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/longbranch/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "HICKSVILLE UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3614340",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/hicksville/Board.nsf/Public"
-},
-{
-"district": "CONNETQUOT CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3608160",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/ccsdli/Board.nsf/Public"
-},
-{
-"district": "Louisa County Public Schools",
-"state": "Virginia",
-"nces_id": "5102280",
-"why": "blocked: HTTP 403 at https://www.lcps.k12.va.us/division/school_board/boarddocs"
-},
-{
-"district": "BELLMORE-MERRICK CENTRAL HIGH SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3619020",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/bellmoremerrick/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Temple City Unified",
-"state": "California",
-"nces_id": "638980",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9500/7-22-26_regular_board_meeting_agenda_with_links__post.pdf"
-},
-{
-"district": "Coatesville Area SD",
-"state": "Pennsylvania",
-"nces_id": "4206240",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/coat/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Kerman Unified",
-"state": "California",
-"nces_id": "619490",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/kusd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Licking Heights Local",
+"district": "Ashland City",
 "state": "Ohio",
-"nces_id": "3904800",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/lhschools/Board.nsf/Public (read district site instead)"
+"nces_id": "3904350",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/ashcoh/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "School District N. 14 in the county of Adams & State of Colo",
-"state": "Colorado",
-"nces_id": "801950",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/co/adams14/Board.nsf/Public (read district site instead)"
+"district": "NOBLE",
+"state": "Oklahoma",
+"nces_id": "4021630",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13211/2027_schedule_of_meetings_noble_public_schools_10-13-26.pdf"
 },
 {
-"district": "FAIRPORT CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3610890",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/fairport/Board.nsf/Public"
+"district": "Cherokee County Schools",
+"state": "North Carolina",
+"nces_id": "3700780",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/6f16/09/08/26/150156-b6cef2c6-505e-446d-a563-31d38a9d7bd3.pdf"
 },
 {
-"district": "Rio Elementary",
+"district": "Golden Valley Unified",
 "state": "California",
-"nces_id": "632760",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/rio/Board.nsf/Public"
+"nces_id": "600068",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/12305/foundationforgvsagenda922025.pdf"
 },
 {
-"district": "Wissahickon SD",
-"state": "Pennsylvania",
-"nces_id": "4202400",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/wiss/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Gadsden Elementary District (4505)",
-"state": "Arizona",
-"nces_id": "403240",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/8661/06/13/20/002841-c7dc1a81-4b1b-4401-839e-0472b063a4e6.pdf"
-},
-{
-"district": "Millville School District",
+"district": "Medford Township School District",
 "state": "New Jersey",
-"nces_id": "3410320",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/5e28/06/12/26/143442-14235f84-78fe-4cde-bbdd-2d7c10fd1241.pdf"
+"nces_id": "3409870",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/medford/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "ITHACA CITY SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3615570",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/icsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Sulphur Springs Union",
-"state": "California",
-"nces_id": "638220",
-"why": "blocked: robots.txt disallows http://files.smartsites.parentsquare.com/8476/signed_approval_of_minutes_of_the_september_29_2026_regular_meeting.pdf"
-},
-{
-"district": "Hudson School District",
-"state": "Wisconsin",
-"nces_id": "5506690",
-"why": "blocked: robots.txt disallows https://www.hudsonraiders.org/fs/pages/564"
-},
-{
-"district": "South Windsor School District",
-"state": "Connecticut",
-"nces_id": "904170",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/6874/special_meeting_agenda_91426.pdf"
-},
-{
-"district": "Belleville Public School District",
-"state": "New Jersey",
-"nces_id": "3401350",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/belleville/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "SOUTH COLONIE CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3627210",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/3637/2026-11-10_boe_agenda.pdf"
-},
-{
-"district": "Southwest Licking Local",
-"state": "Ohio",
-"nces_id": "3904804",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/swl/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Bethel SD 52",
+"district": "Coos Bay SD 9",
 "state": "Oregon",
-"nces_id": "4102040",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5244/2026-27_board_meeting_dates_-_bethel.pdf"
+"nces_id": "4103660",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9785/2026-27_school_board_meeting_schedule.pdf"
 },
 {
-"district": "Monroe County",
-"state": "Tennessee",
-"nces_id": "4703000",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/a84f/10/21/26/181539-a6e39724-b1d9-4d13-85f9-93049c7d08df.pdf"
+"district": "Wayne County School District",
+"state": "Mississippi",
+"nces_id": "2804530",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9515/regular_board_meeting_agenda_-9-28-2026.pdf"
 },
 {
-"district": "Norwin SD",
-"state": "Pennsylvania",
-"nces_id": "4217940",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/ff48/09/22/26/114155-fb8cf70c-4d52-4703-9c20-ffa5240c4c8d.pdf"
+"district": "Lowell Joint",
+"state": "California",
+"nces_id": "623010",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5713/agenda_-_october_5_2026.pdf"
 },
 {
-"district": "Cleveland Heights-University Heights City",
-"state": "Ohio",
-"nces_id": "3904379",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/chuh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Michigan City Area Schools",
+"district": "Community Schools of Frankfort",
 "state": "Indiana",
-"nces_id": "1806570",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/mcas/Board.nsf/Public (read district site instead)"
+"nces_id": "1803660",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/csf/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Johnson County",
+"district": "Cinnaminson Township School District",
+"state": "New Jersey",
+"nces_id": "3403120",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/ctps/Board.nsf/Public"
+},
+{
+"district": "Pottsgrove SD",
+"state": "Pennsylvania",
+"nces_id": "4219650",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/ptsg/Board.nsf/Public"
+},
+{
+"district": "Newton",
+"state": "Kansas",
+"nces_id": "2009960",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ks/usd373/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Boyle County",
+"state": "Kentucky",
+"nces_id": "2100630",
+"why": "blocked: robots.txt disallows https://www.boyle.kyschools.us/fs/resource-manager/view/913d7171-b18f-4e9b-b687-712ef1733ecc"
+},
+{
+"district": "Jasper City",
+"state": "Alabama",
+"nces_id": "101890",
+"why": "blocked: robots.txt disallows https://www.jasper.k12.al.us/fs/resource-manager/view/09f5f757-cda2-4617-9fbf-56fef73e6220"
+},
+{
+"district": "Dallas SD 2",
+"state": "Oregon",
+"nces_id": "4103860",
+"why": "blocked: robots.txt disallows https://www.dallas.k12.or.us/fs/resource-manager/view/f59dfd3b-193d-474e-b813-1fc49a5f0427"
+},
+{
+"district": "Englewood Public School District",
+"state": "New Jersey",
+"nces_id": "3404740",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/epsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "West Milford Township Public School District",
+"state": "New Jersey",
+"nces_id": "3417520",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/wmtps/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "GILMER ISD",
+"state": "Texas",
+"nces_id": "4820700",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/7134/updated_public_notice_for_september_2026_board_meeting.pdf"
+},
+{
+"district": "Penn Hills SD",
+"state": "Pennsylvania",
+"nces_id": "4218590",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/phsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Mansfield City",
+"state": "Ohio",
+"nces_id": "3904429",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/mansoh/Board.nsf/Public"
+},
+{
+"district": "TAYLOR ISD",
+"state": "Texas",
+"nces_id": "4842280",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10804/tisdnoticeoforderofbondelectionwithexhibitsfinalengspan82625_1.pdf"
+},
+{
+"district": "Monroe Local",
+"state": "Ohio",
+"nces_id": "3900094",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/monroe/Board.nsf/Public"
+},
+{
+"district": "New Castle Area SD",
+"state": "Pennsylvania",
+"nces_id": "4216620",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/ncasd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "HIDALGO ISD",
+"state": "Texas",
+"nces_id": "4823100",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/d2c0/09/04/25/200305-8997c920-40ef-42fa-9721-c8fe0812118d.pdf"
+},
+{
+"district": "Onalaska School District",
+"state": "Wisconsin",
+"nces_id": "5511010",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/ona/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "ROCKPORT-FULTON ISD",
+"state": "Texas",
+"nces_id": "4808550",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/3785/10/20/25/150516-36b99fa3-387d-41e8-8150-82df8fded335.pdf"
+},
+{
+"district": "Pewaukee School District",
+"state": "Wisconsin",
+"nces_id": "5511640",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/pewa/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "NYACK UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3621480",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/nyack/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "San Juan District",
+"state": "Utah",
+"nces_id": "4900900",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ut/sjsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Fayette County Public Schools",
 "state": "Tennessee",
-"nces_id": "4702160",
-"why": "blocked: robots.txt disallows https://www.jocoed.net/fs/resource-manager/view/7474ced8-ff7a-46af-94a5-86c3e16f58bc"
+"nces_id": "4701170",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/5d83/07/13/26/142044-2bf80702-ad91-4527-b40a-1ac08e7309aa.pdf"
 },
 {
-"district": "Beloit School District",
-"state": "Wisconsin",
-"nces_id": "5501050",
-"why": "blocked: robots.txt disallows https://www.sdb.k12.wi.us/fs/pages/2822"
+"district": "Arkansas City",
+"state": "Kansas",
+"nces_id": "2003450",
+"why": "blocked: robots.txt disallows https://www.usd470.com/fs/resource-manager/view/f71e45f8-fa62-4ff8-af6d-5fbcceb8c247"
 },
 {
-"district": "New Albany-Plain Local",
-"state": "Ohio",
-"nces_id": "3904699",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/napls/Board.nsf/Public (read district site instead)"
+"district": "Jasper 01",
+"state": "South Carolina",
+"nces_id": "4502520",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/5389/06/26/25/125947-bf4ae47d-b03c-4fa7-b27b-f1c0239985da.pdf"
 },
 {
-"district": "Stow-Munroe Falls City School District",
-"state": "Ohio",
-"nces_id": "3904483",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/smfcsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Monrovia Unified",
-"state": "California",
-"nces_id": "625320",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/e826/08/24/22/210704-6f4dc241-ef26-47b4-a92f-f9f13328d4a2.pdf"
-},
-{
-"district": "Lincoln Park School District of the City of",
-"state": "Michigan",
-"nces_id": "2621600",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/f831/01/06/26/205803-cec3fb3f-c169-4746-9e81-ce9b26fc8679.pdf"
-},
-{
-"district": "Cornwall-Lebanon SD",
-"state": "Pennsylvania",
-"nces_id": "4206840",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/crnw/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Avon Grove SD",
-"state": "Pennsylvania",
-"nces_id": "4202790",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/avongrove/Board.nsf/Public"
-},
-{
-"district": "Great Valley SD",
-"state": "Pennsylvania",
-"nces_id": "4210870",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/gvsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "New Castle County Vocational-Technical School District",
-"state": "Delaware",
-"nces_id": "1001280",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/2206/10/07/26/162148-269dab63-9983-4d7a-81d6-e70bce5812fc.pdf"
-},
-{
-"district": "Garfield Public School District",
+"district": "Hamilton Township School District",
 "state": "New Jersey",
-"nces_id": "3405760",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/gboe/Board.nsf/Public (read district site instead)"
+"nces_id": "3406510",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/hamiltonschools/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "COPIAGUE UNION FREE SCHOOL DISTRICT",
+"district": "Vandalia-Butler City",
+"state": "Ohio",
+"nces_id": "3904495",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/vbcsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "WANTAGH UNION FREE SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3608310",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/copiague/Board.nsf/Public (read district site instead)"
+"nces_id": "3629850",
+"why": "blocked: HTTP 403 at https://www.wantaghschools.org/25200_3"
 },
 {
-"district": "Mukwonago School District",
+"district": "Burlington Area School District",
 "state": "Wisconsin",
-"nces_id": "5510060",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/masd/Board.nsf/Public (read district site instead)"
+"nces_id": "5501890",
+"why": "blocked: HTTP 403 at https://www.basd.k12.wi.us/222947_2"
 },
 {
-"district": "Burton Elementary",
-"state": "California",
-"nces_id": "606570",
-"why": "blocked: HTTP 403 at https://www.burtonschools.org/20132_3"
-},
-{
-"district": "HARMONY PUBLIC SCHOOLS - SOUTH TEXAS",
-"state": "Texas",
-"nces_id": "4800266",
-"why": "blocked: robots.txt disallows https://www.harmonytx.org/fs/resource-manager/view/6874cf6b-11d2-472d-a507-977943480810"
-},
-{
-"district": "Mount Olive Township School District",
-"state": "New Jersey",
-"nces_id": "3410980",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/mosd/Board.nsf/Public"
-},
-{
-"district": "Adlai E Stevenson HSD 125",
-"state": "Illinois",
-"nces_id": "1732580",
-"why": "blocked: robots.txt disallows https://www.d125.org/fs/resource-manager/view/8dc6bec0-3ba9-4a52-a203-2f3641b176f1"
-},
-{
-"district": "BINGHAMTON CITY SCHOOL DISTRICT",
+"district": "AMITYVILLE UNION FREE SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3604870",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/bing/Board.nsf/Public (read district site instead)"
+"nces_id": "3602940",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/7791/bond_update_fall_2019.pdf"
 },
 {
-"district": "Lebanon SD",
+"district": "Cocalico SD",
 "state": "Pennsylvania",
-"nces_id": "4213440",
-"why": "blocked: HTTP 403 at https://www.lebanonsd.org/board_of_directors/board_docs"
+"nces_id": "4206270",
+"why": "blocked: HTTP 403 at https://www.cocalico.org/"
 },
 {
-"district": "Ferndale School District",
+"district": "San Carlos Elementary",
+"state": "California",
+"nces_id": "634290",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/d31c/10/09/26/015145-30ac29a9-af0c-43ce-a2ad-6ceabdd5315a.pdf"
+},
+{
+"district": "East Haven School District",
+"state": "Connecticut",
+"nces_id": "901290",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/4908/_hw_agenda_10062025_1.pdf"
+},
+{
+"district": "West Deptford Township School District",
+"state": "New Jersey",
+"nces_id": "3417430",
+"why": "blocked: HTTP 403 at https://www.wdeptford.k12.nj.us/Board_of_Education/board_meetings/west_deptford_board_docs_page"
+},
+{
+"district": "Tukwila School District",
 "state": "Washington",
-"nces_id": "5302850",
-"why": "blocked: HTTP 403 at https://www.ferndalesd.org/boarddocs"
+"nces_id": "5308130",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wa/tukwila/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "NORTH BABYLON UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3620910",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/4855/october_15_bond_presentation.pdf"
-},
-{
-"district": "ORCHARD PARK CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3621900",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/orchard/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "ST. CHARLES R-VI",
+"district": "UNIVERSITY CITY",
 "state": "Missouri",
-"nces_id": "2928920",
-"why": "blocked: robots.txt disallows https://www.stcharlessd.org/fs/resource-manager/view/495fed20-a57c-4b15-a006-74295781cb75"
+"nces_id": "2930660",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mo/ucity/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "PENFIELD CENTRAL SCHOOL DISTRICT",
+"district": "MONTICELLO CENTRAL SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3622710",
-"why": "blocked: HTTP 403 at https://www.penfield.edu/47278_2"
+"nces_id": "3619740",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/Monticello/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "SCARSDALE UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3625950",
-"why": "blocked: HTTP 403 at https://www.scarsdaleschools.org/meeting-agendas"
+"district": "Watertown",
+"state": "Massachusetts",
+"nces_id": "2512180",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5171/agenda_school_committee_meeting_81726.pdf"
 },
 {
-"district": "Ohio County Schools",
-"state": "West Virginia",
-"nces_id": "5401050",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wv/ohiocs/Board.nsf/Public (read district site instead)"
+"district": "Holmdel Township School District",
+"state": "New Jersey",
+"nces_id": "3407410",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8660/2026_annual_notice_of_board_meetings.pdf"
 },
 {
-"district": "Mechanicsburg Area SD",
-"state": "Pennsylvania",
-"nces_id": "4215030",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/mechpa/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Holt Public Schools",
-"state": "Michigan",
-"nces_id": "2618480",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/holtp/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Windsor Unified",
-"state": "California",
-"nces_id": "600034",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/windsorusd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "South Pasadena Unified",
-"state": "California",
-"nces_id": "637500",
-"why": "blocked: robots.txt disallows https://1.cdn.edl.io/3IhEUUZFc1uiYDx84PsusKvosWKWZJL3YyyyhN4t8fnIHcQl.pdf"
-},
-{
-"district": "Northmont City",
-"state": "Ohio",
-"nces_id": "3904872",
-"why": "blocked: robots.txt disallows https://www.northmontschools.net/fs/pages/1633"
-},
-{
-"district": "JACKSONVILLE ISD",
+"district": "NEWMAN INTERNATIONAL ACADEMY OF ARLINGTON",
 "state": "Texas",
-"nces_id": "4824590",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/6388/tb_board_minutes.pdf"
+"nces_id": "4801421",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13739/agenda_08292026_1.pdf"
 },
 {
-"district": "Bozeman Elem",
+"district": "Ephrata School District",
+"state": "Washington",
+"nces_id": "5302610",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10448/2026bondmailer17x11in9_english.pdf"
+},
+{
+"district": "Hanover Community School Corp",
+"state": "Indiana",
+"nces_id": "1804350",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/hanover/Board.nsf/Public"
+},
+{
+"district": "New Philadelphia City",
+"state": "Ohio",
+"nces_id": "3904448",
+"why": "blocked: robots.txt disallows https://www.npschools.org/fs/pages/2159"
+},
+{
+"district": "GOSHEN CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3612330",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/gcsny/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Piper-Kansas City",
+"state": "Kansas",
+"nces_id": "2010680",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ks/pusd/Board.nsf/Public"
+},
+{
+"district": "SOUTH ORANGETOWN CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3627450",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/socsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "HARBORFIELDS CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3613620",
+"why": "blocked: HTTP 403 at https://www.harborfieldscsd.net/112643_2"
+},
+{
+"district": "Bassett Unified",
+"state": "California",
+"nces_id": "604110",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/8344/10/30/25/192958-35d6903e-965f-40f9-b26b-e843736b3e28.pdf"
+},
+{
+"district": "Celina City",
+"state": "Ohio",
+"nces_id": "3910030",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/celi/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "KATONAH-LEWISBORO UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3616080",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/klsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Bondurant-Farrar Comm School District",
+"state": "Iowa",
+"nces_id": "1905070",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ia/bfcsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Bozeman H S",
 "state": "Montana",
-"nces_id": "3004560",
+"nces_id": "3004590",
 "why": "blocked: robots.txt disallows https://www.bsd7.org/fs/pages/1953"
 },
 {
-"district": "Othello School District",
-"state": "Washington",
-"nces_id": "5306480",
-"why": "blocked: robots.txt disallows https://www.othelloschools.org/fs/resource-manager/view/f64e49cf-a278-42c3-99dc-4f64cbce1501"
+"district": "Yorktown Community Schools",
+"state": "Indiana",
+"nces_id": "1807230",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/yorktown/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "WESTBURY UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3630960",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/wufsd/Board.nsf/Public"
+"district": "Tri-Valley Local",
+"state": "Ohio",
+"nces_id": "3904887",
+"why": "blocked: robots.txt disallows https://www.tvschools.org/fs/pages/1800"
 },
 {
-"district": "Liberal",
-"state": "Kansas",
-"nces_id": "2008730",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ks/usd480/Board.nsf/Public (read district site instead)"
+"district": "New Prairie United School Corp",
+"state": "Indiana",
+"nces_id": "1807560",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/npusc/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "HARMONY PUBLIC SCHOOLS - CENTRAL TEXAS",
-"state": "Texas",
-"nces_id": "4800241",
-"why": "blocked: robots.txt disallows https://www.harmonytx.org/fs/resource-manager/view/6874cf6b-11d2-472d-a507-977943480810"
+"district": "Louisville City",
+"state": "Ohio",
+"nces_id": "3904987",
+"why": "blocked: robots.txt disallows https://www.louisvillecityschools.org/fs/pages/1647"
 },
 {
-"district": "East St Louis SD 189",
-"state": "Illinois",
-"nces_id": "1713320",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/est189/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Lebanon",
-"state": "Tennessee",
-"nces_id": "4702370",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/8629/10/14/26/145221-f64ea953-8c6d-48a3-8f45-43302cabe560.pdf"
-},
-{
-"district": "Newark Unified",
+"district": "Los Gatos Union Elementary",
 "state": "California",
-"nces_id": "627060",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/nusd/Board.nsf/Public (read district site instead)"
+"nces_id": "622830",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/bf64/10/21/26/155642-8cb89356-350f-4782-b3a3-3d017b4f8889.pdf"
 },
 {
-"district": "Caroline County Public Schools",
+"district": "HEWLETT-WOODMERE UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3631710",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/hwps/Board.nsf/Public"
+},
+{
+"district": "Greene County Public Schools",
 "state": "Virginia",
-"nces_id": "5100660",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/va/caroline/Board.nsf/Public (read district site instead)"
+"nces_id": "5101710",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/va/gcs/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Currituck County Schools",
-"state": "North Carolina",
-"nces_id": "3701080",
-"why": "blocked: robots.txt disallows https://www.currituck.k12.nc.us/fs/pages/4024"
-},
-{
-"district": "Evesham Township School District",
-"state": "New Jersey",
-"nces_id": "3404890",
-"why": "blocked: HTTP 403 at https://www.evesham.k12.nj.us/board-docs-agenda-and-minutes"
-},
-{
-"district": "Pine-Richland SD",
+"district": "Manheim Central SD",
 "state": "Pennsylvania",
-"nces_id": "4202850",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/prsd/Board.nsf/Public"
+"nces_id": "4214550",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/manc/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Mount Laurel Township School District",
-"state": "New Jersey",
-"nces_id": "3410950",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/mtls/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Chippewa Falls Area Unified School District",
-"state": "Wisconsin",
-"nces_id": "5502550",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/chipfalls/Board.nsf/Public"
-},
-{
-"district": "Solon City",
-"state": "Ohio",
-"nces_id": "3904660",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/solo/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Youngstown City",
-"state": "Ohio",
-"nces_id": "3904516",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/young/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Petersburg City Public Schools",
-"state": "Virginia",
-"nces_id": "5102910",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/vsba/pitpsva/Board.nsf/files/DQBMFH5B0878/$file/PCPS%20School%20Board%20Governance%20Handbook%202025-2026%20-%209.2025.pdf"
-},
-{
-"district": "Red Lion Area SD",
+"district": "Lampeter-Strasburg SD",
 "state": "Pennsylvania",
-"nces_id": "4220100",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/redl/Board.nsf/Public"
+"nces_id": "4213110",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/12876/october_2026_sc_minutes.pdf"
 },
 {
-"district": "Teays Valley Local",
-"state": "Ohio",
-"nces_id": "3904909",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/tvsd/Board.nsf/Public (read district site instead)"
+"district": "LYNBROOK UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3617910",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8487/042023_policy_1230_public_comment_at_board_meetings.pdf"
 },
 {
-"district": "Byron Center Public Schools",
+"district": "West York Area SD",
+"state": "Pennsylvania",
+"nces_id": "4225980",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/wyrk/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Riverview Community School District",
 "state": "Michigan",
-"nces_id": "2607560",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/byron/Board.nsf/Public (read district site instead)"
+"nces_id": "2629910",
+"why": "blocked: robots.txt disallows https://www.riverviewschools.com/fs/pages/1688"
 },
 {
-"district": "GRAIN VALLEY R-V",
-"state": "Missouri",
-"nces_id": "2913080",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/11584/11_05_2026_board_meeting_notice.pdf"
-},
-{
-"district": "Manalapan-Englishtown Regional School District",
-"state": "New Jersey",
-"nces_id": "3409390",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/mers/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "CENTRAL",
-"state": "New Mexico",
-"nces_id": "3500390",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nm/ccsdnm/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Halifax County Public Schools",
-"state": "Virginia",
-"nces_id": "5101770",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/va/halifax/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Marlboro Township School District",
-"state": "New Jersey",
-"nces_id": "3409720",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/cb67/05/08/25/192901-647eb3a6-6337-40be-a5d5-17445ec5d4f1.pdf"
-},
-{
-"district": "North Ridgeville City",
+"district": "Painesville City Local",
 "state": "Ohio",
-"nces_id": "3904453",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/nrid/Board.nsf/Public (read district site instead)"
+"nces_id": "3910015",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/1a94/10/22/26/175110-3817be67-a39a-4ff0-852a-167d1d8d33a8.pdf"
 },
 {
-"district": "PORT CHESTER-RYE UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3623460",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/pcru/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Euclid City",
-"state": "Ohio",
-"nces_id": "3904395",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/euclidoh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Mountain View Elementary",
-"state": "California",
-"nces_id": "626190",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5230/01-_mvsd_to_place_bond_measure_on_november_ballot.pdf"
-},
-{
-"district": "Carter County",
-"state": "Tennessee",
-"nces_id": "4700510",
-"why": "blocked: robots.txt disallows https://www.carterk12.org/fs/pages/1260"
-},
-{
-"district": "BALDWIN UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3603840",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/baldwinschools/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Mountain View-Los Altos Union High",
-"state": "California",
-"nces_id": "626310",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10942/minutes___832026_final.pdf"
-},
-{
-"district": "JAMESTOWN CITY SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3615630",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/james/Board.nsf/Public"
-},
-{
-"district": "Richmond Community Schools",
-"state": "Indiana",
-"nces_id": "1809510",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/rcs/Board.nsf/Public"
-},
-{
-"district": "Upper Merion Area SD",
-"state": "Pennsylvania",
-"nces_id": "4224480",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/umasd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "LEBANON R-III",
-"state": "Missouri",
-"nces_id": "2918270",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mo/lr3sd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Shaker Heights City",
-"state": "Ohio",
-"nces_id": "3904475",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/shaker/Board.nsf/Public"
-},
-{
-"district": "Gary Community School Corp",
-"state": "Indiana",
-"nces_id": "1803870",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/gary/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "PLATTE CO. R-III",
-"state": "Missouri",
-"nces_id": "2925230",
-"why": "blocked: HTTP 403 at https://www.plattecountyschooldistrict.com/leadership/board_of_education/electronic_school_board"
-},
-{
-"district": "Lakewood City",
-"state": "Ohio",
-"nces_id": "3904419",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/lwcsoh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Southwest Local",
-"state": "Ohio",
-"nces_id": "3904738",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/southwestlocal/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Alexander County Schools",
-"state": "North Carolina",
-"nces_id": "3700090",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nc/alex/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Avon Local",
-"state": "Ohio",
-"nces_id": "3904811",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/alsd/Board.nsf/Public"
-},
-{
-"district": "Rahway Public School District",
-"state": "New Jersey",
-"nces_id": "3413530",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/rahway/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "North Canton City",
-"state": "Ohio",
-"nces_id": "3904450",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/nccs/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Big Walnut Local",
-"state": "Ohio",
-"nces_id": "3904674",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/bigwal/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Glenview CCSD 34",
-"state": "Illinois",
-"nces_id": "1716920",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/gsd34/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Armstrong SD",
-"state": "Pennsylvania",
-"nces_id": "4202590",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/asdpa/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Encinitas Union Elementary",
-"state": "California",
-"nces_id": "612750",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/eusd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Wadsworth City",
-"state": "Ohio",
-"nces_id": "3910029",
-"why": "blocked: robots.txt disallows https://www.wadsworthschools.org/fs/resource-manager/view/6bf3aa09-1d2d-42bf-972f-c24fcca06f9c"
-},
-{
-"district": "Park City District",
-"state": "Utah",
-"nces_id": "4900750",
-"why": "blocked: robots.txt disallows https://www.pcschools.us/fs/resource-manager/view/d321ba8c-cbad-4e0e-9e09-5a7080c082d2"
-},
-{
-"district": "VICTOR CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3629640",
-"why": "blocked: robots.txt disallows https://www.victorschools.org/fs/pages/2437"
-},
-{
-"district": "Emporia",
-"state": "Kansas",
-"nces_id": "2005940",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ks/usd253/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Perry Local",
-"state": "Ohio",
-"nces_id": "3904992",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/perrysoh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "VALLEY CENTRAL SCHOOL DISTRICT (MONTGOMERY)",
-"state": "New York",
-"nces_id": "3619680",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/vcsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Randolph Township School District",
-"state": "New Jersey",
-"nces_id": "3413650",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/rtboe/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Mayfield City",
-"state": "Ohio",
-"nces_id": "3904437",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/mayoh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Wauconda CUSD 118",
-"state": "Illinois",
-"nces_id": "1741190",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/d118/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Oregon School District",
+"district": "Stoughton Area School District",
 "state": "Wisconsin",
-"nces_id": "5511100",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/sdoregon/Board.nsf/Public (read district site instead)"
+"nces_id": "5514550",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/stoughton/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Medford",
-"state": "Massachusetts",
-"nces_id": "2507560",
-"why": "blocked: robots.txt disallows https://www.mps02155.org/fs/resource-manager/view/00d7f407-4c13-46c3-a9a8-37474ea5af0a"
-},
-{
-"district": "Whitehall-Coplay SD",
+"district": "Crestwood SD",
 "state": "Pennsylvania",
-"nces_id": "4226250",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/whit/Board.nsf/Public (read district site instead)"
+"nces_id": "4205460",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/cres/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Garvey Elementary",
-"state": "California",
-"nces_id": "614940",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/10694/2025_bond_expenditure_report.pdf"
-},
-{
-"district": "Lakeview Public Schools (Macomb)",
-"state": "Michigan",
-"nces_id": "2620880",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/1928/09/11/25/151258-31db5ba1-f04b-48d8-803a-5af1c8cf4264.pdf"
-},
-{
-"district": "Cheltenham SD",
-"state": "Pennsylvania",
-"nces_id": "4205760",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/ctsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "EAST GREENBUSH CENTRAL SCHOOL DISTRICT",
+"district": "EASTPORT-SOUTH MANOR CSD",
 "state": "New York",
-"nces_id": "3609630",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/egcsd/Board.nsf/Public (read district site instead)"
+"nces_id": "3600125",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/esm/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Anthony Wayne Local",
+"district": "Bellbrook-Sugarcreek Local",
 "state": "Ohio",
-"nces_id": "3904820",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/awls/Board.nsf/Public (read district site instead)"
+"nces_id": "3904727",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/sugar/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Smyth County Public Schools",
-"state": "Virginia",
-"nces_id": "5103520",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/da34/11/14/19/194651-6e0c27b2-21ae-4caf-8589-07f0594fb3ef.pdf"
+"district": "BOLIVAR R-I",
+"state": "Missouri",
+"nces_id": "2905370",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9034/board_minutes_61925.pdf"
 },
 {
-"district": "Simsbury School District",
-"state": "Connecticut",
-"nces_id": "904110",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/11540/agd111026.pdf"
-},
-{
-"district": "Austintown Local Schools",
-"state": "Ohio",
-"nces_id": "3904829",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/austin/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "HILTON CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3614460",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/12612/smart_schools_bond_act_preliminary_plan.pdf"
-},
-{
-"district": "VIDOR ISD",
-"state": "Texas",
-"nces_id": "4844160",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/4278/visd_orderofbondelection_2024_1.pdf"
-},
-{
-"district": "Upper Dublin SD",
-"state": "Pennsylvania",
-"nces_id": "4224390",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/udub/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Waynesboro Area SD",
-"state": "Pennsylvania",
-"nces_id": "4225110",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/wayn/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "GARDEN CITY UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3611760",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/9192/10-6-26_bond_presentation.pdf"
-},
-{
-"district": "DEER PARK UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3608880",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/12897/102726_oct272026_-_open-agenda.pdf"
-},
-{
-"district": "School Town of Munster",
-"state": "Indiana",
-"nces_id": "1807350",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/munster/Board.nsf/Public"
-},
-{
-"district": "Middlebury Community Schools",
-"state": "Indiana",
-"nces_id": "1806600",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/11551/agenda_10-13-26.pdf"
-},
-{
-"district": "Alexandria Public School District",
-"state": "Minnesota",
-"nces_id": "2703060",
-"why": "blocked: robots.txt disallows https://www.alexschools.org/fs/pages/2385"
-},
-{
-"district": "Newberg SD 29J",
+"district": "South Lane SD 45J3",
 "state": "Oregon",
-"nces_id": "4108720",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/319b/10/26/26/182545-eb47c7ce-cd62-4619-873f-d5a20c52a6c0.pdf"
+"nces_id": "4111580",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13276/6-10approvedminutes.pdf"
 },
 {
-"district": "Kaukauna Area School District",
-"state": "Wisconsin",
-"nces_id": "5507290",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/kasd/Board.nsf/Public (read district site instead)"
+"district": "North Sanpete District",
+"state": "Utah",
+"nces_id": "4900660",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ut/nssd/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Yukon-Koyukuk School District",
-"state": "Alaska",
-"nces_id": "200862",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ak/yksd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Peters Township SD",
-"state": "Pennsylvania",
-"nces_id": "4218960",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13360/10-26-26_policy_committee_agenda.pdf"
-},
-{
-"district": "Scott County School District",
-"state": "Mississippi",
-"nces_id": "2803900",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/0293/02/12/25/184012-12ebabcd-ed29-4319-965c-5fb04bbe549a.pdf"
-},
-{
-"district": "Winton Woods City",
-"state": "Ohio",
-"nces_id": "3904408",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/winton/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Mercer Island School District",
-"state": "Washington",
-"nces_id": "5304980",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wa/misd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "NEW PRAGUE AREA SCHOOLS",
-"state": "Minnesota",
-"nces_id": "2723430",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mn/npas/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "WASHINGTONVILLE CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3630030",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/washcsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Jackson County Schools",
-"state": "West Virginia",
-"nces_id": "5400540",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/wv/jac/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Mendota Unified",
-"state": "California",
-"nces_id": "600022",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/af54/10/26/26/151650-c997a0e4-773c-4137-a2bb-031e898995c2.pdf"
-},
-{
-"district": "Phillipsburg School District",
-"state": "New Jersey",
-"nces_id": "3412960",
-"why": "blocked: robots.txt disallows https://4.files.edl.io/6b73/06/18/18/213152-8e6d8edb-f15a-4f2b-833e-475d064e3763.pdf"
-},
-{
-"district": "GRAND RAPIDS PUBLIC SCHOOL DISTRICT",
-"state": "Minnesota",
-"nces_id": "2713170",
-"why": "blocked: robots.txt disallows https://www.isd318.org/fs/pages/2780"
-},
-{
-"district": "WATERTOWN CITY SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3630120",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/watertowncsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Berkley School District",
-"state": "Michigan",
-"nces_id": "2605010",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/bsdmi/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "New Palestine Community Schools",
+"district": "Crawfordsville Community Schools",
 "state": "Indiana",
-"nces_id": "1810710",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/shanc/Board.nsf/Public"
+"nces_id": "1802460",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/crawfordsville/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "Phoenix Elementary District (4256)",
-"state": "Arizona",
-"nces_id": "406300",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/az/pesd1/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Troy City",
-"state": "Ohio",
-"nces_id": "3904492",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8985/01-12-26_mtg_minspers.pdf"
-},
-{
-"district": "Green Local",
-"state": "Ohio",
-"nces_id": "3905001",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/greensumoh/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Kaneland CUSD 302",
-"state": "Illinois",
-"nces_id": "1724480",
-"why": "blocked: robots.txt disallows https://www.kaneland.org/fs/pages/1971"
-},
-{
-"district": "SOUTH COUNTRY CENTRAL SCHOOL DISTRICT",
+"district": "ISLIP UNION FREE SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3600008",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/soco/Board.nsf/Public"
+"nces_id": "3615540",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/islip/Board.nsf/Public"
 },
 {
-"district": "PEEKSKILL CITY SCHOOL DISTRICT",
+"district": "KINGS PARK CENTRAL SCHOOL DISTRICT",
 "state": "New York",
-"nces_id": "3622650",
-"why": "blocked: HTTP 403 at https://www.peekskillcsd.org/290784_2"
+"nces_id": "3616260",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5963/agenda_september_2026.pdf"
 },
 {
-"district": "Bedford Public Schools",
-"state": "Michigan",
-"nces_id": "2604470",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/bedfor/Board.nsf/Public (read district site instead)"
+"district": "Merrill Area School District",
+"state": "Wisconsin",
+"nces_id": "5509210",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/maps/Board.nsf/Public (read district site instead)"
 },
 {
-"district": "POUGHKEEPSIE CITY SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3623760",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/pcsny/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "MAHOPAC CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3618120",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/mahopac/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Southeast Delco SD",
-"state": "Pennsylvania",
-"nces_id": "4222400",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/sedelco/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "O Fallon CCSD 90",
-"state": "Illinois",
-"nces_id": "1729760",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/of90/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Newington School District",
-"state": "Connecticut",
-"nces_id": "902880",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/6652/07-01-26_-_boe_agenda_-_special_-_executive_session.pdf"
-},
-{
-"district": "Pontiac City School District",
-"state": "Michigan",
-"nces_id": "2628740",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/pont/Board.nsf/Public"
-},
-{
-"district": "CHURCHVILLE-CHILI CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3607530",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/cccsd/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "WEST ISLIP UNION FREE SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3630690",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/6796/110526-11-5-2026_rm_agenda_for_posting_revised.pdf"
-},
-{
-"district": "Cuyahoga Falls City School District",
-"state": "Ohio",
-"nces_id": "3904383",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/cfalls/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Kennett Consolidated SD",
-"state": "Pennsylvania",
-"nces_id": "4212690",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/kenn/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "Conestoga Valley SD",
-"state": "Pennsylvania",
-"nces_id": "4206480",
-"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/conestoga/Board.nsf/Public (read district site instead)"
-},
-{
-"district": "HARRISON CENTRAL SCHOOL DISTRICT",
-"state": "New York",
-"nces_id": "3613740",
-"why": "blocked: robots.txt disallows https://www.harrisoncsd.org/fs/pages/474"
-},
-{
-"district": "Placer Union High",
+"district": "Menlo Park City Elementary",
 "state": "California",
-"nces_id": "630750",
-"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/11488/bylaw__9324__minutes_and_recordings.pdf"
+"nces_id": "624570",
+"why": "blocked: HTTP 403 at https://www.boarddocs.com/ca/mpcsd/Board.nsf/files/AZAT3T5E06D9/$file/6.5.18%20MPCSD%20EL%20Master%20Plan.pdf"
+},
+{
+"district": "McCreary County",
+"state": "Kentucky",
+"nces_id": "2103990",
+"why": "blocked: robots.txt disallows https://www.mccreary.k12.ky.us/fs/resource-manager/view/90e3dbc7-3d7c-48f9-b732-553226769432"
+},
+{
+"district": "Weld County School District RE-3J",
+"state": "Colorado",
+"nces_id": "804920",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8976/07152026__regular_agenda_meeting_with_gp.pdf"
+},
+{
+"district": "UNION FREE SCHOOL DISTRICT OF THE TARRYTOWNS",
+"state": "New York",
+"nces_id": "3628650",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/tufsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Goochland County Public Schools",
+"state": "Virginia",
+"nces_id": "5101650",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/va/gcpsva/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Madison Consolidated Schools",
+"state": "Indiana",
+"nces_id": "1806120",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/madis/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Middle Township Public School District",
+"state": "New Jersey",
+"nces_id": "3410020",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/middletwp/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Ashtabula Area City",
+"state": "Ohio",
+"nces_id": "3904351",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/aascoh/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Berlin School District",
+"state": "Connecticut",
+"nces_id": "900210",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13229/agenda_special_meeting_7-6-26.pdf"
+},
+{
+"district": "Solana Beach Elementary",
+"state": "California",
+"nces_id": "636990",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/solana/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Ross Local",
+"state": "Ohio",
+"nces_id": "3904614",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/rosslsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "BEACON CITY SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3604140",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/beacon/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Trenton Public Schools",
+"state": "Michigan",
+"nces_id": "2633900",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/trenton/Board.nsf/Public"
+},
+{
+"district": "Western Brown Local",
+"state": "Ohio",
+"nces_id": "3904606",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/westernbrown/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Rocky River City",
+"state": "Ohio",
+"nces_id": "3904470",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/rrcsd/Board.nsf/Public"
+},
+{
+"district": "Lenoir City",
+"state": "Tennessee",
+"nces_id": "4702400",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/4557/approved_minutes_6-25-26.pdf"
+},
+{
+"district": "Marshall Public Schools",
+"state": "Michigan",
+"nces_id": "2622970",
+"why": "blocked: robots.txt disallows https://www.marshallpublicschools.org/fs/resource-manager/view/45a2129f-6a4d-4cbc-ab60-0327cba3a94d"
+},
+{
+"district": "Chillicothe City",
+"state": "Ohio",
+"nces_id": "3904374",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/chillicothecity/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "East Pennsboro Area SD",
+"state": "Pennsylvania",
+"nces_id": "4208580",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/fc1d/11/04/26/164624-dbcc64a9-106d-4aa3-b5d1-8ea7399d7e91.pdf"
+},
+{
+"district": "AVERILL PARK CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3600016",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/apcsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "WYANDANCH UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3631800",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/wyandanch/Board.nsf/Public"
+},
+{
+"district": "Garfield Heights City Schools",
+"state": "Ohio",
+"nces_id": "3904404",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/garfieldheights/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Delaware Community School Corp",
+"state": "Indiana",
+"nces_id": "1802660",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/7946/hearing_notice.pdf"
+},
+{
+"district": "LEVELLAND ISD",
+"state": "Texas",
+"nces_id": "4827240",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8579/dac_agenda_oct_2026.pdf"
+},
+{
+"district": "ORCHARD FARM R-V",
+"state": "Missouri",
+"nces_id": "2923160",
+"why": "blocked: HTTP 403 at https://www.ofsd.k12.mo.us/staff/board_docs"
+},
+{
+"district": "SAYVILLE UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3625920",
+"why": "blocked: HTTP 403 at http://www.boarddocs.com/ny/spsny/Board.nsf/files/9QMDQR6A1088/$file/Sayville-Depot%20Road-Cost%20Compare%20Turf%20v%20Synthetic%20(11-5-14).pdf"
+},
+{
+"district": "Eastern Lancaster County SD",
+"state": "Pennsylvania",
+"nces_id": "4208820",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/11236/2026boardmeetingschedule.pdf"
+},
+{
+"district": "ROBSTOWN ISD",
+"state": "Texas",
+"nces_id": "4837440",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/a496/05/18/21/220355-a89a7223-94a8-42d3-b760-d3d4b080c6fd.pdf"
+},
+{
+"district": "Dumont Public School District",
+"state": "New Jersey",
+"nces_id": "3403990",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/7d00/09/17/26/195031-1eb80c6b-40bd-480a-8d02-1a9513351030.pdf"
+},
+{
+"district": "Caldwell-West School District",
+"state": "New Jersey",
+"nces_id": "3402580",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/cwboe/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Fowler Unified",
+"state": "California",
+"nces_id": "614250",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/70ca/11/06/26/001942-856a570e-03e4-4f0b-92e1-fedf78b0e908.pdf"
+},
+{
+"district": "Berwick Area SD",
+"state": "Pennsylvania",
+"nces_id": "4203480",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/berw/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "NORTH SHORE CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3626370",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/northshore/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Natchez-Adams School District",
+"state": "Mississippi",
+"nces_id": "2803030",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/af1d/06/03/26/173435-b07e4ecc-2f39-4c96-9f16-489a2d028de8.pdf"
+},
+{
+"district": "Livingston Union",
+"state": "California",
+"nces_id": "622170",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/5cb0/08/10/26/221336-eec99543-09d8-47b0-8015-3bf95f026142.pdf"
+},
+{
+"district": "Tecumseh Local",
+"state": "Ohio",
+"nces_id": "3904624",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/7939/board_approved_minutes_2026_09_21_emergency.pdf"
+},
+{
+"district": "Brookfield School District",
+"state": "Connecticut",
+"nces_id": "900540",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/4147/boe_bof_bos_agenda_special_joint_meeting_11092026.pdf"
+},
+{
+"district": "Bowling Green City School District",
+"state": "Ohio",
+"nces_id": "3904363",
+"why": "blocked: robots.txt disallows https://www.bgcs.k12.oh.us/fs/resource-manager/view/ced9a6fe-6655-458f-b20a-5c2a0373a045"
+},
+{
+"district": "Wiseburn Unified",
+"state": "California",
+"nces_id": "601428",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/wiseburn/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "O Fallon Twp HSD 203",
+"state": "Illinois",
+"nces_id": "1729790",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/oths/Board.nsf/Public"
+},
+{
+"district": "Zion-Benton Twp HSD 126",
+"state": "Illinois",
+"nces_id": "1743890",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/zbths/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Center Line Public Schools",
+"state": "Michigan",
+"nces_id": "2608580",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/2713/08/06/26/212713-bc423d07-762a-41c1-b0cd-32b39076cfc0.pdf"
+},
+{
+"district": "Watertown School District",
+"state": "Connecticut",
+"nces_id": "904890",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13388/boe_meeting_minutes_1_13_25_1.pdf"
+},
+{
+"district": "Edwardsburg Public Schools",
+"state": "Michigan",
+"nces_id": "2612990",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/edwd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Tallmadge City",
+"state": "Ohio",
+"nces_id": "3904488",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/tcsoh/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Granville Exempted Village",
+"state": "Ohio",
+"nces_id": "3904539",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/granville/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "MASSENA CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3618660",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/5500/06/27/26/130037-c457f899-3edc-400c-ae6e-ae8fa09ead4d.pdf"
+},
+{
+"district": "Miami Trace Local",
+"state": "Ohio",
+"nces_id": "3910010",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/mtlsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Auburn",
+"state": "Massachusetts",
+"nces_id": "2502220",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/13213/sc_meeting_minutes_9_30_26_approved.pdf"
+},
+{
+"district": "Harrison Public Schools",
+"state": "New Jersey",
+"nces_id": "3406870",
+"why": "blocked: HTTP 403 at https://www.harrisonschools.org/"
+},
+{
+"district": "Rockbridge County Public Schools",
+"state": "Virginia",
+"nces_id": "5103370",
+"why": "blocked: robots.txt disallows https://www.rockbridge.k12.va.us/fs/pages/1601"
+},
+{
+"district": "Bexley City",
+"state": "Ohio",
+"nces_id": "3904362",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/bexleyschools/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Chardon Local",
+"state": "Ohio",
+"nces_id": "3904718",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/chardon/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Scottsboro City",
+"state": "Alabama",
+"nces_id": "102940",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5194/board_meeting_-_01-08-2026_-_meeting_minutes.pdf"
+},
+{
+"district": "Riverside Preparatory District",
+"state": "California",
+"nces_id": "602566",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/2000/05/22/24/174823-9d937524-d4c2-4ecc-a658-e04f111620bf.pdf"
+},
+{
+"district": "WINONA AREA PUBLIC SCHOOL DISTRICT",
+"state": "Minnesota",
+"nces_id": "2744070",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mn/winona/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "NORMANDY SCHOOLS COLLABORATIVE",
+"state": "Missouri",
+"nces_id": "2922650",
+"why": "blocked: robots.txt disallows https://www.normandysc.org/fs/resource-manager/view/c44461ef-5e4a-451e-aaa0-437554b2d801"
+},
+{
+"district": "Ringgold SD",
+"state": "Pennsylvania",
+"nces_id": "4220400",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/ring/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Port Washington-Saukville School District",
+"state": "Wisconsin",
+"nces_id": "5512000",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/pwssd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Brunswick Public Schools",
+"state": "Maine",
+"nces_id": "2303780",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/me/brunswicksd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Jonathan Alder Local",
+"state": "Ohio",
+"nces_id": "3904826",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/joad/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Fowlerville Community Schools",
+"state": "Michigan",
+"nces_id": "2614730",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/mi/fwlv/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Dearborn Heights School District #7",
+"state": "Michigan",
+"nces_id": "2611610",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/4f45/10/19/26/153742-4f133455-3a01-49bd-8a16-0557908ca890.pdf"
+},
+{
+"district": "Cary CCSD 26",
+"state": "Illinois",
+"nces_id": "1708730",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/cary26/Board.nsf/Public"
+},
+{
+"district": "SAUGERTIES CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3625800",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/saugerties/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Defiance City",
+"state": "Ohio",
+"nces_id": "3904386",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/defcity/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Granite Falls School District",
+"state": "Washington",
+"nces_id": "5303210",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wa/gfalls/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Bay Village City",
+"state": "Ohio",
+"nces_id": "3904354",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/bvcsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Summit Hill SD 161",
+"state": "Illinois",
+"nces_id": "1738220",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/63e1/10/19/26/185920-da6ee8ac-4105-4e57-a875-82e5cee9243b.pdf"
+},
+{
+"district": "ARDSLEY UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3603180",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/aufsdny/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "CCSD 146",
+"state": "Illinois",
+"nces_id": "1739030",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/ccsd146/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "ISLAND TREES UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3615510",
+"why": "blocked: HTTP 403 at https://www.islandtrees.org/198812_3"
+},
+{
+"district": "Blackhawk SD",
+"state": "Pennsylvania",
+"nces_id": "4203688",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/blkh/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Tipp City Exempted Village",
+"state": "Ohio",
+"nces_id": "3904561",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/tipp/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Elizabeth Forward SD",
+"state": "Pennsylvania",
+"nces_id": "4209090",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/efsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Mill Valley Elementary",
+"state": "California",
+"nces_id": "624870",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/5178/board_meeting_schedule_2026__revisions_1.pdf"
+},
+{
+"district": "Flossmoor SD 161",
+"state": "Illinois",
+"nces_id": "1715420",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/il/sd161/Board.nsf/Public"
+},
+{
+"district": "Buckeye Valley Local",
+"state": "Ohio",
+"nces_id": "3904675",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/bvls/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Holmes County Consolidated",
+"state": "Mississippi",
+"nces_id": "2800195",
+"why": "blocked: robots.txt disallows https://www.holmesccsd.org/fs/resource-manager/view/a8682983-a3e1-4451-a9d4-830f34e4ca5e"
+},
+{
+"district": "Fort Atkinson School District",
+"state": "Wisconsin",
+"nces_id": "5504740",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wi/fasd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Sweetwater County School District #2",
+"state": "Wyoming",
+"nces_id": "5605762",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/wy/scsd2/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Laguna Beach Unified",
+"state": "California",
+"nces_id": "620370",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/laguna/Board.nsf/Public"
+},
+{
+"district": "East Porter County School Corp",
+"state": "Indiana",
+"nces_id": "1809000",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/in/epcsc/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "JENNINGS",
+"state": "Missouri",
+"nces_id": "2916290",
+"why": "blocked: robots.txt disallows https://www.jenningsk12.org/fs/pages/2531"
+},
+{
+"district": "Alcoa",
+"state": "Tennessee",
+"nces_id": "4700060",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/a7c1/07/27/26/174725-7de40701-9f5a-4db0-8081-ba2eb173cfc5.pdf"
+},
+{
+"district": "Spring Lake Public Schools",
+"state": "Michigan",
+"nces_id": "2632550",
+"why": "blocked: robots.txt disallows https://www.springlakeschools.org/fs/resource-manager/view/4fb1134c-8fbb-4328-b3a7-f4951e2394f9"
+},
+{
+"district": "Athens City School District",
+"state": "Ohio",
+"nces_id": "3904352",
+"why": "blocked: robots.txt disallows https://www.athenscsd.org/fs/resource-manager/view/a3c77e93-f4ac-4d89-b086-e1fb9be70d30"
+},
+{
+"district": "NORTH BELLMORE UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3620940",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/8917/110326_2627_nbell_bond_newsletter_web.pdf"
+},
+{
+"district": "MSD Wabash County Schools",
+"state": "Indiana",
+"nces_id": "1812180",
+"why": "blocked: robots.txt disallows https://www.msdwc.org/fs/resource-manager/view/09889530-6978-46eb-b1cf-4f70bb60877a"
+},
+{
+"district": "Greenville City",
+"state": "Ohio",
+"nces_id": "3904409",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/greenville/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Fleetwood Area SD",
+"state": "Pennsylvania",
+"nces_id": "4209780",
+"why": "blocked: robots.txt disallows https://www.fleetwoodasd.org/fs/pages/1967"
+},
+{
+"district": "Hunterdon Central Regional High School District",
+"state": "New Jersey",
+"nces_id": "3407590",
+"why": "blocked: robots.txt disallows https://www.hcrhs.org/fs/pages/1403"
+},
+{
+"district": "Jackson City",
+"state": "Ohio",
+"nces_id": "3904415",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/jcs/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Juniata County SD",
+"state": "Pennsylvania",
+"nces_id": "4212600",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/pa/junc/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "San Lorenzo Valley Unified",
+"state": "California",
+"nces_id": "634740",
+"why": "blocked: robots.txt disallows https://4.files.edl.io/ac29/10/16/26/203237-bf0e4a57-7d25-4ad4-9d8e-a292ffeff5fe.pdf"
+},
+{
+"district": "BATAVIA CITY SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3603990",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/bataviacsd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Penns Grove-Carneys Point Regional School District",
+"state": "New Jersey",
+"nces_id": "3412840",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/penns/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Hillsboro City",
+"state": "Ohio",
+"nces_id": "3904412",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/oh/hillc/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Bordentown Regional School District",
+"state": "New Jersey",
+"nces_id": "3402030",
+"why": "blocked: robots.txt disallows https://files.smartsites.parentsquare.com/12816/06-10-26action-publicagendadocx.pdf"
+},
+{
+"district": "Ambridge Area SD",
+"state": "Pennsylvania",
+"nces_id": "4202440",
+"why": "blocked: robots.txt disallows https://www.ambridge.k12.pa.us/fs/resource-manager/view/e3c2479e-18fa-46c6-be0b-d630b9f7967c"
+},
+{
+"district": "Silver Valley Unified",
+"state": "California",
+"nces_id": "636820",
+"why": "blocked: HTTP 403 at https://www.svusdk12.net/district_office_departments/school_board/school_board_portal"
+},
+{
+"district": "Central Regional School District",
+"state": "New Jersey",
+"nces_id": "3402910",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/nj/centralreg/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "Orland Joint Unified",
+"state": "California",
+"nces_id": "600045",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ca/ousd/Board.nsf/Public (read district site instead)"
+},
+{
+"district": "SEAFORD UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3626400",
+"why": "blocked: HTTP 403 at https://go.boarddocs.com/ny/seafordufsd/Board.nsf/Public (read district site instead)"
 }
 ],
 "errors": [
 {
-"district": "Winchester",
-"state": "Massachusetts",
-"nces_id": "2513110",
-"why": "error: ReadTimeout: HTTPSConnectionPool(host='www.winchesterps.org', port=443): Read timed out. (read timeout=25)"
+"district": "Collegium CS",
+"state": "Pennsylvania",
+"nces_id": "4200050",
+"why": "error: HTTPError: 503 Server Error: Service Unavailable for url: https://collegiumcharter.com/"
 },
 {
-"district": "Whitley County",
-"state": "Kentucky",
-"nces_id": "2105880",
-"why": "error: ReadTimeout: HTTPSConnectionPool(host='www.whitley.kyschools.us', port=443): Read timed out. (read timeout=25)"
-},
-{
-"district": "Gilmer County",
-"state": "Georgia",
-"nces_id": "1302340",
-"why": "error: ReadTimeout: HTTPSConnectionPool(host='www.gilmerschools.com', port=443): Read timed out. (read timeout=25)"
-},
-{
-"district": "GREENBRIER SCHOOL DISTRICT",
-"state": "Arkansas",
-"nces_id": "506900",
-"why": "error: ReadTimeout: HTTPSConnectionPool(host='www.greenbrierschools.org', port=443): Read timed out. (read timeout=25)"
+"district": "Clarksville Charter District",
+"state": "California",
+"nces_id": "601975",
+"why": "error: ReadTimeout: HTTPSConnectionPool(host='www.clarksvillecharter.org', port=443): Read timed out. (read timeout=25)"
 }
 ],
-"minutes": 17.6,
-"last_money_run": "2026-11-08",
-"new_money_matches": 1
+"minutes": 14.3,
+"last_money_run": "2026-11-09",
+"new_money_matches": 0
 }
