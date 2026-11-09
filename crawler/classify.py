@@ -18,6 +18,11 @@ PLATFORM_HOSTS = [
     ("boardbook", re.compile(r"meetings\.boardbook\.org/Public/Organization/\d+", re.I)),
     ("simbli", re.compile(r"simbli\.eboardsolutions\.com/[^\"' ]*SB_MeetingListing\.aspx\?S=\d+", re.I)),
     ("legistar", re.compile(r"https?://[a-z0-9-]+\.legistar\.com", re.I)),
+    # Diligent Community (BoardDocs' successor). No public reader yet: districts on it go to the recovery queue.
+    ("diligent", re.compile(r"https?://[a-z0-9-]+\.community\.diligentoneplatform\.com[^\"' ]*", re.I)),
+    ("eboard", re.compile(r"https?://[a-z0-9.-]*eboardsolutions\.com[^\"' ]*", re.I)),
+    ("civicclerk", re.compile(r"https?://[a-z0-9-]+\.portal\.civicclerk\.com[^\"' ]*", re.I)),
+    ("granicus", re.compile(r"https?://[a-z0-9-]+\.granicus\.com/[^\"' ]*", re.I)),
 ]
 AGENDA_WORDS = re.compile(r"agenda|board\s*meeting|minutes|boarddocs|boardbook|school\s*board|board\s*of\s*(?:education|trustees)", re.I)
 
@@ -79,6 +84,20 @@ def classify_one(district: dict, today: str) -> dict:
                                 "fallback": href, "checked": today, "note": "via board page"}
                 return {"platform": "site", "agenda_url": href, "fallback": "", "checked": today, "note": "board page on district site"}
     return {"platform": "site", "agenda_url": r.url, "fallback": "", "checked": today, "note": "no board link found; homepage only"}
+
+
+def merge(old: dict | None, new: dict) -> dict:
+    """Keep a history of previous platforms/URLs when a district moves (e.g. BoardDocs -> Diligent Community),
+    so historical BoardDocs links stay on record."""
+    if not old:
+        return new
+    hist = list(old.get("history", []))
+    if old.get("platform") != new.get("platform") or old.get("agenda_url") != new.get("agenda_url"):
+        hist.append({"platform": old.get("platform"), "agenda_url": old.get("agenda_url"), "until": new.get("checked")})
+    if old.get("platform") == "boarddocs" and new.get("platform") not in ("boarddocs", "blocked", "none"):
+        new["migrated_from"] = "boarddocs"
+    new["history"] = hist[-5:]
+    return new
 
 
 def load(path: Path) -> dict:

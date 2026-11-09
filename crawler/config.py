@@ -12,14 +12,14 @@ KEYWORDS = [
     r"access\s+control", r"vestibule", r"school\s+resource\s+officer|\bSRO\b",
     r"active\s+shooter", r"threat\s+assessment", r"safe\s+room", r"shelter[- ]in[- ]place",
     r"SAFE\s+grant", r"STOP\s+School\s+Violence", r"COPS\s+(?:grant|SVPP)",
-    r"nightlock", r"bearacade", r"barracuda\s+(?:intruder|door)", r"lockblok",
+    r"night\s?lock", r"teacher\s?lock", r"bear[- ]?acade", r"barracuda\s+(?:intruder|door|defense)", r"lock\s?blok",
 ]
 KEYWORD_RE = re.compile("|".join(f"(?:{k})" for k in KEYWORDS), re.IGNORECASE)
 
 # Stronger terms: a hit on one of these is flagged `strong: true` so the runs can grade it first.
 STRONG_RE = re.compile(
     r"classroom\s+door|door\s+lock|door\s+hardware|lock(?:ing)?\s+hardware|barricade|intruder|access\s+control|"
-    r"nightlock|bearacade|lockblok|secur(?:e|ing)\s+(?:classroom|the\s+classroom)\s+doors?",
+    r"night\s?lock|teacher\s?lock|bear[- ]?acade|lock\s?blok|secur(?:e|ing)\s+(?:classroom|the\s+classroom)\s+doors?",
     re.IGNORECASE,
 )
 
@@ -36,3 +36,22 @@ PER_HOST_DELAY = 1.0        # seconds between requests to the same host
 WORKERS = 8
 USER_AGENT = "PublicRecordSignals/1.0 (school-safety public-records research; contact sales@fliplok.com)"
 SNIPPET_CHARS = 260
+
+
+# Competitor brands for flagging (crawler only flags; the sweep and the competitor module verify).
+# Keep each pattern tight; Barracuda needs door/lock context so Barracuda Networks (email/firewall) never matches.
+COMPETITOR_PATTERNS = {
+    "Nightlock": r"night\s?lock",
+    "TeacherLock": r"teacher\s?lock",
+    "Barracuda (door)": r"barracuda\s+(?:intruder|door|lockdown|defense)|(?:intruder|door|lockdown)[^.]{0,40}barracuda(?![^.]{0,40}(?:networks|email|firewall|backup|cloudgen|sentinel))",
+    "Bearacade": r"bear[- ]?acade",
+    "LockBlok": r"lock\s?blok",
+}
+COMPETITOR_RES = {k: re.compile(v, re.I) for k, v in COMPETITOR_PATTERNS.items()}
+
+# Run budget and checkpoints.
+CHECKPOINT_EVERY = 100      # save ledger + state after this many districts
+OCR_MAX_PAGES_PER_DOC = 5   # image-only PDF pages to OCR per document
+OCR_MAX_DOCS_PER_RUN = 25
+RETRY_AFTER_DAYS = {"forbidden": 14, "robots": 30, "rate_limited": 2, "timeout": 1, "server_error": 1,
+                    "js_required": 14, "not_found": 7, "obsolete_portal": 30, "error": 2}

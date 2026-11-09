@@ -21,6 +21,7 @@ def scan(text: str, *, district: dict, source_type: str, platform: str, url: str
         else:
             regions.append([s, e, {w.lower()}])
     out = []
+    page_hash = hashlib.sha1(" ".join(text.lower().split()).encode()).hexdigest()[:12]
     for s, e, words in regions[:8]:
         a = max(0, s - config.SNIPPET_CHARS // 2)
         b = min(len(text), e + config.SNIPPET_CHARS // 2)
@@ -43,6 +44,7 @@ def scan(text: str, *, district: dict, source_type: str, platform: str, url: str
             "strong": strong,
             "snippet": snippet,
             "found": found,
+            "page_hash": page_hash,
         })
     return out
 
