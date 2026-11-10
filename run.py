@@ -148,6 +148,14 @@ def cmd_classify(args, run: Run):
 # ---------------------------------------------------------------- agendas
 def read_one(d, p, since):
     """Returns (district, matches, failure_code or None, note)."""
+    http.set_deadline(time.monotonic() + config.DISTRICT_SOFT_CAP_SEC)
+    try:
+        return _read_one(d, p, since)
+    finally:
+        http.set_deadline(None)
+
+
+def _read_one(d, p, since):
     reader = boards.READERS.get(p["platform"])
     if not reader:
         return d, [], "no_reader", p["platform"]
@@ -164,7 +172,9 @@ def read_one(d, p, since):
         return d, [], code, str(e)[:200]
 
 
-def record(led: Ledger, c: Counter, matches):
+def record(led: Ledger, c: Counter, matches) -> bool:
+    """Add matches to the ledger. Returns True when at least one new reviewable record came out of them."""
+    got = False
     for m in matches:
         rec = led.add(m, m.get("page_hash", ""))
         c["parsed_matches"] += 1
@@ -175,8 +185,10 @@ def record(led: Ledger, c: Counter, matches):
         c["disp_" + rec["disposition"]] += 1
         if rec["disposition"] in ("review", "changed"):
             c["qualified"] += 1
+            got = True
         elif rec["disposition"] == "duplicate":
             c["duplicated"] += 1
+    return got
 
 
 def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
@@ -186,7 +198,17 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
     failures = state.setdefault("failures", {})
     first = set(state.get("deferred", []))
     since = dt.date.today() - dt.timedelta(days=config.LOOKBACK_DAYS)
-    cutoff = (dt.date.today() - dt.timedelta(days=7)).isoformat()
+    cutoff = (dt.date.today() - dt.timedelta(days=config.READ_EVERY_DAYS)).isoformat()
+    cutoff_quiet = (dt.date.today() - dt.timedelta(days=config.READ_EVERY_DAYS_QUIET)).isoformat()
+    yld = state.setdefault("yield", {})
+    if not yld:  # first run with cadence tiers: seed from the ledger
+        for r in led.records():
+            if r.get("disposition") in ("review", "changed") and r.get("nces_id"):
+                yld[r["nces_id"]] = max(yld.get(r["nces_id"], ""), r.get("found") or TODAY)
+    yield_since = (dt.date.today() - dt.timedelta(days=config.YIELD_WINDOW_DAYS)).isoformat()
+
+    def quiet(d):
+        return (d.get("st") or 0) < config.QUIET_MAX_STUDENTS and yld.get(d["id"], "") < yield_since
 
     def due(d):
         p = plat.get(d["id"])
@@ -195,7 +217,9 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
         f = failures.get(d["id"])
         if f and f.get("retry_after", "") > TODAY:
             return False
-        return walked.get(d["id"], "") < cutoff
+        if d["id"] in first:
+            return True
+        return walked.get(d["id"], "") < (cutoff_quiet if quiet(d) else cutoff)
 
     pool = [d for d in districts() if due(d)]
     pool.sort(key=lambda d: (d["id"] not in first, -(d.get("st") or 0)))
@@ -243,7 +267,8 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
                 c["fetched"] += 1
                 if note:
                     c["fallback_reads"] += 1
-            record(led, c, matches)
+            if record(led, c, matches):
+                yld[d["id"]] = TODAY
             if len(finished) % config.CHECKPOINT_EVERY == 0:
                 checkpoint()
                 print(f"  checkpoint: {len(finished)}/{len(todo)}", flush=True)

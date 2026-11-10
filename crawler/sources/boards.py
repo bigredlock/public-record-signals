@@ -40,6 +40,9 @@ def parse_date(s: str) -> dt.date | None:
 
 
 def _pdf_matches(district, url, title, date, today, platform, source_type="agenda"):
+    if http.past_deadline():  # district soft cap reached: keep what we have, skip further documents
+        http._bump("docs_skipped_time")
+        return []
     r = http.get(url)
     if "pdf" not in r.headers.get("Content-Type", "").lower() and not url.lower().endswith(".pdf"):
         return scan(http.html_text(r.content), district=district, source_type=source_type, platform=platform,

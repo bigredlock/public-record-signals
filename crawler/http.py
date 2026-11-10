@@ -15,6 +15,17 @@ _session.headers.update({"User-Agent": config.USER_AGENT, "Accept-Language": "en
 _last_hit: dict[str, float] = {}
 _robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
 _lock = threading.Lock()
+_local = threading.local()
+
+
+def set_deadline(t: float | None):
+    """Per-thread soft deadline (time.monotonic() value) for the district being read. None clears it."""
+    _local.deadline = t
+
+
+def past_deadline() -> bool:
+    d = getattr(_local, "deadline", None)
+    return d is not None and time.monotonic() > d
 
 
 class Blocked(Exception):

@@ -33,7 +33,7 @@ MAX_PDF_BYTES = 12_000_000
 MAX_PDF_PAGES = 60
 REQUEST_TIMEOUT = 25
 PER_HOST_DELAY = 1.0        # seconds between requests to the same host
-WORKERS = 8
+WORKERS = 16           # Nov 10: 8 -> 16; per-host spacing still keeps each site at 1 request/sec
 USER_AGENT = "PublicRecordSignals/1.0 (school-safety public-records research; contact sales@fliplok.com)"
 SNIPPET_CHARS = 260
 
@@ -48,6 +48,15 @@ COMPETITOR_PATTERNS = {
     "LockBlok": r"lock\s?blok",
 }
 COMPETITOR_RES = {k: re.compile(v, re.I) for k, v in COMPETITOR_PATTERNS.items()}
+
+# Throughput (Nov 10, 2026: the Nov 9 crawl read 475 of 1,164 due districts and deferred 640).
+DISTRICT_SOFT_CAP_SEC = 150  # after this long on one district, stop opening new PDFs for it and keep what was found
+# Re-read cadence: big districts and districts that produced a reviewable record recently every 7 days;
+# everyone else every 14 days (most small districts post nothing relevant for months).
+READ_EVERY_DAYS = 7
+READ_EVERY_DAYS_QUIET = 14
+QUIET_MAX_STUDENTS = 10_000   # districts with fewer students than this can go quiet
+YIELD_WINDOW_DAYS = 60        # a review/changed record within this many days keeps a district on the 7-day cadence
 
 # Run budget and checkpoints.
 CHECKPOINT_EVERY = 100      # save ledger + state after this many districts

@@ -116,3 +116,38 @@ def test_hung_reads_cannot_hold_the_run_past_budget(tmp_path):
     assert len(st["walked"]) + len(st["failures"]) <= 10
     assert len(st["deferred"]) >= 30
     assert (data / "diagnostics.json").exists()
+
+
+def test_quiet_small_districts_wait_14_days_big_or_productive_ones_7(tmp_path):
+    """Nov 10 throughput fix: small districts with no reviewable record in 60 days are re-read every 14 days."""
+    import datetime as _dt
+    data, dirs = setup(tmp_path, 4)
+    ten_days_ago = (_dt.date.today() - _dt.timedelta(days=10)).isoformat()
+    dirs[0]["st"] = 50_000   # big: due after 7 days
+    dirs[1]["st"] = 2_000    # small and quiet: not due yet
+    dirs[2]["st"] = 2_000    # small but produced a review record recently: due
+    dirs[3]["st"] = 2_000    # small, quiet, but deferred last run: due
+    (data / "directory.json").write_text(json.dumps(dirs)) if (data / "directory.json").exists() else None
+    st = {"walked": {d["id"]: ten_days_ago for d in dirs}, "failures": {}, "deferred": [dirs[3]["id"]],
+          "yield": {dirs[2]["id"]: _dt.date.today().isoformat()}}
+    (data / "state.json").write_text(json.dumps(st))
+    seen = []
+
+    def reader(d, p, since):
+        seen.append(d["id"])
+        return d, [], None, ""
+    run.cmd_agendas(argparse.Namespace(limit=10, budget_min=0), run.Run(), Ledger(data / "ledger"), reader=reader, clock=Clock())
+    assert set(seen) == {dirs[0]["id"], dirs[2]["id"], dirs[3]["id"]}
+
+
+def test_district_soft_cap_skips_further_pdfs(monkeypatch):
+    import time as _t
+    from crawler.sources import boards
+    calls = []
+    monkeypatch.setattr(http, "get", lambda url, **kw: calls.append(url))
+    http.set_deadline(_t.monotonic() - 1)
+    try:
+        assert boards._pdf_matches({"n": "x", "s": "y", "id": "1"}, "https://x/a.pdf", "t", None, "2026-11-10", "site") == []
+    finally:
+        http.set_deadline(None)
+    assert calls == []
