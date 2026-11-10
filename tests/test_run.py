@@ -151,3 +151,15 @@ def test_district_soft_cap_skips_further_pdfs(monkeypatch):
     finally:
         http.set_deadline(None)
     assert calls == []
+
+
+def test_platform_survey_counts_vendors(tmp_path):
+    from crawler.sources import boards
+    data, dirs = setup(tmp_path, 2)
+    boards.SURVEY.clear()
+    boards.note_vendors(dirs[0], b'<a href="https://x.portal.civicclerk.com/">Agendas</a> <a href="/AgendaCenter/Search">A</a>')
+    boards.note_vendors(dirs[1], b'<a href="https://www.youtube.com/@BoardOfEd">Live</a>')
+    run.write_survey()
+    sv = json.loads((data / "platform_survey.json").read_text())
+    assert sv["districts"][dirs[0]["id"]]["vendors"] == ["civicclerk", "civicplus_agendacenter"]
+    assert sv["summary"]["icp_districts_by_vendor"]["youtube"] == 1

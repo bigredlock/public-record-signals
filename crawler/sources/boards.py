@@ -185,6 +185,23 @@ def legistar(district, agenda_url, since, today):
     return out
 
 
+# ---------------------------------------------------------------- platform survey
+import threading as _threading
+SURVEY: dict = {}          # nces_id -> sorted list of vendor keys seen on its board pages this run
+_survey_lock = _threading.Lock()
+
+
+def note_vendors(district, html: bytes):
+    try:
+        raw = html.decode("utf-8", "ignore") if isinstance(html, (bytes, bytearray)) else str(html)
+    except Exception:
+        return
+    found = {k for k, rx in config.VENDOR_RES.items() if rx.search(raw)}
+    if found:
+        with _survey_lock:
+            SURVEY[district["id"]] = sorted(set(SURVEY.get(district["id"], [])) | found)
+
+
 # ---------------------------------------------------------------- generic district site
 def generic(district, site_url, since, today):
     """Read the district's own board/agenda and bond pages, and the first few PDFs they link."""
@@ -192,6 +209,7 @@ def generic(district, site_url, since, today):
     home = http.get(site_url)
     if http.looks_js_only(home.content):
         raise http.JsRequired(f"page needs JavaScript: {site_url}")
+    note_vendors(district, home.content)
     soup = BeautifulSoup(home.content, "lxml")
     pages = []
     for a in soup.find_all("a", href=True):
@@ -214,6 +232,7 @@ def generic(district, site_url, since, today):
             raise
         except Exception:
             continue
+        note_vendors(district, r.content)
         text = http.html_text(r.content)
         out += scan(text, district=district, source_type=kind, platform="site", url=href, page=None,
                     title=label or kind, date="", found=today)

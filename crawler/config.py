@@ -64,3 +64,28 @@ OCR_MAX_PAGES_PER_DOC = 5   # image-only PDF pages to OCR per document
 OCR_MAX_DOCS_PER_RUN = 25
 RETRY_AFTER_DAYS = {"forbidden": 14, "robots": 30, "rate_limited": 2, "timeout": 1, "server_error": 1,
                     "js_required": 14, "not_found": 7, "obsolete_portal": 30, "error": 2}
+
+
+# Platform survey (Nov 10, 2026): agenda vendors linked from district board pages read by the generic "site"
+# reader. Counted per district into data/platform_survey.json so we can see which vendors deserve a reader
+# (rule: build one when a vendor covers 50+ ICP districts). Detection only; no extra requests.
+VENDOR_PATTERNS = {
+    "civicclerk": r"civicclerk\.com",
+    "civicplus_agendacenter": r"/AgendaCenter\b",
+    "granicus": r"granicus\.com|iqm2\.com",
+    "legistar": r"legistar\.com",
+    "escribe": r"escribemeetings\.com",
+    "onboard": r"onboardmeetings\.com|app\.onboardmeetings",
+    "municode_meetings": r"municodemeetings\.com|meetings\.municode\.com",
+    "swagit": r"swagit\.com",
+    "youtube": r"youtube\.com/(?:@|channel/|c/|user/|watch|live)|youtu\.be/",
+    "boarddocs": r"boarddocs\.com",
+    "boardbook": r"boardbook\.org",
+    "simbli_eboard": r"eboardsolutions\.com",
+    "diligent": r"diligentoneplatform\.com",
+    "google_drive": r"drive\.google\.com|docs\.google\.com",
+    "agendaquick": r"agendaquick\.com",
+    "novusagenda": r"novusagenda\.com",
+    "meetingdocs_other": r"agendasuite|boardpaq|meetingpackets|agendaonline",
+}
+VENDOR_RES = {k: re.compile(v, re.I) for k, v in VENDOR_PATTERNS.items()}

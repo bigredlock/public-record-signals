@@ -290,8 +290,27 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
     diag = {"generated": NOW(), "by_code": Counter(v["code"] for v in failures.values()),
             "failures": sorted(({"nces_id": k, **v} for k, v in failures.items()), key=lambda x: -(x.get("students") or 0))}
     save_json(DATA / "diagnostics.json", diag)
+    write_survey()
     print(f"  fetched {c['fetched']}, failed {c['failed']}, deferred {c['deferred']}, new records {c['new_records']}, "
           f"duplicates {c['duplicated']}, qualified {c['qualified']}")
+
+
+def write_survey():
+    """Merge this run's vendor sightings into data/platform_survey.json and recount by vendor (ICP districts)."""
+    path = DATA / "platform_survey.json"
+    sv = load_json(path, {"districts": {}, "summary": {}})
+    for nid, vendors in boards.SURVEY.items():
+        sv["districts"][nid] = {"vendors": vendors, "seen": TODAY}
+    icp = {d["id"] for d in districts() if d.get("icp")}
+    summ = Counter()
+    for nid, v in sv["districts"].items():
+        if nid in icp:
+            for k in v["vendors"]:
+                summ[k] += 1
+    sv["summary"] = {"generated": NOW(), "districts_surveyed": len(sv["districts"]),
+                     "icp_districts_by_vendor": dict(summ.most_common()),
+                     "rule": "build a reader for any vendor at 50+ ICP districts"}
+    save_json(path, sv)
 
 
 # ---------------------------------------------------------------- money
