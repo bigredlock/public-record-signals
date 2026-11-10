@@ -1,0 +1,77 @@
+{
+"runs": [
+{
+"run_id": "20261110T025903Z",
+"started": "2026-11-10T02:59:03+00:00",
+"finished": "2026-11-10T05:19:15+00:00",
+"status": "partial",
+"counts": {
+"classified": 1500,
+"discovered": 1164,
+"queued": 1164,
+"fetched": 475,
+"failed": 49,
+"failed_forbidden": 15,
+"parsed_matches": 499,
+"new_records": 319,
+"disp_low": 166,
+"disp_duplicate": 116,
+"duplicated": 296,
+"fallback_reads": 71,
+"disp_review": 37,
+"qualified": 37,
+"failed_timeout": 2,
+"failed_robots": 32,
+"deferred": 640,
+"not_queued": 0,
+"money_matches": 173
+},
+"sources": {
+"classify": {
+"ok": true,
+"note": ""
+},
+"agendas": {
+"ok": false,
+"note": "budget reached"
+},
+"usaspending": {
+"ok": true,
+"note": ""
+},
+"grants_gov": {
+"ok": true,
+"note": ""
+}
+},
+"notes": [],
+"minutes": 132.7,
+"http": {
+"fetched": 3650,
+"pdfs": 154,
+"pdf_pages": 668,
+"ocr_pages": 27,
+"ocr_docs": 21,
+"image_only_pages": 41
+}
+}
+],
+"sources": {
+"classify": {
+"last_attempted": "2026-11-10T03:06:23+00:00",
+"last_success": "2026-11-10T03:06:23+00:00"
+},
+"agendas": {
+"last_attempted": "2026-11-10T05:19:03+00:00",
+"last_success": ""
+},
+"usaspending": {
+"last_attempted": "2026-11-10T05:19:11+00:00",
+"last_success": "2026-11-10T05:19:11+00:00"
+},
+"grants_gov": {
+"last_attempted": "2026-11-10T05:19:15+00:00",
+"last_success": "2026-11-10T05:19:15+00:00"
+}
+}
+}
