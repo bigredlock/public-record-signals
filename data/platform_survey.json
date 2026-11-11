@@ -1,0 +1,1431 @@
+{
+"districts": {
+"2603240": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4109600": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3630270": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904585": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3013260": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904639": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4826400": {
+"vendors": [
+"boardbook",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904514": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3621720": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"406580": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3910009": {
+"vendors": [
+"boarddocs",
+"simbli_eboard",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3400009": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3630660": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3700135": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2720670": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4217670": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2314210": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4702610": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904989": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2511850": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2313350": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1903360": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"903240": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3415990": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3402400": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"504800": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5503660": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1725920": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2510860": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4834920": {
+"vendors": [
+"boardbook",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"905374": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4105610": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"507560": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2900029": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5507050": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1806660": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1302910": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3612990": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3501560": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4800019": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904914": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4108880": {
+"vendors": [
+"civicplus_agendacenter",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2502160": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904682": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"509840": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3407170": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904877": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5100180": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"1800480": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4900033": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"101720": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1734260": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"5504320": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3624240": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1930240": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1906810": {
+"vendors": [
+"boarddocs",
+"diligent",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1809630": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3610950": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3416860": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1809810": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904807": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1200720": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3905028": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4023800": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2728080": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3602730": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904485": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"802190": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2900590": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904576": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904381": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2700288": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2622320": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904355": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"802280": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1908730": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3606500": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"512960": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3700105": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2728380": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3414010": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"601560": {
+"vendors": [
+"google_drive",
+"onboard"
+],
+"seen": "2026-11-11"
+},
+"4106930": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4817040": {
+"vendors": [
+"boardbook",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2005790": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"5305310": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1700320": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1734540": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"5102310": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4222530": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"2608070": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"617430": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3405070": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"5103980": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3405580": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3400779": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2100360": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1920250": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1807680": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3413000": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3605640": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3402850": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5307440": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3502801": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4213020": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4224300": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3600009": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2508880": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2627420": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3608580": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3413710": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2718210": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2732070": {
+"vendors": [
+"boardbook",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2601125": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4824000": {
+"vendors": [
+"boardbook"
+],
+"seen": "2026-11-11"
+},
+"2507080": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2506480": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2728950": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5101690": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1808900": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3910027": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904411": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"simbli_eboard",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"903536": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904560": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"3910024": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3401950": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2929250": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2629670": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4015690": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1726370": {
+"vendors": [
+"boardbook",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904431": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3614940": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2625230": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2609750": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3620400": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3407440": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2625020": {
+"vendors": [
+"boardbook"
+],
+"seen": "2026-11-11"
+},
+"5501260": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"513930": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1714430": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4019560": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1800960": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1805460": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3416970": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1810590": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904867": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3405220": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3704740": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"902970": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3905041": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3400078": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904648": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2921510": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"5511850": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3615980": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2006330": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"1715480": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4008040": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2314130": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4205160": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2503390": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904623": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1734230": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3608010": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2710260": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2700245": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"405320": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4704050": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1808340": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5301470": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4220250": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4214880": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4200075": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3904377": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3411400": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4900042": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2613530": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1809420": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"509060": {
+"vendors": [
+"boarddocs",
+"diligent",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3600169": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4209240": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2502820": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2730510": {
+"vendors": [
+"boardbook",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2723400": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3007410": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3624000": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"626400": {
+"vendors": [
+"boarddocs",
+"simbli_eboard",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2511760": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2512780": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3611520": {
+"vendors": [
+"diligent",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"2500028": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1700112": {
+"vendors": [
+"boardbook",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3610500": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4214310": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3603720": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"1805520": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"1809180": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"602388": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"500047": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3614820": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-11"
+},
+"4223250": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3007110": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"1716410": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4018840": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"4200051": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"3905018": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3904937": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-11"
+},
+"2910920": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"4829820": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3600014": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3407860": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"5102580": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-11"
+},
+"3628380": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-11"
+}
+},
+"summary": {
+"generated": "2026-11-11T05:19:01+00:00",
+"districts_surveyed": 213,
+"icp_districts_by_vendor": {
+"google_drive": 149,
+"youtube": 132,
+"boarddocs": 49,
+"boardbook": 9,
+"simbli_eboard": 3,
+"diligent": 3,
+"civicplus_agendacenter": 1,
+"onboard": 1
+},
+"rule": "build a reader for any vendor at 50+ ICP districts"
+}
+}
