@@ -1,8 +1,7 @@
 {
-"generated": "2026-11-11T05:19:01+00:00",
+"generated": "2026-11-12T05:19:22+00:00",
 "by_code": {
 "forbidden": 20,
-"timeout": 2,
 "robots": 50
 },
 "failures": [
@@ -57,19 +56,6 @@
 "students": 16997,
 "platform": "site",
 "url": "https://www.yourcharlotteschools.net/school-board-home"
-},
-{
-"nces_id": "1200540",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.flaglerschools.com', port=443): Read timed out. (read timeout=25)",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "FLAGLER",
-"state": "Florida",
-"students": 13521,
-"platform": "site",
-"url": "https://www.flaglerschools.com/school-board"
 },
 {
 "nces_id": "1200210",
@@ -577,19 +563,6 @@
 "students": 1669,
 "platform": "site",
 "url": "https://www.turnerschools.org/district/board_of_education"
-},
-{
-"nces_id": "1915840",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.knoxville.k12.ia.us', port=443): Max retries exceeded with url: /school-board (Caused by NameResolutionError(\"HTTPSConnection(host='www.knoxville.k12.ia.us', port=443): F",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "Knoxville Comm School District",
-"state": "Iowa",
-"students": 1664,
-"platform": "site",
-"url": "https://www.knoxville.k12.ia.us/school-board"
 },
 {
 "nces_id": "601963",

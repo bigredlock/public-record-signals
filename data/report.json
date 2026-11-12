@@ -1,15 +1,15 @@
 {
-"generated": "2026-11-11T05:19:13+00:00",
-"run_id": "20261111T025900Z",
+"generated": "2026-11-12T05:19:36+00:00",
+"run_id": "20261112T025921Z",
 "status": "partial",
-"last_agenda_run": "2026-11-11",
-"districts_read": 258,
-"new_matches": 160,
+"last_agenda_run": "2026-11-12",
+"districts_read": 2,
+"new_matches": 0,
 "feed_size": 3139,
-"walked_total": 4668,
-"checked_last_7_days": 4668,
-"failed_total": 72,
-"deferred": 952,
+"walked_total": 4670,
+"checked_last_7_days": 4670,
+"failed_total": 70,
+"deferred": 950,
 "ledger": {
 "records": 4782,
 "review": 862,
@@ -20,41 +20,32 @@
 "next_seq": 4783
 },
 "counts": {
-"classified": 823,
-"discovered": 1233,
-"queued": 1233,
-"fetched": 258,
-"parsed_matches": 328,
-"new_records": 160,
-"disp_review": 25,
-"qualified": 25,
-"disp_low": 90,
-"failed": 23,
-"failed_robots": 18,
-"fallback_reads": 34,
-"failed_forbidden": 5,
-"disp_duplicate": 45,
-"duplicated": 213,
-"deferred": 952,
+"classified": 0,
+"discovered": 952,
+"queued": 952,
+"fetched": 2,
+"deferred": 950,
 "not_queued": 0,
-"money_matches": 172
+"money_matches": 169,
+"parsed_matches": 169,
+"duplicated": 169
 },
 "sources": {
 "classify": {
-"last_attempted": "2026-11-11T03:01:09+00:00",
-"last_success": "2026-11-11T03:01:09+00:00"
+"last_attempted": "2026-11-12T02:59:21+00:00",
+"last_success": "2026-11-12T02:59:21+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-11T05:19:01+00:00",
+"last_attempted": "2026-11-12T05:19:22+00:00",
 "last_success": ""
 },
 "usaspending": {
-"last_attempted": "2026-11-11T05:19:07+00:00",
-"last_success": "2026-11-11T05:19:07+00:00"
+"last_attempted": "2026-11-12T05:19:30+00:00",
+"last_success": "2026-11-12T05:19:30+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-11T05:19:11+00:00",
-"last_success": "2026-11-11T05:19:11+00:00"
+"last_attempted": "2026-11-12T05:19:33+00:00",
+"last_success": "2026-11-12T05:19:33+00:00"
 }
 },
 "blocked": [
@@ -970,33 +961,6 @@
 }
 ],
 "blocked_count": 70,
-"errors": [
-{
-"nces_id": "1200540",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.flaglerschools.com', port=443): Read timed out. (read timeout=25)",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "FLAGLER",
-"state": "Florida",
-"students": 13521,
-"platform": "site",
-"url": "https://www.flaglerschools.com/school-board"
-},
-{
-"nces_id": "1915840",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.knoxville.k12.ia.us', port=443): Max retries exceeded with url: /school-board (Caused by NameResolutionError(\"HTTPSConnection(host='www.knoxville.k12.ia.us', port=443): F",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "Knoxville Comm School District",
-"state": "Iowa",
-"students": 1664,
-"platform": "site",
-"url": "https://www.knoxville.k12.ia.us/school-board"
-}
-],
-"minutes": 137.9
+"errors": [],
+"minutes": 140.0
 }

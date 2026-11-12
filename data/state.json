@@ -4667,7 +4667,9 @@
 "2003180": "2026-11-11",
 "3400009": "2026-11-11",
 "4109600": "2026-11-11",
-"5102580": "2026-11-11"
+"5102580": "2026-11-11",
+"1915840": "2026-11-12",
+"1200540": "2026-11-12"
 },
 "cycle_started": "2026-11-07",
 "failures": {
@@ -4718,18 +4720,6 @@
 "students": 2031,
 "platform": "site",
 "url": "https://www.calhounflschools.org/school-board"
-},
-"1200540": {
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.flaglerschools.com', port=443): Read timed out. (read timeout=25)",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "FLAGLER",
-"state": "Florida",
-"students": 13521,
-"platform": "site",
-"url": "https://www.flaglerschools.com/school-board"
 },
 "1200240": {
 "code": "forbidden",
@@ -5198,18 +5188,6 @@
 "students": 1669,
 "platform": "site",
 "url": "https://www.turnerschools.org/district/board_of_education"
-},
-"1915840": {
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.knoxville.k12.ia.us', port=443): Max retries exceeded with url: /school-board (Caused by NameResolutionError(\"HTTPSConnection(host='www.knoxville.k12.ia.us', port=443): F",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-11",
-"district": "Knoxville Comm School District",
-"state": "Iowa",
-"students": 1664,
-"platform": "site",
-"url": "https://www.knoxville.k12.ia.us/school-board"
 },
 "601963": {
 "code": "robots",
@@ -5896,8 +5874,6 @@
 "4818390",
 "2742780",
 "2617820",
-"1200540",
-"1915840",
 "802400",
 "1703930",
 "600015",
@@ -6490,7 +6466,7 @@
 "3480180",
 "3416400"
 ],
-"last_run": "20261111T025900Z",
+"last_run": "20261112T025921Z",
 "yield": {
 "1200390": "2026-11-07",
 "1201500": "2026-11-07",

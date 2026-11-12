@@ -1,13 +1,12 @@
 {
-"generated": "2026-11-11T05:19:14+00:00",
-"count": 1355,
+"generated": "2026-11-12T05:19:38+00:00",
+"count": 1353,
 "by_code": {
 "no_portal_found": 860,
 "forbidden": 20,
 "no_reader_civicclerk": 2,
 "no_reader_diligent": 52,
 "site_blocked": 225,
-"timeout": 2,
 "no_reader_granicus": 1,
 "no_reader_eboard": 143,
 "robots": 50
@@ -1488,18 +1487,6 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
-},
-{
-"nces_id": "1200540",
-"district": "FLAGLER",
-"state": "Florida",
-"students": 13521,
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.flaglerschools.com', port=443): Read timed out. (read timeout=25)",
-"platform": "site",
-"url": "https://www.flaglerschools.com/school-board",
-"attempts": 1,
-"last": "2026-11-10"
 },
 {
 "nces_id": "2200900",
@@ -10595,18 +10582,6 @@
 "platform": "diligent",
 "url": "https://floydk12va.community.diligentoneplatform.com/Portal/CitizenEngagement.aspx",
 "attempts": 0,
-"last": "2026-11-10"
-},
-{
-"nces_id": "1915840",
-"district": "Knoxville Comm School District",
-"state": "Iowa",
-"students": 1664,
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.knoxville.k12.ia.us', port=443): Max retries exceeded with url: /school-board (Caused by NameResolutionError(\"HTTPSConnection(host='www.knoxville.k12.ia.us', port=443): F",
-"platform": "site",
-"url": "https://www.knoxville.k12.ia.us/school-board",
-"attempts": 1,
 "last": "2026-11-10"
 },
 {
