@@ -1,5 +1,5 @@
 {
-"generated": "2026-11-12T05:19:34+00:00",
+"generated": "2026-11-13T05:16:45+00:00",
 "note": "compatibility copy; use data/ledger/ (stable seq) instead",
 "matches": [
 {
@@ -8967,6 +8967,60 @@
 "found": "2026-11-11",
 "seq": 4782,
 "group_key": "5b748b7c7e8dc99d",
+"text_hash": "",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "grant-26-510",
+"district": "",
+"state": "",
+"nces_id": "",
+"students": 0,
+"source_type": "grant_window",
+"platform": "grants.gov",
+"url": "https://www.grants.gov/search-results-detail/364255",
+"page": null,
+"title": "Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs: Developing Deep Technologies that Advance U.S. Competitiveness and Security",
+"date": "11/12/2026",
+"close_date": "03/04/2027",
+"agency": "U.S. National Science Foundation",
+"status": "posted",
+"matched": [
+"school security"
+],
+"strong": true,
+"snippet": " 26-510: Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs: Developing Deep Technologies that Advance U.S. Competitiveness and Security (opens 11/12/2026, closes 03/04/2027)",
+"found": "2026-11-13",
+"seq": 4783,
+"group_key": "b8c4aa674abfd191",
+"text_hash": "",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "grant-rfa-mh-27-150",
+"district": "",
+"state": "",
+"nces_id": "",
+"students": 0,
+"source_type": "grant_window",
+"platform": "grants.gov",
+"url": "https://www.grants.gov/search-results-detail/363875",
+"page": null,
+"title": "Advancing Real-World Effectiveness Evidence for Rapid-Acting Psychotropic Interventional Drugs (RAPIDs) (UM1 Clinical Trial Required)",
+"date": "11/12/2026",
+"close_date": "06/10/2027",
+"agency": "National Institutes of Health",
+"status": "posted",
+"matched": [
+"safe schools"
+],
+"strong": true,
+"snippet": " RFA-MH-27-150: Advancing Real-World Effectiveness Evidence for Rapid-Acting Psychotropic Interventional Drugs (RAPIDs) (UM1 Clinical Trial Required) (opens 11/12/2026, closes 06/10/2027)",
+"found": "2026-11-13",
+"seq": 4784,
+"group_key": "a70c416715761712",
 "text_hash": "",
 "disposition": "review",
 "reason": "specific term"
