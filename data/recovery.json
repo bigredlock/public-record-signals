@@ -1,17 +1,33 @@
 {
-"generated": "2026-11-15T05:17:39+00:00",
-"count": 1353,
+"generated": "2026-11-16T05:26:54+00:00",
+"count": 1503,
 "by_code": {
+"forbidden": 118,
 "no_portal_found": 860,
-"forbidden": 20,
 "no_reader_civicclerk": 2,
 "no_reader_diligent": 52,
 "site_blocked": 225,
+"robots": 98,
+"timeout": 1,
+"error": 1,
+"rate_limited": 1,
+"not_found": 1,
 "no_reader_granicus": 1,
-"no_reader_eboard": 143,
-"robots": 50
+"no_reader_eboard": 143
 },
 "districts": [
+{
+"nces_id": "622710",
+"district": "Los Angeles Unified",
+"state": "California",
+"students": 408026,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.lausd.org/apps/events/2026/11/17/49059082/?REC_ID=49059082&id=0",
+"platform": "site",
+"url": "https://www.lausd.org/boe",
+"attempts": 1,
+"last": "2026-11-16"
+},
 {
 "nces_id": "1709930",
 "district": "Chicago Public Schools Dist 299",
@@ -71,6 +87,18 @@
 "url": "https://duvalcosb.portal.civicclerk.com/\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4700148",
+"district": "Memphis-Shelby County Schools",
+"state": "Tennessee",
+"students": 111124,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/tn/scsk12/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/tn/scsk12/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1301290",
@@ -157,6 +185,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "804800",
+"district": "Jefferson County School District No. R-1",
+"state": "Colorado",
+"students": 73532,
+"code": "robots",
+"note": "robots.txt disallows https://www.jeffcopublicschools.org/fs/pages/2234",
+"platform": "site",
+"url": "https://www.jeffcopublicschools.org/about/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4808940",
+"district": "AUSTIN ISD",
+"state": "Texas",
+"students": 72272,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/tx/austinisd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/tx/austinisd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5509600",
 "district": "Milwaukee School District",
 "state": "Wisconsin",
@@ -181,6 +233,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "622500",
+"district": "Long Beach Unified",
+"state": "California",
+"students": 62644,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/lbusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/lbusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1201920",
 "district": "VOLUSIA",
 "state": "Florida",
@@ -193,6 +257,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "4702220",
+"district": "Knox County",
+"state": "Tennessee",
+"students": 60185,
+"code": "robots",
+"note": "robots.txt disallows https://www.knoxschools.org/fs/resource-manager/view/b9cbc2e3-4b36-4797-bd4a-20e8bffc6b4f",
+"platform": "site",
+"url": "https://www.knoxschools.org/about/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600103",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #31",
 "state": "New York",
@@ -203,6 +279,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4900420",
+"district": "Jordan District",
+"state": "Utah",
+"students": 58788,
+"code": "robots",
+"note": "robots.txt disallows https://jordandistrict.org/wp-content/uploads/bma_20260728.pdf",
+"platform": "site",
+"url": "https://jordandistrict.org/board/",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "4807710",
@@ -253,6 +341,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "4501440",
+"district": "Charleston 01",
+"state": "South Carolina",
+"students": 50856,
+"code": "forbidden",
+"note": "HTTP 403 at http://ccsd.sharpschool.net/UserFiles/Servers/Server_2973281/File/Commitee/AFAGENDA20170606%20(REVISED).pdf",
+"platform": "site",
+"url": "https://www.ccsdschools.com/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600098",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #24",
 "state": "New York",
@@ -277,6 +377,54 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3700011",
+"district": "Cumberland County Schools",
+"state": "North Carolina",
+"students": 49002,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/nc/ccsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/nc/ccsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "634410",
+"district": "San Francisco Unified",
+"state": "California",
+"students": 48902,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/sfusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/sfusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2601103",
+"district": "Detroit Public Schools Community District",
+"state": "Michigan",
+"students": 48828,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/mi/detroit/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/mi/detroit/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4502490",
+"district": "Horry 01",
+"state": "South Carolina",
+"students": 48662,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/sc/horry/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/sc/horry/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2200840",
 "district": "Jefferson Parish",
 "state": "Louisiana",
@@ -287,6 +435,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4826580",
+"district": "LAMAR CISD",
+"state": "Texas",
+"students": 46786,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/5626/november_17-2026_-_agenda_for_regular_meeting.pdf",
+"platform": "site",
+"url": "https://www.lcisd.org/trustees",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "3904380",
+"district": "Columbus City Schools District",
+"state": "Ohio",
+"students": 46515,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/columbus/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/columbus/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1201260",
@@ -313,6 +485,42 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "634170",
+"district": "San Bernardino City Unified",
+"state": "California",
+"students": 44192,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/sbcusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/sbcusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "609030",
+"district": "Clovis Unified",
+"state": "California",
+"students": 43669,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/6245/admin-hr_board_subcommittee_amended_agenda_-_november_4_2026.pdf",
+"platform": "site",
+"url": "https://www.cusd.com/board-agendas-meetings-archives",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "619540",
+"district": "Kern High",
+"state": "California",
+"students": 43237,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/khsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/khsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1302820",
 "district": "Henry County",
 "state": "Georgia",
@@ -323,6 +531,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "200180",
+"district": "Anchorage School District",
+"state": "Alaska",
+"students": 42573,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ak/asdk12/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ak/asdk12/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600087",
@@ -373,6 +593,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3704620",
+"district": "Union County Public Schools",
+"state": "North Carolina",
+"students": 41404,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/nc/ucps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/nc/ucps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "408800",
 "district": "Tucson Unified District (4403)",
 "state": "Arizona",
@@ -383,6 +615,18 @@
 "url": "http://www.tusd1.org",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4501170",
+"district": "Berkeley 01",
+"state": "South Carolina",
+"students": 39423,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/sc/berkeley/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/sc/berkeley/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2200540",
@@ -409,6 +653,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "802340",
+"district": "Aurora Joint District No. 28 of the counties of Adams and A",
+"state": "Colorado",
+"students": 38702,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/co/aurora/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/co/aurora/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600100",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #28",
 "state": "New York",
@@ -421,6 +677,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "633840",
+"district": "Sacramento City Unified",
+"state": "California",
+"students": 37913,
+"code": "robots",
+"note": "robots.txt disallows https://www.scusd.edu/fs/resource-manager/view/964b973d-1f4d-4bfb-b067-8aa19c6daa4a",
+"platform": "site",
+"url": "https://www.scusd.edu/about/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "614880",
+"district": "Garden Grove Unified",
+"state": "California",
+"students": 37009,
+"code": "robots",
+"note": "robots.txt disallows https://www.ggusd.us/umbraco/surface/home/latestboardagenda",
+"platform": "site",
+"url": "https://www.ggusd.us/board/meeting-agendas",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "4837020",
 "district": "RICHARDSON ISD",
 "state": "Texas",
@@ -431,6 +711,18 @@
 "url": "http://www.risd.org",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4901140",
+"district": "Washington District",
+"state": "Utah",
+"students": 36961,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ut/washk12/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ut/washk12/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1200510",
@@ -481,6 +773,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3700530",
+"district": "Cabarrus County Schools",
+"state": "North Carolina",
+"students": 35772,
+"code": "timeout",
+"note": "HTTPSConnectionPool(host='www.cabarrus.k12.nc.us', port=443): Read timed out. (read timeout=25)",
+"platform": "site",
+"url": "https://www.cabarrus.k12.nc.us/19903_1",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1301020",
 "district": "Savannah-Chatham County",
 "state": "Georgia",
@@ -491,6 +795,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "3904375",
+"district": "Cincinnati Public Schools",
+"state": "Ohio",
+"students": 34531,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/cps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/cps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "806900",
+"district": "Adams 12 Five Star Schools",
+"state": "Colorado",
+"students": 34466,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/co/adams12/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/co/adams12/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600122",
@@ -505,6 +833,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "631530",
+"district": "Poway Unified",
+"state": "California",
+"students": 34405,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/7236/01/12/26/233152-7d14f523-5abb-44d9-88af-253542262d72.pdf",
+"platform": "site",
+"url": "https://www.powayusd.com/apps/pages/index.jsp?uREC_ID=3752877&type=d&pREC_ID=2722499",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600152",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #21",
 "state": "New York",
@@ -517,6 +857,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "628050",
+"district": "Oakland Unified",
+"state": "California",
+"students": 33838,
+"code": "error",
+"note": "400 Client Error: 'Agenda Draft Status' or 'Agenda Status Not Vievable By The Public' is not setup in settings. Value should be greater than 0. for url: https://webapi.legistar.com/v1/ousd/events?$fil",
+"platform": "legistar",
+"url": "https://ousd.legistar.com",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "638010",
+"district": "Stockton Unified",
+"state": "California",
+"students": 33648,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/susd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/susd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "614400",
 "district": "Fremont Unified",
 "state": "California",
@@ -527,6 +891,30 @@
 "url": "http://fremontunified.org/",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "613920",
+"district": "Fontana Unified",
+"state": "California",
+"students": 32794,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/fusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/fusd/board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4022770",
+"district": "OKLAHOMA CITY",
+"state": "Oklahoma",
+"students": 32750,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ok/okcps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ok/okcps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600088",
@@ -565,6 +953,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3701260",
+"district": "Durham Public Schools",
+"state": "North Carolina",
+"students": 31865,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/nc/dpsnc/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/nc/dpsnc/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600153",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #22",
 "state": "New York",
@@ -575,6 +975,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "5103660",
+"district": "Stafford County Public Schools",
+"state": "Virginia",
+"students": 31812,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/vsba/scpsva/Board.nsf/pfiles/DXHPBG63D1CD/$file/2026%20CIP%20ADVISORY%20COMMITEE%20PRESENTATION.pdf",
+"platform": "site",
+"url": "https://www.staffordschools.net/about-us/school-board",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1304020",
@@ -589,6 +1001,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "5304230",
+"district": "Lake Washington School District",
+"state": "Washington",
+"students": 30986,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/lwsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/lwsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1302880",
 "district": "Houston County",
 "state": "Georgia",
@@ -599,6 +1023,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4704020",
+"district": "Sumner County",
+"state": "Tennessee",
+"students": 30719,
+"code": "robots",
+"note": "robots.txt disallows https://www.sumnerschools.org/fs/pages/17819",
+"platform": "site",
+"url": "https://www.sumnerschools.org/school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "3605850",
+"district": "BUFFALO CITY SCHOOL DISTRICT",
+"state": "New York",
+"students": 30077,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ny/buffalo/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ny/buffalo/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1908970",
@@ -661,6 +1109,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "4808130",
+"district": "AMARILLO ISD",
+"state": "Texas",
+"students": 29321,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/5327/bond_fact_sheet_pdf_opens_in_new_window.pdf",
+"platform": "site",
+"url": "https://www.amaisd.org/about-the-school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1304380",
 "district": "Richmond County",
 "state": "Georgia",
@@ -685,6 +1145,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "4503390",
+"district": "Richland 02",
+"state": "South Carolina",
+"students": 28841,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/sc/rsd2/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/sc/rsd2/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1301410",
 "district": "Columbia County",
 "state": "Georgia",
@@ -697,6 +1169,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "603630",
+"district": "Bakersfield City",
+"state": "California",
+"students": 28365,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/bcsdca/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/bcsdca/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1200030",
 "district": "ALACHUA",
 "state": "Florida",
@@ -707,6 +1191,30 @@
 "url": "http://www.sbac.edu/pages/ACPS",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "802490",
+"district": "Boulder Valley School District No. Re2",
+"state": "Colorado",
+"students": 27988,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/co/bvsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/co/bvsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5100270",
+"district": "Arlington County Public Schools",
+"state": "Virginia",
+"students": 27950,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/vsba/arlington/Board.nsf/files/DSXLGV564A5E/$file/B-3.6.30%20School%20Board%20Advisory%20Councils.pdf",
+"platform": "site",
+"url": "https://www.apsva.us/advisory-councils/",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2200330",
@@ -769,6 +1277,42 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "2400210",
+"district": "Carroll County Public Schools",
+"state": "Maryland",
+"students": 26141,
+"code": "robots",
+"note": "robots.txt disallows https://www.carrollk12.org/fs/pages/374",
+"platform": "site",
+"url": "https://www.carrollk12.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "1741690",
+"district": "Indian Prairie CUSD 204",
+"state": "Illinois",
+"students": 26108,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/ipsd/Board.nsf/files/DBDJV34EF4B5/$file/WV%20NV%20Birk%20Early%20Design_REV1.pdf",
+"platform": "site",
+"url": "https://www.ipsd.org/",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "3407830",
+"district": "Jersey City Public Schools",
+"state": "New Jersey",
+"students": 25951,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/nj/jcps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/nj/jcps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "4502010",
 "district": "Dorchester 02",
 "state": "South Carolina",
@@ -803,6 +1347,30 @@
 "url": "http://www.phoenixunion.org/",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "803870",
+"district": "El Paso County Colorado School District 49",
+"state": "Colorado",
+"students": 25689,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/co/d49/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/co/d49/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "608460",
+"district": "Chino Valley Unified",
+"state": "California",
+"students": 25579,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/7144/11-19-26_agenda.pdf",
+"platform": "site",
+"url": "https://www.chino.k12.ca.us/64965_1",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1301860",
@@ -841,6 +1409,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "623610",
+"district": "Manteca Unified",
+"state": "California",
+"students": 25248,
+"code": "robots",
+"note": "robots.txt disallows https://www.mantecausd.net/fs/resource-manager/view/b581c308-ab92-46f4-bf6e-5bcb7e59881a",
+"platform": "site",
+"url": "https://www.mantecausd.net/our-district/board-and-superintendent",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5508520",
+"district": "Madison Metropolitan School District",
+"state": "Wisconsin",
+"students": 25155,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wi/mmsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wi/mmsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "601332",
 "district": "Twin Rivers Unified",
 "state": "California",
@@ -853,6 +1445,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3700012",
+"district": "Pitt County Schools",
+"state": "North Carolina",
+"students": 24470,
+"code": "rate_limited",
+"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017.11.20%20BWS%20Agenda.pdf",
+"platform": "site",
+"url": "https://www.pitt.k12.nc.us/board/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2928860",
 "district": "SPRINGFIELD R-XII",
 "state": "Missouri",
@@ -863,6 +1467,18 @@
 "url": "http://SPRINGFIELDPUBLICSCHOOLSMO.ORG",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "3904676",
+"district": "Olentangy Local",
+"state": "Ohio",
+"students": 24133,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/olenoh/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/olenoh/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2200090",
@@ -949,6 +1565,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "632370",
+"district": "Rialto Unified",
+"state": "California",
+"students": 23073,
+"code": "forbidden",
+"note": "HTTP 403 at http://rialto-ca.schoolloop.com/file/1516954812366/1563002528876/657094212604748467.pdf",
+"platform": "site",
+"url": "https://www.rialto.k12.ca.us/our-board/agendas-minutes",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5306960",
 "district": "Puyallup School District",
 "state": "Washington",
@@ -959,6 +1587,78 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4826130",
+"district": "LA JOYA ISD",
+"state": "Texas",
+"students": 22942,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/11912/7-29-26_order_of_election_ljisd_school_board_-_nov_3_2026.pdf",
+"platform": "site",
+"url": "https://www.lajoyaisd.com/school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "616920",
+"district": "Hemet Unified",
+"state": "California",
+"students": 22891,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/hemetusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/hemetusd/board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2400660",
+"district": "Washington County Public Schools",
+"state": "Maryland",
+"students": 22772,
+"code": "not_found",
+"note": "404 Client Error: Not Found for url: https://www.wcpsmd.com/school-board/board-meetings",
+"platform": "site",
+"url": "https://www.wcpsmd.com/school-board/board-meetings",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "611460",
+"district": "Downey Unified",
+"state": "California",
+"students": 22462,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/downey/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/downey/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5302820",
+"district": "Federal Way School District",
+"state": "Washington",
+"students": 22250,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/fwsd210/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/fwsd210/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "803060",
+"district": "Colorado Springs School District No. 11 in the county of E",
+"state": "Colorado",
+"students": 22227,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/co/d11/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/co/d11/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2200270",
@@ -985,6 +1685,42 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3624750",
+"district": "ROCHESTER CITY SCHOOL DISTRICT",
+"state": "New York",
+"students": 21990,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ny/rochny/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ny/rochny/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "3904480",
+"district": "South-Western City",
+"state": "Ohio",
+"students": 21924,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/swcsoh/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/swcsoh/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4503360",
+"district": "Richland 01",
+"state": "South Carolina",
+"students": 21814,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/sc/rcsd1/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/sc/rcsd1/board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5309270",
 "district": "Vancouver School District",
 "state": "Washington",
@@ -995,6 +1731,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "1803450",
+"district": "Evansville Vanderburgh School Corp",
+"state": "Indiana",
+"students": 21589,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/in/evsc/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/in/evsc/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2201290",
@@ -1021,6 +1769,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3904490",
+"district": "Toledo City",
+"state": "Ohio",
+"students": 21290,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/tps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/tps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5103240",
+"district": "Richmond City Public Schools",
+"state": "Virginia",
+"students": 20962,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.rvaschools.net/school-board-policies",
+"platform": "site",
+"url": "https://www.rvaschools.net/258090_3",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5302400",
 "district": "Edmonds School District",
 "state": "Washington",
@@ -1031,6 +1803,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4704550",
+"district": "Wilson County",
+"state": "Tennessee",
+"students": 20703,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/tn/wcschools/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/tn/wcschools/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "631320",
+"district": "Pomona Unified",
+"state": "California",
+"students": 20475,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/6a55/10/15/26/190857-432c1494-5a73-420e-b9f4-ff3c1a449d32.pdf",
+"platform": "site",
+"url": "https://proudtobe.pusd.org/apps/pages/index.jsp?uREC_ID=1223335&type=d&pREC_ID=1458208",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "5300390",
@@ -1055,6 +1851,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "5400060",
+"district": "Berkeley County Schools",
+"state": "West Virginia",
+"students": 20006,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wv/berkeley/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wv/berkeley/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "611820",
+"district": "East Side Union High",
+"state": "California",
+"students": 20001,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/esuhsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600120",
@@ -1093,6 +1913,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "4219170",
+"district": "Pittsburgh SD",
+"state": "Pennsylvania",
+"students": 19571,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/pghboe/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/pghboe/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "200510",
+"district": "Matanuska-Susitna Borough School District",
+"state": "Alaska",
+"students": 19495,
+"code": "robots",
+"note": "robots.txt disallows https://www.matsuk12.us/fs/resource-manager/view/91796702-3ee2-4aaf-9570-b530fce33f95",
+"platform": "site",
+"url": "https://www.matsuk12.us/school-board/overview-and-members",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600091",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #13",
 "state": "New York",
@@ -1103,6 +1947,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "625470",
+"district": "Montebello Unified",
+"state": "California",
+"students": 19195,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/23a9/01/29/26/215531-9159463a-45d9-4dfc-b4ce-69f4054349f4.pdf",
+"platform": "site",
+"url": "https://www.montebello.k12.ca.us/apps/pages/index.jsp?uREC_ID=2182970&type=d&pREC_ID=2184872",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600078",
@@ -1129,6 +1985,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "4900870",
+"district": "Salt Lake District",
+"state": "Utah",
+"students": 19049,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/9075/7-14-26_board_minutes_approved_1.pdf",
+"platform": "site",
+"url": "https://www.slcschools.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5306570",
 "district": "Pasco School District",
 "state": "Washington",
@@ -1141,6 +2009,42 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "634880",
+"district": "San Marcos Unified",
+"state": "California",
+"students": 18860,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/smusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/smusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5303930",
+"district": "Kennewick School District",
+"state": "Washington",
+"students": 18826,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/8334/legislativepriorities2025_1.pdf",
+"platform": "site",
+"url": "https://www.ksd.org/school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "902790",
+"district": "New Haven School District",
+"state": "Connecticut",
+"students": 18817,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ct/nhps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ct/nhps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1303930",
 "district": "Newton County",
 "state": "Georgia",
@@ -1151,6 +2055,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "5505820",
+"district": "Green Bay Area Public School District",
+"state": "Wisconsin",
+"students": 18379,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wi/gbapsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wi/gbapsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "5300300",
@@ -1177,6 +2093,42 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3904611",
+"district": "Lakota Local",
+"state": "Ohio",
+"students": 17885,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/lakota/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/lakota/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "628470",
+"district": "Ontario-Montclair",
+"state": "California",
+"students": 17695,
+"code": "robots",
+"note": "robots.txt disallows https://www.omsd.net/fs/resource-manager/view/099608a5-bcc3-4d6b-b982-718e6ccae0d3",
+"platform": "site",
+"url": "https://www.omsd.net/board/board-of-trustees",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "601620",
+"district": "ABC Unified",
+"state": "California",
+"students": 17612,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/e3ce/10/30/26/205703-037caea5-d35a-414e-b33c-d6802874d026.pdf",
+"platform": "site",
+"url": "https://www.abcusd.us/apps/pages/index.jsp?uREC_ID=1158070&type=d&pREC_ID=1843866",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3600095",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #17",
 "state": "New York",
@@ -1199,6 +2151,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "3404500",
+"district": "Edison Township School District",
+"state": "New Jersey",
+"students": 17032,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/nj/edisontsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/nj/edisontsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1200240",
@@ -1225,6 +2189,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3904702",
+"district": "Dublin City",
+"state": "Ohio",
+"students": 16967,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/dublin/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/dublin/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4205310",
+"district": "Central Bucks SD",
+"state": "Pennsylvania",
+"students": 16941,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/cbuc/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/cbuc/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "4101980",
 "district": "Bend-LaPine Administrative SD 1",
 "state": "Oregon",
@@ -1235,6 +2223,78 @@
 "url": "http://www.bend.k12.or.us",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "2602820",
+"district": "Ann Arbor Public Schools",
+"state": "Michigan",
+"students": 16871,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/mi/aaps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/mi/aaps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4202280",
+"district": "Allentown City SD",
+"state": "Pennsylvania",
+"students": 16769,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/alen/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/alen/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "1730270",
+"district": "CUSD 308",
+"state": "Illinois",
+"students": 16766,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/oswego308/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/il/oswego308/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4220040",
+"district": "Reading SD",
+"state": "Pennsylvania",
+"students": 16664,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/reading/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/reading/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "629490",
+"district": "Pajaro Valley Unified",
+"state": "California",
+"students": 16588,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/pvusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/pvusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "616230",
+"district": "Grossmont Union High",
+"state": "California",
+"students": 16476,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/guhsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/guhsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "609620",
@@ -1309,6 +2369,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "904320",
+"district": "Stamford School District",
+"state": "Connecticut",
+"students": 16185,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ct/stamford/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ct/stamford/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "1812810",
+"district": "MSD Wayne Township",
+"state": "Indiana",
+"students": 16146,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/in/wayne/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/in/wayne/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2628560",
 "district": "Plymouth-Canton Community Schools",
 "state": "Michigan",
@@ -1321,6 +2405,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "1727710",
+"district": "Naperville CUSD 203",
+"state": "Illinois",
+"students": 16047,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/naperville203/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/il/naperville203/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3416290",
 "district": "Trenton Public School District",
 "state": "New Jersey",
@@ -1331,6 +2427,42 @@
 "url": "http://www.trenton.k12.nj.us",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "633980",
+"district": "Salinas Union High",
+"state": "California",
+"students": 15813,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/salinas/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/salinas/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5310110",
+"district": "Yakima School District",
+"state": "Washington",
+"students": 15488,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/yakima/Board.nsf/files/DYVQWS6B545D/$file/October%202026%20Bond%20Construction%20Update.pdf",
+"platform": "site",
+"url": "https://www.ysd7.org/",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "616325",
+"district": "Hacienda la Puente Unified",
+"state": "California",
+"students": 15480,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/hlpusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/hlpusd/board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600119",
@@ -1357,6 +2489,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "3900180",
+"district": "Ohio Virtual Academy",
+"state": "Ohio",
+"students": 15339,
+"code": "forbidden",
+"note": "HTTP 403 at https://ohva.k12.com/about-our-school/school-board/",
+"platform": "site",
+"url": "https://ohva.k12.com/about-our-school/school-board/",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1300290",
 "district": "Barrow County",
 "state": "Georgia",
@@ -1379,6 +2523,54 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "5301110",
+"district": "Central Valley School District",
+"state": "Washington",
+"students": 15025,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/cvsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/cvsd/board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "408850",
+"district": "Vail Unified District (4413)",
+"state": "Arizona",
+"students": 15011,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/az/vail/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/az/vail/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "628250",
+"district": "Oceanside Unified",
+"state": "California",
+"students": 14890,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/oside/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/oside/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5307230",
+"district": "Renton School District",
+"state": "Washington",
+"students": 14873,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/rpswa/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/rpswa/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3600084",
@@ -1405,6 +2597,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "1740070",
+"district": "Valley View CUSD 365U",
+"state": "Illinois",
+"students": 14710,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/d365u/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/il/d365u/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2905310",
+"district": "BLUE SPRINGS R-IV",
+"state": "Missouri",
+"students": 14657,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/7881/november_9_2026_agenda_1.pdf",
+"platform": "site",
+"url": "https://www.bssd.net/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2201740",
 "district": "Terrebonne Parish",
 "state": "Louisiana",
@@ -1429,6 +2645,18 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "627690",
+"district": "Norwalk-La Mirada Unified",
+"state": "California",
+"students": 14577,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/nlmusd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/nlmusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1301980",
 "district": "Effingham County",
 "state": "Georgia",
@@ -1439,6 +2667,66 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "5101470",
+"district": "Frederick County Public Schools",
+"state": "Virginia",
+"students": 14447,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/va/fcpsva/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/va/fcpsva/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4703780",
+"district": "Sevier County",
+"state": "Tennessee",
+"students": 14408,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/3198/scbe_august_board_agenda_and_ancillary_items.pdf",
+"platform": "site",
+"url": "https://www.sevier.org/21482_2",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2801770",
+"district": "Harrison County School District",
+"state": "Mississippi",
+"students": 14253,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/3771/2025-26_school_board_meeting_cal2-3-25.pdf",
+"platform": "site",
+"url": "https://www.harrison.k12.ms.us/31808_2",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5100090",
+"district": "Albemarle County Public Schools",
+"state": "Virginia",
+"students": 14149,
+"code": "forbidden",
+"note": "HTTP 403 at https://esb.k12albemarle.org/Reference_Library/ESB_Policies_and_Regulations/Policies//BBA.pdf",
+"platform": "site",
+"url": "https://www.k12albemarle.org/school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4900390",
+"district": "Iron District",
+"state": "Utah",
+"students": 14125,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ut/ironcsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ut/ironcsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "641280",
@@ -1453,6 +2741,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "618060",
+"district": "Huntington Beach Union High",
+"state": "California",
+"students": 13982,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/6fe7/11/06/26/193226-33e50a5f-1d1f-4117-9b7c-b17e3d4d97b6.pdf",
+"platform": "site",
+"url": "https://www.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=313045&type=d&pREC_ID=1086565",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "600064",
+"district": "Porterville Unified",
+"state": "California",
+"students": 13893,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/7335/08/15/25/160710-194fad53-49a5-4518-a5f6-85826aa1e620.pdf",
+"platform": "site",
+"url": "https://www.portervilleschools.org/apps/pages/index.jsp?uREC_ID=447366&type=d&pREC_ID=2683674",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "4817730",
 "district": "EAGLE PASS ISD",
 "state": "Texas",
@@ -1463,6 +2775,42 @@
 "url": "http://www.eaglepassisd.net",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "608130",
+"district": "Ceres Unified",
+"state": "California",
+"students": 13692,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/ceres/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/ceres/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2616440",
+"district": "Grand Rapids Public Schools",
+"state": "Michigan",
+"students": 13692,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/mi/grand/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/mi/grand/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "1741250",
+"district": "Waukegan CUSD 60",
+"state": "Illinois",
+"students": 13640,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/wps60/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/il/wps60/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1810290",
@@ -1487,6 +2835,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "610290",
+"district": "Cupertino Union",
+"state": "California",
+"students": 13533,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/cusdk8/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/cusdk8/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "401680",
+"district": "Cartwright Elementary District (4282)",
+"state": "Arizona",
+"students": 13436,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/az/azcsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/az/azcsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2200900",
@@ -1523,6 +2895,30 @@
 "url": "http://ww.ncpschools.net",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "4702760",
+"district": "Maury County",
+"state": "Tennessee",
+"students": 13098,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/5111/updated_form_1.pdf",
+"platform": "site",
+"url": "https://www.mauryk12.org/mcpsboe",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4207710",
+"district": "Downingtown Area SD",
+"state": "Pennsylvania",
+"students": 13074,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/down/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/down/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "4702580",
@@ -1597,6 +2993,30 @@
 "last": "2026-11-07"
 },
 {
+"nces_id": "4203570",
+"district": "Bethlehem Area SD",
+"state": "Pennsylvania",
+"students": 12769,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/beth/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/beth/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "5300380",
+"district": "Battle Ground School District",
+"state": "Washington",
+"students": 12754,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/bgps/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/bgps/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1302400",
 "district": "Glynn County",
 "state": "Georgia",
@@ -1631,6 +3051,54 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-07"
+},
+{
+"nces_id": "614760",
+"district": "Fullerton Joint Union High",
+"state": "California",
+"students": 12631,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/7740/rs_no18_cboc_resolution.pdf",
+"platform": "site",
+"url": "https://www.fjuhsd.org/board-of-trustees",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4205400",
+"district": "Central Dauphin SD",
+"state": "Pennsylvania",
+"students": 12517,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/pa/cdsd/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/pa/cdsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2508430",
+"district": "New Bedford",
+"state": "Massachusetts",
+"students": 12505,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/7376/sc_regular_agenda_november_9_2026_rev.pdf",
+"platform": "site",
+"url": "https://www.newbedfordschools.org/205029_3",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "1730450",
+"district": "Township HSD 211",
+"state": "Illinois",
+"students": 12458,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/il/thsd211/Board.nsf/Public",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/il/thsd211/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "5301410",
@@ -12277,6 +13745,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "5309300",
+"district": "Vashon Island School District",
+"state": "Washington",
+"students": 1468,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/visd/Board.nsf/Public | fallback: Blocked",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/visd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "103150",
 "district": "Talladega City",
 "state": "Alabama",
@@ -12287,6 +13767,18 @@
 "url": "https://simbli.eboardsolutions.com/Index.aspx?S=2048",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "3600010",
+"district": "COBLESKILL-RICHMONDVILLE CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"students": 1462,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.crcsd.org/297859_2",
+"platform": "site",
+"url": "https://www.crcsd.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1733870",
@@ -12301,6 +13793,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2804080",
+"district": "South Pike School District",
+"state": "Mississippi",
+"students": 1461,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/4524/06/08/26/145338-4cd393c7-f1f1-4437-bf35-1d7c8b06d1ed.pdf",
+"platform": "site",
+"url": "https://www.southpike.org/apps/pages/index.jsp?uREC_ID=1763451&type=d",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2803780",
 "district": "Quitman School District",
 "state": "Mississippi",
@@ -12313,6 +13817,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2509270",
+"district": "Oxford",
+"state": "Massachusetts",
+"students": 1458,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/10103/november_18_2026_-_agenda_and_meeting_materials.pdf",
+"platform": "site",
+"url": "https://www.oxps.org/agendas-and-meeting-materials",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1914370",
 "district": "Humboldt Comm School District",
 "state": "Iowa",
@@ -12323,6 +13839,18 @@
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032304&ptid=QslshOlqRLAImFKrBKUD7c1jQ==\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "3904476",
+"district": "Sheffield-Sheffield Lake City",
+"state": "Ohio",
+"students": 1455,
+"code": "robots",
+"note": "robots.txt disallows https://www.sheffieldschools.org/fs/pages/1555",
+"platform": "site",
+"url": "https://www.sheffieldschools.org/our-departments/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1600420",
@@ -12371,6 +13899,18 @@
 "url": "https://simbli.eboardsolutions.com/mo/salemr80\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "2624420",
+"district": "Montrose Community Schools",
+"state": "Michigan",
+"students": 1447,
+"code": "robots",
+"note": "robots.txt disallows https://www.montroseschools.org/fs/resource-manager/view/f72c7763-ce66-4804-a86f-eabdd1358aec",
+"platform": "site",
+"url": "https://www.montroseschools.org/board/board/school-board-minutes",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3629400",
@@ -12433,6 +13973,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2012840",
+"district": "Wellington",
+"state": "Kansas",
+"students": 1439,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/c933/10/13/26/210547-9dffbbe3-c693-4560-89b2-126068b448ce.pdf",
+"platform": "site",
+"url": "https://www.usd353.com/apps/pages/index.jsp?uREC_ID=1746935&type=d&pREC_ID=1927567",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "900690",
 "district": "Canton School District",
 "state": "Connecticut",
@@ -12455,6 +14007,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "1914580",
+"district": "Independence Comm School District",
+"state": "Iowa",
+"students": 1434,
+"code": "forbidden",
+"note": "HTTP 403 at http://www.indeek12.org/",
+"platform": "site",
+"url": "http://www.indeek12.org/",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4835570",
+"district": "BUSHLAND ISD",
+"state": "Texas",
+"students": 1434,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/6521/may_03_2025_board_candidates_upload_to_website.pdf",
+"platform": "site",
+"url": "https://www.bushlandisd.net/135785_2",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3904461",
@@ -12481,6 +14057,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3401050",
+"district": "Audubon Public School District",
+"state": "New Jersey",
+"students": 1428,
+"code": "robots",
+"note": "robots.txt disallows https://www.audubonschools.org/fs/resource-manager/view/4dc18990-a1d4-4c83-8764-61bef694cd9d",
+"platform": "site",
+"url": "https://www.audubonschools.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2606990",
 "district": "Columbia School District",
 "state": "Michigan",
@@ -12491,6 +14079,18 @@
 "url": "https://myeagles.community.diligentoneplatform.com/Portal/\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "500078",
+"district": "HAAS HALL ACADEMY",
+"state": "Arkansas",
+"students": 1427,
+"code": "forbidden",
+"note": "HTTP 403 at http://haashall.org/",
+"platform": "site",
+"url": "http://haashall.org/",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "5511160",
@@ -12541,6 +14141,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "5004590",
+"district": "Hartford School District",
+"state": "Vermont",
+"students": 1414,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/11463/draft_minutes_nov_4_2026.pdf",
+"platform": "site",
+"url": "https://hsdvt.com/school-board",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3174160",
 "district": "NEBRASKA CITY PUBLIC SCHOOLS",
 "state": "Nebraska",
@@ -12577,6 +14189,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2632220",
+"district": "South Lake Schools",
+"state": "Michigan",
+"students": 1406,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/638a/10/18/26/234700-b5c3daac-b1a0-47b3-a7af-42bfa16cfeb3.pdf",
+"platform": "site",
+"url": "https://www.solake.org/apps/pages/index.jsp?uREC_ID=769346&type=d&pREC_ID=1171303",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "3904465",
 "district": "Port Clinton City",
 "state": "Ohio",
@@ -12611,6 +14235,30 @@
 "url": "http://www.lamarschools.org/",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "3413770",
+"district": "Ridgefield School District",
+"state": "New Jersey",
+"students": 1395,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/7fd0/07/19/24/183216-9cb91502-88f3-4f31-a6b4-3ad508b3dc54.pdf",
+"platform": "site",
+"url": "https://www.ridgefieldschools.com/apps/pages/index.jsp?uREC_ID=4388059&type=d",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "600160",
+"district": "Yosemite Unified",
+"state": "California",
+"students": 1387,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/ca/yosemiteusd/Board.nsf/Public | fallback: Blocked",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/ca/yosemiteusd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "5508850",
@@ -12685,6 +14333,30 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2100930",
+"district": "Campbellsville Independent",
+"state": "Kentucky",
+"students": 1360,
+"code": "robots",
+"note": "robots.txt disallows https://cville.kyschools.us/fs/resource-manager/view/4c1828a7-e63a-4b33-97bb-565c808d1f43",
+"platform": "site",
+"url": "https://cville.kyschools.us/board/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "4502400",
+"district": "Greenwood 52",
+"state": "South Carolina",
+"students": 1359,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.greenwood52.org/apps/events/2026/11/10/47948761/?REC_ID=47948761&id=0&d=2026-11-10",
+"platform": "site",
+"url": "https://www.greenwood52.org/apps/events/2026/11/10/47948761/?REC_ID=47948761&id=0&d=2026-11-10",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2512420",
 "district": "West Bridgewater",
 "state": "Massachusetts",
@@ -12697,6 +14369,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3622290",
+"district": "OYSTER BAY-EAST NORWICH CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"students": 1355,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.obenschools.org/261191_2",
+"platform": "site",
+"url": "https://www.obenschools.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5000434",
 "district": "Southwest Vermont Union Elementary School District #87",
 "state": "Vermont",
@@ -12707,6 +14391,18 @@
 "url": "http://www.svsu.org/education/district/district.php?sectionid=1",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4213710",
+"district": "Ligonier Valley SD",
+"state": "Pennsylvania",
+"students": 1352,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/1b25/12/04/19/132024-ca11bbbf-f0b9-4f68-bd35-94bd0f0ace08.pdf",
+"platform": "site",
+"url": "https://www.lvsd.k12.pa.us/apps/pages/index.jsp?uREC_ID=3762817&type=d",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "691134",
@@ -12745,6 +14441,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3904795",
+"district": "South Point Local",
+"state": "Ohio",
+"students": 1343,
+"code": "robots",
+"note": "robots.txt disallows https://www.southpoint.k12.oh.us/fs/resource-manager/view/cd7e73aa-9553-47a8-bf57-0e40100e5e8e",
+"platform": "site",
+"url": "https://www.southpoint.k12.oh.us/public-information/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "5503860",
 "district": "Northland Pines School District",
 "state": "Wisconsin",
@@ -12755,6 +14463,30 @@
 "url": "http://www.npsd.k12.wi.us",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4636990",
+"district": "Dakota Valley School District 61-8",
+"state": "South Dakota",
+"students": 1341,
+"code": "robots",
+"note": "robots.txt disallows https://www.dvschools.com/fs/pages/1166",
+"platform": "site",
+"url": "https://www.dvschools.com/link-2/board-of-education",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "2800820",
+"district": "Booneville School District",
+"state": "Mississippi",
+"students": 1337,
+"code": "robots",
+"note": "robots.txt disallows https://www.boonevilleschools.org/fs/pages/1694",
+"platform": "site",
+"url": "https://www.boonevilleschools.org/quick-links/board-of-education-1",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "1741980",
@@ -12805,6 +14537,30 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "1921630",
+"district": "Oelwein Comm School District",
+"state": "Iowa",
+"students": 1326,
+"code": "forbidden",
+"note": "HTTP 403 at http://www.oelweinschools.com/",
+"platform": "site",
+"url": "http://www.oelweinschools.com/",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
+"nces_id": "3700870",
+"district": "Clay County Schools",
+"state": "North Carolina",
+"students": 1322,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/15b9/09/28/21/124137-3b576838-e8db-4b49-a801-8896bf68a821.pdf",
+"platform": "site",
+"url": "https://www.clayschools.org/apps/pages/index.jsp?uREC_ID=2084475&type=d&pREC_ID=2134410",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "2803300",
 "district": "Noxubee County School District",
 "state": "Mississippi",
@@ -12815,6 +14571,18 @@
 "url": "http://www.ourncsd.org",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "1736750",
+"district": "South Holland SD 151",
+"state": "Illinois",
+"students": 1319,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.shsd151.org/boe/board-minutesagendas/",
+"platform": "site",
+"url": "https://www.shsd151.org/boe/",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "3011520",
@@ -12937,6 +14705,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "1732370",
+"district": "Posen-Robbins ESD 143-5",
+"state": "Illinois",
+"students": 1286,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/9436/10/09/26/130930-d4d00f54-65b0-478f-a85c-a45a95ab8a68.pdf",
+"platform": "site",
+"url": "https://www.prsd1435.org/apps/pages/index.jsp?uREC_ID=1757594&type=d&pREC_ID=1938982",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "805130",
 "district": "East Otero School District No. R1",
 "state": "Colorado",
@@ -12997,6 +14777,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "4502670",
+"district": "Lee 01",
+"state": "South Carolina",
+"students": 1275,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/488d/10/22/26/010812-dc02faf9-e3bc-4e30-83e4-52740c518262.pdf",
+"platform": "site",
+"url": "https://www.leeschooldistrictsc.org/apps/pages/index.jsp?uREC_ID=1054461&type=d&pREC_ID=2755147",
+"attempts": 1,
+"last": "2026-11-16"
+},
+{
 "nces_id": "1602580",
 "district": "PAYETTE JOINT DISTRICT",
 "state": "Idaho",
@@ -13007,6 +14799,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4218810",
+"district": "Penns Valley Area SD",
+"state": "Pennsylvania",
+"students": 1271,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/11359/111026_work_session_agenda_1.pdf",
+"platform": "site",
+"url": "https://www.pennsvalley.org/board-agendas",
+"attempts": 1,
+"last": "2026-11-16"
 },
 {
 "nces_id": "2930840",
