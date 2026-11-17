@@ -4,7 +4,7 @@
 "vendors": [
 "google_drive"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "4109600": {
 "vendors": [
@@ -43,21 +43,21 @@
 "boardbook",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3904514": {
 "vendors": [
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3621720": {
 "vendors": [
 "boarddocs",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "406580": {
 "vendors": [
@@ -72,7 +72,7 @@
 "simbli_eboard",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3400009": {
 "vendors": [
@@ -98,7 +98,7 @@
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "4217670": {
 "vendors": [
@@ -265,7 +265,7 @@
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3904914": {
 "vendors": [
@@ -702,7 +702,7 @@
 "vendors": [
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3600009": {
 "vendors": [
@@ -2463,7 +2463,7 @@
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "5300480": {
 "vendors": [
@@ -3124,7 +3124,7 @@
 "vendors": [
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3703780": {
 "vendors": [
@@ -3244,7 +3244,7 @@
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "2507020": {
 "vendors": [
@@ -3470,7 +3470,7 @@
 "vendors": [
 "google_drive"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "4821660": {
 "vendors": [
@@ -4749,7 +4749,7 @@
 "google_drive",
 "youtube"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "2627150": {
 "vendors": [
@@ -4807,7 +4807,7 @@
 "vendors": [
 "google_drive"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
 },
 "3614580": {
 "vendors": [
@@ -4815,20 +4815,362 @@
 "diligent",
 "google_drive"
 ],
-"seen": "2026-11-16"
+"seen": "2026-11-17"
+},
+"904290": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"4823670": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"3904632": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3200510": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3621250": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-17"
+},
+"1810640": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"3703420": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-17"
+},
+"903390": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4100015": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4223820": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"2610750": {
+"vendors": [
+"boardbook",
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3403360": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3502610": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"903330": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4216860": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"2745735": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"1803060": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"405190": {
+"vendors": [
+"boarddocs"
+],
+"seen": "2026-11-17"
+},
+"2931070": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"2604830": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"3406690": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"2618180": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"407130": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"600044": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"1802440": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"1200570": {
+"vendors": [
+"boarddocs",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4000802": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"500062": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3411010": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"1707650": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"4009910": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"1914730": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"5000425": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"3412720": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4837260": {
+"vendors": [
+"boardbook"
+],
+"seen": "2026-11-17"
+},
+"2606500": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4204860": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"2000002": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"691035": {
+"vendors": [
+"boarddocs",
+"diligent",
+"google_drive",
+"swagit",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"4103390": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"2804800": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"3306080": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"3626430": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"804380": {
+"vendors": [
+"boarddocs",
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"1721630": {
+"vendors": [
+"boardbook",
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"4842300": {
+"vendors": [
+"boardbook"
+],
+"seen": "2026-11-17"
+},
+"4821450": {
+"vendors": [
+"boardbook"
+],
+"seen": "2026-11-17"
+},
+"5400270": {
+"vendors": [
+"boarddocs",
+"diligent"
+],
+"seen": "2026-11-17"
+},
+"5308190": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"5500330": {
+"vendors": [
+"boarddocs",
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-17"
+},
+"2505220": {
+"vendors": [
+"google_drive"
+],
+"seen": "2026-11-17"
+},
+"1720380": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-17"
 }
 },
 "summary": {
-"generated": "2026-11-16T05:26:35+00:00",
-"districts_surveyed": 708,
+"generated": "2026-11-17T05:17:44+00:00",
+"districts_surveyed": 760,
 "icp_districts_by_vendor": {
-"youtube": 515,
-"google_drive": 435,
-"boarddocs": 126,
+"youtube": 540,
+"google_drive": 470,
+"boarddocs": 140,
+"diligent": 59,
 "simbli_eboard": 58,
-"diligent": 57,
-"boardbook": 41,
-"swagit": 19,
+"boardbook": 46,
+"swagit": 20,
 "granicus": 11,
 "meetingdocs_other": 7,
 "civicplus_agendacenter": 3,

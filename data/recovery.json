@@ -1,13 +1,13 @@
 {
-"generated": "2026-11-16T05:26:54+00:00",
-"count": 1503,
+"generated": "2026-11-17T05:17:56+00:00",
+"count": 1514,
 "by_code": {
-"forbidden": 118,
+"forbidden": 120,
 "no_portal_found": 860,
 "no_reader_civicclerk": 2,
 "no_reader_diligent": 52,
 "site_blocked": 225,
-"robots": 98,
+"robots": 107,
 "timeout": 1,
 "error": 1,
 "rate_limited": 1,
@@ -14813,6 +14813,18 @@
 "last": "2026-11-16"
 },
 {
+"nces_id": "904290",
+"district": "Stafford School District",
+"state": "Connecticut",
+"students": 1266,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/9495/boe_regular_meeting_-_11326_1.pdf",
+"platform": "site",
+"url": "https://www.stafford.k12.ct.us/60857_1",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "2930840",
 "district": "MORGAN CO. R-II",
 "state": "Missouri",
@@ -14885,6 +14897,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "1715780",
+"district": "Franklin Park SD 84",
+"state": "Illinois",
+"students": 1254,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/e9ba/11/12/26/143406-e7d9df63-91a2-447f-82a3-90e1ef1cfde2.pdf",
+"platform": "site",
+"url": "https://www.d84.org/apps/pages/index.jsp?uREC_ID=1558720&type=d",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "3904502",
 "district": "Wellston City",
 "state": "Ohio",
@@ -14919,6 +14943,18 @@
 "url": "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031869&revid=Rsn5b8qXcpyzslshDFSnjslshsaw==&ptid=ruE8yj8gaZHBkLjNHWmKZw==&secid=hcFYsWnwRZqDTuFslshMltuRw==&PG=6&IRP=0&isPndg=false\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4027640",
+"district": "SILO",
+"state": "Oklahoma",
+"students": 1249,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/10851/agenda_july_reg_2010.pdf",
+"platform": "site",
+"url": "https://www.siloisd.org/57845_4",
+"attempts": 1,
+"last": "2026-11-17"
 },
 {
 "nces_id": "1201170",
@@ -15017,6 +15053,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "600044",
+"district": "Healdsburg Unified",
+"state": "California",
+"students": 1236,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/aa15/07/31/26/155330-30949ad3-7f4a-4883-908a-a71341228dc6.pdf",
+"platform": "site",
+"url": "https://www.husd.com/apps/pages/index.jsp?uREC_ID=3779919&type=d&pREC_ID=2447102",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "1925980",
 "district": "Sheldon Comm School District",
 "state": "Iowa",
@@ -15027,6 +15075,18 @@
 "url": "https://simbli.eboardsolutions.com/index.aspx?s=150010\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4827750",
+"district": "LITTLEFIELD ISD",
+"state": "Texas",
+"students": 1233,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/8902/november_9_2026_minutes_copy_11.pdf",
+"platform": "site",
+"url": "https://www.lfdisd.org/school-board",
+"attempts": 1,
+"last": "2026-11-17"
 },
 {
 "nces_id": "2800990",
@@ -15077,6 +15137,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "1926070",
+"district": "Shenandoah Comm School District",
+"state": "Iowa",
+"students": 1227,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/13275/board_agenda_101226.pdf",
+"platform": "site",
+"url": "https://www.shencsd.com/school-board",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "3626940",
 "district": "SKANEATELES CENTRAL SCHOOL DISTRICT",
 "state": "New York",
@@ -15101,6 +15173,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3819020",
+"district": "WAHPETON 37",
+"state": "North Dakota",
+"students": 1224,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/6b36/09/26/25/185823-966ae3d7-513e-4cc4-afea-1a4e9d69fb01.pdf",
+"platform": "site",
+"url": "https://www.wahpetonschools.org/apps/pages/index.jsp?uREC_ID=1840743&type=d&pREC_ID=1994773",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "3013310",
 "district": "Hardin Elem",
 "state": "Montana",
@@ -15113,6 +15197,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "2614230",
+"district": "Fennville Public Schools",
+"state": "Michigan",
+"students": 1219,
+"code": "robots",
+"note": "robots.txt disallows https://www.fennville.org/fs/resource-manager/view/c44c4e94-d503-4d37-a10b-0d4201576796",
+"platform": "site",
+"url": "https://www.fennville.org/district/board-of-education",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "2802250",
 "district": "Jeff Davis County School District",
 "state": "Mississippi",
@@ -15123,6 +15219,18 @@
 "url": "https://simbli.eboardsolutions.com/Index.aspx?S=36031727\\",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "4103390",
+"district": "Coquille SD 8",
+"state": "Oregon",
+"students": 1216,
+"code": "robots",
+"note": "robots.txt disallows https://www.coquille.k12.or.us/fs/resource-manager/view/a8bf0ef9-f60b-4eaa-be6b-6435c6b7a707",
+"platform": "site",
+"url": "https://www.coquille.k12.or.us/our-district/school-board",
+"attempts": 1,
+"last": "2026-11-17"
 },
 {
 "nces_id": "622890",
@@ -15149,6 +15257,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "5308190",
+"district": "South Whidbey School District",
+"state": "Washington",
+"students": 1207,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/wa/swsd/Board.nsf/Public | fallback: Blocked",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/wa/swsd/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-17"
+},
+{
 "nces_id": "1303690",
 "district": "Mitchell County",
 "state": "Georgia",
@@ -15171,6 +15291,18 @@
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032027",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "691023",
+"district": "Nevada County Office of Education",
+"state": "California",
+"students": 1200,
+"code": "forbidden",
+"note": "HTTP 403 at http://www.nevco.org/",
+"platform": "site",
+"url": "http://www.nevco.org/",
+"attempts": 1,
+"last": "2026-11-17"
 },
 {
 "nces_id": "1600480",
