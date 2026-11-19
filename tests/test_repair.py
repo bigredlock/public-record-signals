@@ -132,3 +132,32 @@ def test_read_with_pmn_succeeds_when_only_the_portal_works(monkeypatch):
     d, m, code, note = run._read_one({"id": "1", "n": "K", "s": "Utah", "pmn": 739}, {"platform": "none", "agenda_url": ""},
                                      dt.date.today())
     assert code == "forbidden"
+
+
+def test_bot_challenge_page_is_a_refusal_not_an_empty_read():
+    wall = b'<html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><script src="/_Incapsula_Resource?x=1"></script></head></html>'
+    assert http._bot_wall(wall)
+    assert not http._bot_wall(b"<html><body>Board agenda: classroom door locks</body></html>")
+    assert http.diagnose(http.Blocked("x", "bot_wall")) == "bot_wall"
+
+
+def test_portal_only_district_reads_its_own_board_page(monkeypatch):
+    seen = []
+    monkeypatch.setattr(boards, "generic", lambda d, url, since, today: seen.append(url) or [{"id": "m"}])
+    d, m, code, note = run._read_one({"id": "1", "n": "A", "s": "Georgia"},
+                                     {"platform": "eboard", "agenda_url": "https://simbli.x", "fallback": "https://district/board"},
+                                     dt.date.today())
+    assert code is None and seen == ["https://district/board"] and "district site" in note
+    d, m, code, note = run._read_one({"id": "1", "n": "A", "s": "Georgia"}, {"platform": "eboard", "agenda_url": "x"}, dt.date.today())
+    assert code == "no_reader"
+
+
+def test_simbli_wall_falls_back_to_district_site(monkeypatch):
+    def wall(*a):
+        raise http.Blocked("bot protection page", "bot_wall")
+    monkeypatch.setitem(boards.READERS, "simbli", wall)
+    monkeypatch.setattr(boards, "generic", lambda d, url, since, today: [{"id": "ok"}])
+    d, m, code, note = run._read_one({"id": "1", "n": "G", "s": "Georgia"},
+                                     {"platform": "simbli", "agenda_url": "https://simbli.x", "fallback": "https://gcps/board"},
+                                     dt.date.today())
+    assert code is None and m == [{"id": "ok"}] and "bot_wall" in note

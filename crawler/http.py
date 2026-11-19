@@ -31,7 +31,8 @@ def past_deadline() -> bool:
 class Blocked(Exception):
     """The site refuses automated reading (robots.txt or a 401/403/429). Record it as a gap; never work around it.
 
-    code is one of: forbidden (401/403), rate_limited (429), robots (robots.txt disallows)."""
+    code is one of: forbidden (401/403), rate_limited (429), robots (robots.txt disallows), bot_wall (a bot-protection
+    challenge page served with HTTP 200)."""
 
     def __init__(self, msg: str, code: str = "forbidden"):
         super().__init__(msg)
@@ -133,7 +134,23 @@ def get(url: str, *, allow_pdf: bool = True, **kw) -> requests.Response:
             break
     r._content = buf.getvalue()
     _bump("fetched")
+    if _bot_wall(r._content):
+        raise Blocked(f"bot protection page at {url}", "bot_wall")
     return r
+
+
+# Nov 19, 2026: Simbli (eBoard Solutions) answers automated requests with a ~1 KB Imperva/Incapsula challenge page
+# and HTTP 200, so 272 Simbli districts were counted as read while yielding nothing. A challenge page is a refusal:
+# record it as a gap (code bot_wall) and never try to get past it.
+_WALL = (b"_incapsula_resource", b"incapsula incident", b"cf-chl-", b"challenge-platform", b"attention required! | cloudflare",
+         b"request unsuccessful. incapsula")
+
+
+def _bot_wall(content: bytes) -> bool:
+    if len(content) > 20000:
+        return False
+    low = content[:20000].lower()
+    return any(w in low for w in _WALL)
 
 
 def post(url: str, data=None, **kw) -> requests.Response:

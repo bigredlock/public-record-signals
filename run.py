@@ -28,7 +28,7 @@ import json
 import sys
 import time
 import traceback
-from collections import Counter
+from collections import Counter, defaultdict
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from concurrent.futures import TimeoutError as FutTimeout
@@ -170,18 +170,29 @@ def _read_one(d, p, since):
         return _read_with_pmn(d, p, since)
     reader = boards.READERS.get(p["platform"])
     if not reader:
+        fb = p.get("fallback") or ""
+        if p["platform"] in PORTAL_ONLY and fb:
+            # Nov 19: districts on a portal we cannot read (Diligent, eBoard, CivicClerk, Granicus) still have their
+            # own board page; read that instead of nothing.
+            try:
+                return d, boards.generic(d, fb, since, TODAY), None, f"no {p['platform']} reader; read district site instead"
+            except Exception as e:
+                return d, [], http.diagnose(e), f"district site: {str(e)[:150]}"
         return d, [], "no_reader", p["platform"]
     try:
         return d, reader(d, p["agenda_url"], since, TODAY), None, ""
     except Exception as e:
         code = http.diagnose(e)
         fb = p.get("fallback") or ""
-        if code in ("forbidden", "robots", "rate_limited", "js_required") and fb and fb != p["agenda_url"]:
+        if code in ("forbidden", "robots", "rate_limited", "js_required", "bot_wall") and fb and fb != p["agenda_url"]:
             try:
                 return d, boards.generic(d, fb, since, TODAY), None, f"portal {code}; read district site instead"
             except Exception as e2:
                 return d, [], code, f"{e} | fallback: {type(e2).__name__}"
         return d, [], code, str(e)[:200]
+
+
+PORTAL_ONLY = {"diligent", "eboard", "civicclerk", "granicus"}
 
 
 def _read_with_pmn(d, p, since):
@@ -246,7 +257,8 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
 
     def due(d):
         p = plat.get(d["id"])
-        if not d.get("pmn") and (not p or p["platform"] not in boards.READERS):
+        readable = p and (p["platform"] in boards.READERS or (p["platform"] in PORTAL_ONLY and p.get("fallback")))
+        if not d.get("pmn") and not readable:
             return False
         f = failures.get(d["id"])
         if f and f.get("retry_after", "") > TODAY:
@@ -274,6 +286,7 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
         run.save()
 
     boards.PMN_SEEN.update(state.get("pmn_seen", []))
+    health = defaultdict(lambda: [0, 0])  # platform -> [successful reads, matches]
     real0 = time.monotonic()
     ex = ThreadPoolExecutor(config.WORKERS)
     # A district never read successfully before is backfilled a full year (config.FIRST_READ_LOOKBACK_DAYS).
@@ -307,6 +320,11 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
                 c["fetched"] += 1
                 if note:
                     c["fallback_reads"] += 1
+            if not code:
+                plat_name = "pmn+" + plat.get(d["id"], {}).get("platform", "none") if d.get("pmn") else \
+                    ("fallback" if note else plat.get(d["id"], {}).get("platform", "none"))
+                health[plat_name][0] += 1
+                health[plat_name][1] += len(matches)
             if record(led, c, matches):
                 yld[d["id"]] = TODAY
             if len(finished) % config.CHECKPOINT_EVERY == 0:
@@ -325,6 +343,12 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
     c["not_queued"] = max(0, len(pool) - len(todo))
     state["last_run"] = RUN_ID
     save_json(DATA / "state.json", state)
+    # Yield health (Nov 19): a reader that "succeeds" on many districts but finds nothing is probably being refused
+    # silently (Simbli served bot-challenge pages for weeks). Flag it in the run record so the morning run sees it.
+    run.rec["yield"] = {k: {"reads": v[0], "matches": v[1]} for k, v in sorted(health.items())}
+    for k, (n, m) in health.items():
+        if n >= 20 and m == 0:
+            run.rec["notes"].append(f"yield check: {k} read {n} districts and found 0 matches; reader may be refused")
     run.source("agendas", not stopped and c["failed"] < max(50, len(todo) // 2), "budget reached" if stopped else "")
     run.rec["minutes"] = round((clock() - t0) / 60, 1)
     diag = {"generated": NOW(), "by_code": Counter(v["code"] for v in failures.values()),

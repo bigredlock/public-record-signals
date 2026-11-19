@@ -71,7 +71,7 @@ CHECKPOINT_EVERY = 100      # save ledger + state after this many districts
 OCR_MAX_PAGES_PER_DOC = 5   # image-only PDF pages to OCR per document
 OCR_MAX_DOCS_PER_RUN = 25
 RETRY_AFTER_DAYS = {"forbidden": 14, "robots": 30, "rate_limited": 2, "timeout": 1, "server_error": 1,
-                    "js_required": 14, "not_found": 7, "obsolete_portal": 30, "error": 2}
+                    "js_required": 14, "bot_wall": 14, "not_found": 7, "obsolete_portal": 30, "error": 2}
 
 
 # Platform survey (Nov 10, 2026): agenda vendors linked from district board pages read by the generic "site"
