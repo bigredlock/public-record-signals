@@ -463,24 +463,80 @@
 "image_only_pages": 680,
 "docs_skipped_time": 136
 }
+},
+{
+"run_id": "20261119T030022Z",
+"started": "2026-11-19T03:00:22+00:00",
+"finished": "2026-11-19T04:39:40+00:00",
+"status": "complete",
+"counts": {
+"classified": 0,
+"discovered": 59,
+"queued": 59,
+"fetched": 57,
+"parsed_matches": 412,
+"duplicated": 389,
+"new_records": 26,
+"disp_low": 14,
+"fallback_reads": 12,
+"failed": 2,
+"failed_rate_limited": 1,
+"failed_forbidden": 1,
+"disp_review": 8,
+"qualified": 9,
+"disp_duplicate": 3,
+"disp_changed": 1,
+"deferred": 0,
+"not_queued": 0,
+"money_matches": 157
+},
+"sources": {
+"classify": {
+"ok": true,
+"note": ""
+},
+"agendas": {
+"ok": true,
+"note": ""
+},
+"usaspending": {
+"ok": true,
+"note": ""
+},
+"grants_gov": {
+"ok": true,
+"note": ""
+}
+},
+"notes": [],
+"minutes": 99.0,
+"http": {
+"fetched": 332,
+"pdfs": 63,
+"pdf_pages": 636,
+"ocr_pages": 35,
+"ocr_docs": 9,
+"image_only_pages": 115,
+"docs_skipped_time": 40
+}
 }
 ],
 "sources": {
 "classify": {
-"last_attempted": "2026-11-18T02:59:56+00:00",
-"last_success": "2026-11-18T02:59:56+00:00"
+"last_attempted": "2026-11-19T03:00:22+00:00",
+"last_success": "2026-11-19T03:00:22+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-18T05:19:59+00:00",
-"last_success": ""
+"last_attempted": "2026-11-19T04:39:21+00:00",
+"last_success": "2026-11-19T04:39:21+00:00"
 },
 "usaspending": {
-"last_attempted": "2026-11-18T05:20:13+00:00",
-"last_success": "2026-11-18T05:20:13+00:00"
+"last_attempted": "2026-11-19T04:39:25+00:00",
+"last_success": "2026-11-19T04:39:25+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-18T05:20:20+00:00",
-"last_success": "2026-11-18T05:20:20+00:00"
+"last_attempted": "2026-11-19T04:39:40+00:00",
+"last_success": "2026-11-19T04:39:40+00:00"
 }
 }
 }

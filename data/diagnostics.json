@@ -1,7 +1,7 @@
 {
-"generated": "2026-11-18T05:19:59+00:00",
+"generated": "2026-11-19T04:39:21+00:00",
 "by_code": {
-"forbidden": 167,
+"forbidden": 168,
 "robots": 170,
 "error": 1,
 "rate_limited": 1,
@@ -687,10 +687,10 @@
 {
 "nces_id": "3700012",
 "code": "rate_limited",
-"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017.11.20%20BWS%20Agenda.pdf",
-"attempts": 1,
-"last": "2026-11-16",
-"retry_after": "2026-11-18",
+"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017-11-6.pdf",
+"attempts": 2,
+"last": "2026-11-19",
+"retry_after": "2026-11-21",
 "district": "Pitt County Schools",
 "state": "North Carolina",
 "students": 24470,
@@ -2685,6 +2685,19 @@
 "students": 1786,
 "platform": "site",
 "url": "https://www.mtairy.k12.nc.us/apps/pages/index.jsp?uREC_ID=334417&type=d&pREC_ID=742162"
+},
+{
+"nces_id": "2619100",
+"code": "forbidden",
+"note": "HTTP 403 at https://www.icschools.us/board_of_education2/board_of_education",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "Imlay City Community Schools",
+"state": "Michigan",
+"students": 1782,
+"platform": "site",
+"url": "https://www.icschools.us/board_of_education2/board_of_education"
 },
 {
 "nces_id": "4218450",

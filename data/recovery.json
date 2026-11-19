@@ -1,8 +1,8 @@
 {
-"generated": "2026-11-18T05:20:30+00:00",
-"count": 1624,
+"generated": "2026-11-19T04:39:41+00:00",
+"count": 1625,
 "by_code": {
-"forbidden": 167,
+"forbidden": 168,
 "no_portal_found": 860,
 "no_reader_civicclerk": 2,
 "no_reader_diligent": 52,
@@ -1449,11 +1449,11 @@
 "state": "North Carolina",
 "students": 24470,
 "code": "rate_limited",
-"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017.11.20%20BWS%20Agenda.pdf",
+"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017-11-6.pdf",
 "platform": "site",
 "url": "https://www.pitt.k12.nc.us/board/board-of-education",
-"attempts": 1,
-"last": "2026-11-16"
+"attempts": 2,
+"last": "2026-11-19"
 },
 {
 "nces_id": "2928860",
@@ -11822,6 +11822,18 @@
 "url": "http://usd368.org",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "2619100",
+"district": "Imlay City Community Schools",
+"state": "Michigan",
+"students": 1782,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.icschools.us/board_of_education2/board_of_education",
+"platform": "site",
+"url": "https://www.icschools.us/board_of_education2/board_of_education",
+"attempts": 1,
+"last": "2026-11-19"
 },
 {
 "nces_id": "3700300",

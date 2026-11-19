@@ -1,5 +1,5 @@
 {
-"generated": "2026-11-18T05:20:22+00:00",
+"generated": "2026-11-19T04:39:40+00:00",
 "note": "compatibility copy; use data/ledger/ (stable seq) instead",
 "matches": [
 {
@@ -2116,6 +2116,32 @@
 "seq": 898,
 "group_key": "968498bb6e2d6d72",
 "text_hash": "",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "623c3e9bb87a22f6",
+"district": "FORT STOCKTON ISD",
+"state": "Texas",
+"nces_id": "4820190",
+"students": 13480,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1727290743/fsisdnet/rnr7zlplcm9wo7nlspja/Agenda05-29-24-regular.pdf",
+"page": 3,
+"title": "May, 29, 2024 - Regular",
+"date": "",
+"matched": [
+"door lock",
+"locks"
+],
+"strong": true,
+"snippet": "School Plumbing & faucet repairs. Worked on 2 sewer lines for several days. Repaired irrigation leaks throughout campus. Repaired door lock in ‘oom 52. Replaced door knobs in rooms 31, 31A, 18 and V1. Middle School Plumbing & faucet repairs. Installed whiteboard in room 105. Repaired door lock in room 144. Repaired water fountain next to cafeteria. Intermediate Plumbing & faucet repairs. Repaired irrigation leaks throughout campus. Plumbing & faucet repairs. Repaired irrigation leaks throughout campus. Installed new locks on cabinets in the conference room. Repaired water fountain in room B-7. ‘Plumbing & faucet repairs. Repaired irrigation leaks th",
+"found": "2026-11-19",
+"page_hash": "6d184f5bc878",
+"seq": 5689,
+"group_key": "20f6bfe7d7290db5",
+"text_hash": "6d184f5bc878",
 "disposition": "review",
 "reason": "specific term"
 },
@@ -5289,6 +5315,34 @@
 "seq": 4510,
 "group_key": "45eea4188862e5d6",
 "text_hash": "45f0d377d55f",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "79c85b2fbbe32f7d",
+"district": "VERNON ISD",
+"state": "Texas",
+"nces_id": "4844110",
+"students": 1729,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Agenda/1442?meeting=774782",
+"page": null,
+"title": "Agenda",
+"date": "2026-11-16",
+"matched": [
+"intruder",
+"safety",
+"security",
+"sro"
+],
+"strong": true,
+"snippet": "inst a public officer or employee. 10.A. Personnel 10.A.1. Discuss the deployment of specific occasions for, or implementation of security personnel or devices, or security audit 551.076 Safety and Security Intruder Detection Audit Findings TxSSC Intrusion Detection Assessment Vernon ISD Emergency Operation Plan Vernon ISD Threat Annex Vernon ISD Weekly Door Sweeps Vernon ISD SRO Program 10.A.1.a. Review the District Vulnerability Assessment Full Report. 10.A.2. Pursuant to Texas Government Code Section 551",
+"found": "2026-11-19",
+"page_hash": "2b165bd0158b",
+"seq": 5673,
+"group_key": "bf612204b1e0dc59",
+"text_hash": "2b165bd0158b",
 "disposition": "review",
 "reason": "specific term"
 },
@@ -15475,6 +15529,31 @@
 "reason": "specific term"
 },
 {
+"id": "e6ceed0344e7fb74",
+"district": "Salina",
+"state": "Kansas",
+"nces_id": "2011370",
+"students": 6737,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793988311/usd305com/xorlzwo0tqsqgsg3yie6/November102026.pdf",
+"page": 15,
+"title": "Personnel Report and Consent Agenda",
+"date": "",
+"matched": [
+"lock"
+],
+"strong": false,
+"snippet": "0 3026 785 00000 VOLLEYBALL-CHS-ACTIVITY $2,798.62 0.00 899.79 $1,898.83 BALANCE 87 Q 9800 000 3026 786 00000 WRESTLING (THE HEAD LOCK $6,725.19 0.00 1,000.00 $5,725.19 CLUB)-CHS-ACTIVITY BALANC. 87 Q 9800 000 3026 811 00000 ALUMNI POST FUND-CHS- $7,156.94 0.00 0.",
+"found": "2026-11-19",
+"page_hash": "394b973f47cb",
+"seq": 5692,
+"group_key": "c077369cb68deadd",
+"text_hash": "394b973f47cb",
+"disposition": "review",
+"reason": "specific term"
+},
+{
 "id": "a389ee0f523471b7",
 "district": "Ocean View",
 "state": "California",
@@ -16013,6 +16092,56 @@
 "seq": 2023,
 "group_key": "a32793ae7880089a",
 "text_hash": "",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "0c8c60ec28c57ec5",
+"district": "HEMPSTEAD UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3614130",
+"students": 5677,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1795032854/hempsteadschoolsorg/caweoctsy9tntwgamh9t/RegularMeetingAgenda-WednesdayNovember182026.pdf",
+"page": 6,
+"title": " 11-18-2026 Regular Meeting Agenda Docket",
+"date": "",
+"matched": [
+"locks"
+],
+"strong": false,
+"snippet": "d Ph. II) at Jackson Main School (SED No. 28-02-01-03-0-004- 021) in order to install, in lieu of the originally designed analog clocks & speakers, a new combination speaker/LED digital display in the amount of $55,877.00, and authorizes the Board President to exec",
+"found": "2026-11-19",
+"page_hash": "7f2a3f8701b3",
+"seq": 5680,
+"group_key": "9c61679731e2e50a",
+"text_hash": "7f2a3f8701b3",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "9282dac906b824ab",
+"district": "HEMPSTEAD UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3614130",
+"students": 5677,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1795032854/hempsteadschoolsorg/caweoctsy9tntwgamh9t/RegularMeetingAgenda-WednesdayNovember182026.pdf",
+"page": 16,
+"title": " 11-18-2026 Regular Meeting Agenda Docket",
+"date": "",
+"matched": [
+"lock"
+],
+"strong": false,
+"snippet": "ed Reyes Eff. 11/16/26 - 3/27/27 JV Wrestling Head Coach $6,150 Elleni Katehis Eff. 11/16/26 - 3/27/27 Boys Wrestling Programmer/Clock Operator $2,050 Kyle Jones Eff. 11/19/26 - 3/21/27 JV Boys Basketball Hed Coach $6,150 Subject 13. SECONDARY INSTRUCTIONAL COACH",
+"found": "2026-11-19",
+"page_hash": "c116f0fec746",
+"seq": 5681,
+"group_key": "0d2a477c5896bcb9",
+"text_hash": "c116f0fec746",
 "disposition": "review",
 "reason": "specific term"
 },
@@ -22703,6 +22832,81 @@
 "reason": "specific term"
 },
 {
+"id": "697da7b247a22e01",
+"district": "Coffeyville",
+"state": "Kansas",
+"nces_id": "2004980",
+"students": 1764,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1794321028/cvilleschoolscom/hk03yvezpaetncpxdiwj/20261109-USD445Minutes.pdf",
+"page": 3,
+"title": "2026-11-09",
+"date": "2026-11-09",
+"matched": [
+"locks"
+],
+"strong": false,
+"snippet": "a complete day where high school may be thinking in a class period. v. 37% of the staff thought students are able to circumvent blocks and filters to find games and not be focused on the curriculum. Outages and broken devices are a continual expense and evident th",
+"found": "2026-11-19",
+"page_hash": "531982745156",
+"seq": 5683,
+"group_key": "7ed354cbb539a522",
+"text_hash": "531982745156",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "1794c0ca314013fa",
+"district": "Coffeyville",
+"state": "Kansas",
+"nces_id": "2004980",
+"students": 1764,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1794321028/cvilleschoolscom/hk03yvezpaetncpxdiwj/20261109-USD445Minutes.pdf",
+"page": 9,
+"title": "2026-11-09",
+"date": "2026-11-09",
+"matched": [
+"locks"
+],
+"strong": false,
+"snippet": "times a month. What staff described Games Most frequent complaint, especially in free time and SCOPE Filters Students get around blocks; Lightspeed is hard to manage Reliability Outages and broken devices interrupt instruction Questions 8 and 18 · themes from 49 op",
+"found": "2026-11-19",
+"page_hash": "83faba5d43c0",
+"seq": 5685,
+"group_key": "55835acf933b55a9",
+"text_hash": "83faba5d43c0",
+"disposition": "review",
+"reason": "specific term"
+},
+{
+"id": "4659e530d8de96da",
+"district": "Coffeyville",
+"state": "Kansas",
+"nces_id": "2004980",
+"students": 1764,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1794321028/cvilleschoolscom/hk03yvezpaetncpxdiwj/20261109-USD445Minutes.pdf",
+"page": 12,
+"title": "2026-11-09",
+"date": "2026-11-09",
+"matched": [
+"locks"
+],
+"strong": false,
+"snippet": "ing K–5 and Into Literature 6–8. 2 95 Percent Group foundational instruction K–3 and intervention K–8. 3 Clarifying CES literacy blocks for intervention time, and instructional expectations. 4 Secondary professional learning with Greenbush: vocabulary, background k",
+"found": "2026-11-19",
+"page_hash": "df80370ad360",
+"seq": 5686,
+"group_key": "c6402bd226118c00",
+"text_hash": "df80370ad360",
+"disposition": "review",
+"reason": "specific term"
+},
+{
 "id": "a1e562363c4b7dea",
 "district": "Somerset Independent",
 "state": "Kentucky",
@@ -22982,6 +23186,31 @@
 "text_hash": "769ecb2e3383",
 "disposition": "review",
 "reason": "specific term"
+},
+{
+"id": "3bbf11bb3c796a6f",
+"district": "New Jerusalem Elementary",
+"state": "California",
+"nces_id": "627030",
+"students": 1680,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1739911938/njesdnet/usyhnqmeyqpzd80zwtlf/boardminutesJanuary142025.pdf",
+"page": 2,
+"title": "📝 Jan 14 - Minutes",
+"date": "",
+"matched": [
+"lock"
+],
+"strong": false,
+"snippet": "ouse; livestock structure for more pens; planter boxes; pruning orchard fruit trees; planting rose bushes for floral design; new flock of chickens; new cooler. Positive Things from ASB: Booster Club; Overall increased spirit; increase in fundraising; payment plans",
+"found": "2026-11-19",
+"page_hash": "d0ac8b6399b8",
+"seq": 5679,
+"group_key": "a1d6d8b5e9527a1c",
+"text_hash": "d0ac8b6399b8",
+"disposition": "changed",
+"reason": "page text changed since seq 4575"
 },
 {
 "id": "428c8fc9d002885e",
@@ -32101,6 +32330,31 @@
 "reason": "generic words only (safety)"
 },
 {
+"id": "7483aa49772224c1",
+"district": "HERNANDO",
+"state": "Florida",
+"nces_id": "1200810",
+"students": 23734,
+"source_type": "agenda",
+"platform": "legistar",
+"url": "https://hernandoschools.legistar.com/MeetingDetail.aspx?LEGID=1336&GID=855&G=DA7461C4-FBF1-49A7-96D6-0DA13F663654",
+"page": null,
+"title": "School Board Regular Meeting",
+"date": "2026-10-20",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "h Services Plan Between the Hernando County School District and the Hernando County Health Department for 2026-2028.  Approve the Security Administrator Designation Form for the JP Morgan Commercial Card Program.  Approve the Overnight Field Trip for F.W. Springstead",
+"found": "2026-11-19",
+"page_hash": "e11ba6d881aa",
+"seq": 5670,
+"group_key": "95ee24c926eb65e7",
+"text_hash": "e11ba6d881aa",
+"disposition": "low",
+"reason": "page text changed since seq 4339"
+},
+{
 "id": "570c8a44688602c0",
 "district": "Springfield",
 "state": "Massachusetts",
@@ -39096,6 +39350,31 @@
 "reason": "generic words only (safety)"
 },
 {
+"id": "bd3180c22f8b47b2",
+"district": "Perth Amboy Public School District",
+"state": "New Jersey",
+"nces_id": "3412930",
+"students": 10220,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1792437224/papsnet/gfqyebwwj2flsda5fnp0/7926Minutes.pdf",
+"page": 2,
+"title": "7.9.26",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "by the attorney-client privilege Pending or anticipated litigation Pending or anticipated contract negotiations Protection of the safety or property of the public Matters involving the purchase, lease, or acquisition of real property with public funds Matters which",
+"found": "2026-11-19",
+"page_hash": "d2334dc1a174",
+"seq": 5690,
+"group_key": "e3c0104c6169558b",
+"text_hash": "d2334dc1a174",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
 "id": "39f9dbaf00913f12",
 "district": "Lake Stevens School District",
 "state": "Washington",
@@ -45144,6 +45423,31 @@
 "reason": "generic words only (secure)"
 },
 {
+"id": "b7af3c88891feb98",
+"district": "Great Falls Elem",
+"state": "Montana",
+"nces_id": "3013040",
+"students": 6890,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793912724/gfpsk12mtus/lpflvrjzhm4hnhxg3ffx/11-5-2026_GFPS_OnlineAgenda11926.pdf",
+"page": 22,
+"title": "agenda",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "[OCR] I care very deeply about the safety of my students. Therefore, I will be going with two to three chaperones. A meeting will be held in the next few weeks to discuss",
+"found": "2026-11-19",
+"page_hash": "d8f900785f27",
+"seq": 5688,
+"group_key": "300fa36dac905f50",
+"text_hash": "d8f900785f27",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
 "id": "ad549cad19e05d3e",
 "district": "Crystal Lake CCSD 47",
 "state": "Illinois",
@@ -45876,6 +46180,107 @@
 "text_hash": "",
 "disposition": "low",
 "reason": "generic words only (safety)"
+},
+{
+"id": "295e5c027916ac07",
+"district": "Salina",
+"state": "Kansas",
+"nces_id": "2011370",
+"students": 6737,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793988311/usd305com/xorlzwo0tqsqgsg3yie6/November102026.pdf",
+"page": 14,
+"title": "Personnel Report and Consent Agenda",
+"date": "",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "Cash Balance Total 44,802,845.63 Cash Balance per Treasurer's Report 44,802,845.63 Reconciliations September 30, 2026 Depository Security - Adequacy of Coverage September 30, 2026 Sunflower Non-interest Bearing Accounts UMB Bank Bank Equity Bank Bank of the Plains Di",
+"found": "2026-11-19",
+"page_hash": "f3375c16ff4b",
+"seq": 5691,
+"group_key": "2b0a813d513b537f",
+"text_hash": "f3375c16ff4b",
+"disposition": "low",
+"reason": "generic words only (security)"
+},
+{
+"id": "0149af1cc593cefb",
+"district": "Salina",
+"state": "Kansas",
+"nces_id": "2011370",
+"students": 6737,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793988311/usd305com/xorlzwo0tqsqgsg3yie6/November102026.pdf",
+"page": 35,
+"title": "Personnel Report and Consent Agenda",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "Overlay; 127,004 Sq. Ft. @ $2.27 $288,299.08 Asphaltic Concrete Paving and Overlay; Mobilization Flat Fee $2,283.00 Striping and Safety; Mobilization Flat Fee $525.00 Striping and Safety, 5,694 Linear Ft. @ $0.39 $2,220.66 Striping and Safety Arrows; 12 @ $58.80 $705.60 Striping and Safety Handicap Stencils; 6 @ $77.18 $463.08 Striping and Safety Curb; 1,905 Linear Ft. @ $1.31 $2,495.55 Traffic Control; 3 Days @ $1,910 $5,730.00 Contingency $80,000 Total $405,111.30",
+"found": "2026-11-19",
+"page_hash": "a58b6939f5e4",
+"seq": 5693,
+"group_key": "5ced5cce9d0e15f4",
+"text_hash": "a58b6939f5e4",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
+"id": "d091f8c28fe3a89d",
+"district": "Salina",
+"state": "Kansas",
+"nces_id": "2011370",
+"students": 6737,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793988311/usd305com/xorlzwo0tqsqgsg3yie6/November102026.pdf",
+"page": 37,
+"title": "Personnel Report and Consent Agenda",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "nd Overlay; 26,250 Sq. Ft. @ $2.37 $62,212.50 Asphaltic Concrete Paving and Overlay; Mobilization Flat Fee $2,283.00 Striping and Safety; Mobilization Flat Fee $525.00 Striping and Safety, 450 Linear Ft. @ $0.74 $333.00 Striping and Safety Arrows; 10 @ $58.80 $588.00 Striping and Safety Handicap Stencils; 4 @ $77.18 $308.72 Striping and Safety New Layout; 88 Linear Ft. @ $1.18 $103.84 Striping and Safety Curb; 182 Linear Ft. @ $1.25 $227.50 Traffic Control; 2 Days @ $1,910 $3,820.00 Contingency $30,000.00 Total $116,459.42 This pur",
+"found": "2026-11-19",
+"page_hash": "c6513f8f74a2",
+"seq": 5694,
+"group_key": "4abe8bd418103932",
+"text_hash": "c6513f8f74a2",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
+"id": "cde2552841c8e572",
+"district": "Salina",
+"state": "Kansas",
+"nces_id": "2011370",
+"students": 6737,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1793988311/usd305com/xorlzwo0tqsqgsg3yie6/November102026.pdf",
+"page": 42,
+"title": "Personnel Report and Consent Agenda",
+"date": "",
+"matched": [
+"safety",
+"security"
+],
+"strong": false,
+"snippet": "the recovery from the pandemic, families continue to be cautious about having outside visitors and agencies in their home due to safety, security and health issues. Parents often work the second or third shift and sleep during the day. • Demanding Time Commitments: Families",
+"found": "2026-11-19",
+"page_hash": "598478babc59",
+"seq": 5695,
+"group_key": "d82554271ce9f9fe",
+"text_hash": "598478babc59",
+"disposition": "low",
+"reason": "generic words only (safety, security)"
 },
 {
 "id": "71f95c01f26df8ac",
@@ -48345,6 +48750,31 @@
 "text_hash": "",
 "disposition": "low",
 "reason": "generic words only (safety)"
+},
+{
+"id": "b880ed2fe8a31db7",
+"district": "HEMPSTEAD UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"nces_id": "3614130",
+"students": 5677,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1795032854/hempsteadschoolsorg/caweoctsy9tntwgamh9t/RegularMeetingAgenda-WednesdayNovember182026.pdf",
+"page": 19,
+"title": " 11-18-2026 Regular Meeting Agenda Docket",
+"date": "",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "g LEAVE(S) of ABSENCE request(s) for the following CIVIL SERVICE PERSONNEL: NAME POSITION REASON Marc Ferro Eff. 12/6/26 - 2/5/27 Security Aide ABGS Middle School Requesting a Paternity Leave of Absence/FMLA, utilizing accrued sick time, from 12/6/26 - 2/5/27. (Letter",
+"found": "2026-11-19",
+"page_hash": "4904d8062484",
+"seq": 5682,
+"group_key": "a601cb4198a9f41a",
+"text_hash": "4904d8062484",
+"disposition": "low",
+"reason": "generic words only (security)"
 },
 {
 "id": "193af1b3d3252d97",
@@ -77665,6 +78095,31 @@
 "reason": "generic words only (safety, security)"
 },
 {
+"id": "e6461eb663007194",
+"district": "GIDDINGS ISD",
+"state": "Texas",
+"nces_id": "4820640",
+"students": 1900,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Agenda/710?meeting=774590",
+"page": null,
+"title": "Agenda",
+"date": "2026-11-19",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "or Students with Disabilities 8)c) Review 2026 Tax Levy Report 8)d) Review District Staffing Formulas 8)e) Facilities Report GISD Security Report, Operations Report to TEA 8)f) Curriculum/Human Resources Report LIFT Grant Update 8)g) Business Office Report Template Up",
+"found": "2026-11-19",
+"page_hash": "feeb754fb92c",
+"seq": 5671,
+"group_key": "9d7f4437c67bfdb1",
+"text_hash": "feeb754fb92c",
+"disposition": "low",
+"reason": "generic words only (security)"
+},
+{
 "id": "8ac4d351e79cdce7",
 "district": "ST. ANTHONY-NEW BRIGHTON SCHOOLS",
 "state": "Minnesota",
@@ -78188,6 +78643,31 @@
 "seq": 4402,
 "group_key": "a0600ab89f911df6",
 "text_hash": "8842d7413fc1",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
+"id": "14292a568951c965",
+"district": "LA GRANGE ISD",
+"state": "Texas",
+"nces_id": "4826100",
+"students": 1870,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Agenda/766?meeting=773405",
+"page": null,
+"title": "Agenda",
+"date": "2026-11-16",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "enter: Mrs. Stacy Eilers III.B.1. Veterans Day Program Report Presenter: Mrs. Stacy Eilers III.C. Director of Operations & School Safety Report Presenter: Mrs. Sharon Muzny III.C.1. Maintenance/Facility Projects Update Presenter: Mrs. Sharon Muzny III.C.2. Transportation Update Presenter: Mrs. Sharon Muzny III.C.3. School Safety Update Presenter: Mrs. Sharon Muzny IV. DISCUSSION ITEMS IV.A. Review Budget Calendar for 2027-2028 Presenter: Mrs. Diana Fitzpat",
+"found": "2026-11-19",
+"page_hash": "3ba59edbc4a0",
+"seq": 5672,
+"group_key": "ba985a2dc428306a",
+"text_hash": "3ba59edbc4a0",
 "disposition": "low",
 "reason": "generic words only (safety)"
 },
@@ -79231,6 +79711,31 @@
 "reason": "generic words only (safety, security)"
 },
 {
+"id": "10a106aa481c46f8",
+"district": "ORANGEFIELD ISD",
+"state": "Texas",
+"nces_id": "4833780",
+"students": 1781,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Agenda/2091?meeting=775323",
+"page": null,
+"title": "Agenda",
+"date": "2026-11-16",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "esent Guidelines for Public Forum 3. RECOGNITIONS 3.A. BRAVO AWARDS 3.A.1. Ronald Chevalier - Commitment to Student and Community Safety 3.A.2. Orangefield HS Marching Band - UIL State Marching Contest Discussion: Moved to the end of recognitions to allow time for p",
+"found": "2026-11-19",
+"page_hash": "fa11caede10b",
+"seq": 5674,
+"group_key": "20cef45ef110f8f9",
+"text_hash": "fa11caede10b",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
 "id": "d148a612495b3211",
 "district": "Altoona School District",
 "state": "Wisconsin",
@@ -79658,6 +80163,56 @@
 "text_hash": "2b324c114fee",
 "disposition": "low",
 "reason": "generic words only (safety)"
+},
+{
+"id": "377e7f0624cfc38b",
+"district": "Winneconne Community School District",
+"state": "Wisconsin",
+"nces_id": "5516830",
+"students": 1740,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.winneconne.k12.wi.us/district/school_board/agenda",
+"page": null,
+"title": "Agenda",
+"date": "",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "gation School Board Agenda Committees District Policies Meeting Minutes Members Loading... Documents Loading Add Display Settings Security Activity Multi Select Subscribe Move selected to... 400 N 9th Avenue, Winneconne, WI 54986 | Phone (920) 582-5802 | Fax (920) 582",
+"found": "2026-11-19",
+"page_hash": "88e8a9e0bbac",
+"seq": 5677,
+"group_key": "1ebb1c59ed103ca3",
+"text_hash": "88e8a9e0bbac",
+"disposition": "low",
+"reason": "page text changed since seq 4491"
+},
+{
+"id": "1a746211481b57f9",
+"district": "Winneconne Community School District",
+"state": "Wisconsin",
+"nces_id": "5516830",
+"students": 1740,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.winneconne.k12.wi.us/district/school_board/meeting_minutes",
+"page": null,
+"title": "Meeting Minutes",
+"date": "",
+"matched": [
+"security"
+],
+"strong": false,
+"snippet": "gation School Board Agenda Committees District Policies Meeting Minutes Members Loading... Documents Loading Add Display Settings Security Activity Multi Select Subscribe Move selected to... 400 N 9th Avenue, Winneconne, WI 54986 | Phone (920) 582-5802 | Fax (920) 582",
+"found": "2026-11-19",
+"page_hash": "2b03513b9470",
+"seq": 5678,
+"group_key": "0042cb5f3fe91772",
+"text_hash": "2b03513b9470",
+"disposition": "low",
+"reason": "page text changed since seq 4494"
 },
 {
 "id": "b89256a6ec411dbb",
@@ -82384,6 +82939,31 @@
 "seq": 4662,
 "group_key": "afc764afbd3a6c6c",
 "text_hash": "a6941e1fc6a9",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
+"id": "8746747458796671",
+"district": "Newaygo Public School District",
+"state": "Michigan",
+"nces_id": "2625320",
+"students": 1567,
+"source_type": "bond",
+"platform": "site",
+"url": "https://newaygo-cdn.fxbrt.com/downloads/board_documents/2026.11.17_newaygo_series_2_update.pdf",
+"page": 1,
+"title": "November 2026 Bond Update",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "aning o Phase 3 punch list o School furniture relocating  Mechanical Room o Installation of new boiler PROJECT MANAGEMENT UPDATE Safety  This month's Safety Goal focuses on winter jobsite preparation. Being aware of all known and potential hazards and taking the time to prepare. Keepin",
+"found": "2026-11-19",
+"page_hash": "d547490e1ca3",
+"seq": 5687,
+"group_key": "25d6846b9e04baa3",
+"text_hash": "d547490e1ca3",
 "disposition": "low",
 "reason": "generic words only (safety)"
 },
