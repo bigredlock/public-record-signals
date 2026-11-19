@@ -28,6 +28,14 @@ BOARD_LINK_RE = re.compile(r"agenda|board\s*meeting|minutes|boarddocs|boardbook|
 BOND_LINK_RE = re.compile(r"\bbond\b|\blevy\b|referendum|facilit(?:y|ies)\s+plan|master\s+plan|capital\s+(?:plan|improvement)", re.I)
 
 LOOKBACK_DAYS = 45          # how far back to read agendas
+# Nov 19, 2026 (Kane County SD miss): a district's first successful read looks back a full year, so a district
+# whose website was just repaired is backfilled instead of only showing the last 45 days.
+FIRST_READ_LOOKBACK_DAYS = 365
+# Utah Public Notice Website: minutes are posted weeks after a meeting and grant/capital items surface months
+# before a purchase, so the state portal is read with a long lookback. Already-read PDFs are skipped (PMN_SEEN).
+PMN_LOOKBACK_DAYS = 365
+PMN_MAX_NOTICES = 15
+PMN_MAX_PDFS = 10
 MAX_PDFS_PER_DISTRICT = 6   # packets are big; read the first few linked PDFs only
 MAX_PDF_BYTES = 12_000_000
 MAX_PDF_PAGES = 60

@@ -11,7 +11,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from . import http
+from . import http, overrides
 
 PLATFORM_HOSTS = [
     ("boarddocs", re.compile(r"go\.boarddocs\.com/[a-z]{2}/[^/\"']+/Board\.nsf", re.I)),
@@ -28,17 +28,28 @@ AGENDA_WORDS = re.compile(r"agenda|board\s*meeting|minutes|boarddocs|boardbook|s
 
 
 def classify_one(district: dict, today: str) -> dict:
+    out = _classify_one(district, today)
+    out["web_tried"] = (district.get("web") or "").strip()   # lets run.py recheck when an override changes the URL
+    if district.get("web_nces") is not None:
+        out["web_source"] = "override"
+    return out
+
+
+def _classify_one(district: dict, today: str) -> dict:
     web = (district.get("web") or "").strip()
     if not web:
         return {"platform": "none", "agenda_url": "", "checked": today, "note": "no website in NCES"}
-    if not web.startswith("http"):
-        web = "http://" + web
-    try:
-        r = http.get(web)
-    except http.Blocked as e:
-        return {"platform": "blocked", "agenda_url": web, "checked": today, "note": str(e)[:120]}
-    except Exception as e:
-        return {"platform": "none", "agenda_url": web, "checked": today, "note": f"unreachable: {type(e).__name__}"}
+    r, err = None, None
+    for u in overrides.variants(web)[:4]:   # Nov 19: dead http/www forms were leaving live districts unread
+        try:
+            r = http.get(u)
+            break
+        except http.Blocked as e:
+            return {"platform": "blocked", "agenda_url": u, "checked": today, "note": str(e)[:120]}
+        except Exception as e:
+            err = err or e
+    if r is None:
+        return {"platform": "none", "agenda_url": web, "checked": today, "note": f"unreachable: {type(err).__name__}"}
     html = r.text
     soup = BeautifulSoup(html, "lxml")
     fallback = ""

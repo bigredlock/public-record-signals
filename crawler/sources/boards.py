@@ -15,12 +15,19 @@ from bs4 import BeautifulSoup
 from .. import config, http
 from ..filter import clean, scan
 
-DATE_RE = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{2,4})|(\d{4})-(\d{2})-(\d{2})|([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{4})")
+DATE_RE = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{2,4})|(\d{4})[-/](\d{1,2})[-/](\d{1,2})|([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{4})")
+_YMD_SLASH = re.compile(r"\b(\d{4})/(\d{1,2})/(\d{1,2})\b")
 MONTHS = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
                                       "September", "October", "November", "December"], start=1)}
 
 
 def parse_date(s: str) -> dt.date | None:
+    y = _YMD_SLASH.search(s or "")  # 2026/11/10 (Utah PMN). Checked first so "26/11/10" is never read as m/d/y.
+    if y:
+        try:
+            return dt.date(int(y.group(1)), int(y.group(2)), int(y.group(3)))
+        except ValueError:
+            pass
     m = DATE_RE.search(s or "")
     if not m:
         return None
@@ -44,7 +51,7 @@ def _pdf_matches(district, url, title, date, today, platform, source_type="agend
         http._bump("docs_skipped_time")
         return []
     r = http.get(url)
-    if "pdf" not in r.headers.get("Content-Type", "").lower() and not url.lower().endswith(".pdf"):
+    if not r.content[:1024].lstrip().startswith(b"%PDF"):  # by content: some ".pdf" links serve an HTML page
         return scan(http.html_text(r.content), district=district, source_type=source_type, platform=platform,
                     url=url, page=None, title=title, date=date, found=today)
     out = []
@@ -252,6 +259,74 @@ def generic(district, site_url, since, today):
             raise
         except Exception:
             continue
+    return out
+
+
+# ---------------------------------------------------------------- Utah Public Notice Website (state portal)
+PMN_BASE = "https://www.utah.gov"
+PMN_SEEN: set = set()   # /pmn/files/<id>.pdf already read on an earlier run (files are immutable); run.py loads/saves it
+_pmn_lock = _threading.Lock()
+
+
+def pmn(district, pmn_id, since, today):
+    """Utah law requires every public body to post notices, agendas and minutes on utah.gov/pmn.
+    Read one public body's page: each notice's agenda text (HTML) and its minutes/agenda PDFs (not audio).
+    Added Nov 19, 2026 after Kane County SD's school-safety grant ($292K, June 2026 minutes) was missed because
+    the district's NCES website was dead. Uses its own longer lookback (config.PMN_LOOKBACK_DAYS)."""
+    page_url = f"{PMN_BASE}/pmn/sitemap/publicbody/{int(pmn_id)}.html"
+    r = http.get(page_url)
+    soup = BeautifulSoup(r.content, "lxml")
+    notices, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        if "/pmn/sitemap/notice/" not in a["href"]:
+            continue
+        url = http.absolute(page_url, a["href"])
+        if url in seen:
+            continue
+        seen.add(url)
+        row = a.find_parent("tr")
+        d = parse_date(row.get_text(" ") if row else "")
+        if d and d < since:
+            continue
+        files = []
+        for f in (row.find_all("a", href=True) if row else []):
+            if re.search(r"/pmn/files/\d+\.pdf$", f["href"], re.I):
+                files.append((http.absolute(page_url, f["href"]), clean(f.get_text(" "))))
+        notices.append((d, url, clean(a.get_text(" ")) or "Board meeting", files))
+    notices.sort(key=lambda n: n[0] or dt.date.max, reverse=True)
+    out, pdfs = [], []
+    for d, url, title, files in notices[: config.PMN_MAX_NOTICES]:
+        ds = d.isoformat() if d else ""
+        try:
+            page = http.get(url)
+        except http.Blocked:
+            raise
+        except Exception:
+            continue
+        out += scan(http.html_text(page.content), district=district, source_type="agenda", platform="pmn", url=url,
+                    page=None, title=title, date=ds, found=today)
+        if not files:  # attachments are sometimes only on the notice page
+            for f in BeautifulSoup(page.content, "lxml").find_all("a", href=True):
+                if re.search(r"/pmn/files/\d+\.pdf$", f["href"], re.I):
+                    files.append((http.absolute(url, f["href"]), clean(f.get_text(" "))))
+        for fu, lab in files:
+            pdfs.append((fu, f"{title}: {lab}" if lab else title, ds))
+    n = 0
+    for fu, lab, ds in pdfs:
+        with _pmn_lock:
+            if fu in PMN_SEEN:
+                continue
+        if n >= config.PMN_MAX_PDFS or http.past_deadline():
+            break  # the rest are read next time (not marked seen)
+        n += 1
+        try:
+            out += _pdf_matches(district, fu, lab, ds, today, "pmn", "agenda")
+        except http.Blocked:
+            raise
+        except Exception:
+            continue
+        with _pmn_lock:
+            PMN_SEEN.add(fu)
     return out
 
 

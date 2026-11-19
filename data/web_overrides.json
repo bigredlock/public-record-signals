@@ -1,0 +1,153 @@
+{
+ "1201260": {
+  "added": "2026-11-19",
+  "district": "MARION",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.marionschools.net"
+ },
+ "1300120": {
+  "added": "2026-11-19",
+  "district": "Atlanta Public Schools",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.atlantapublicschools.us"
+ },
+ "1301020": {
+  "added": "2026-11-19",
+  "district": "Savannah-Chatham County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.sccpss.com"
+ },
+ "1301110": {
+  "added": "2026-11-19",
+  "district": "Cherokee County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.cherokeek12.net"
+ },
+ "1301290": {
+  "added": "2026-11-19",
+  "district": "Cobb County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.cobbk12.org"
+ },
+ "1301740": {
+  "added": "2026-11-19",
+  "district": "DeKalb County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.dekalbschoolsga.org"
+ },
+ "1302280": {
+  "added": "2026-11-19",
+  "district": "Fulton County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.fultonschools.org"
+ },
+ "1302550": {
+  "added": "2026-11-19",
+  "district": "Gwinnett County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.gcpsk12.org"
+ },
+ "1302820": {
+  "added": "2026-11-19",
+  "district": "Henry County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.henry.k12.ga.us"
+ },
+ "1302880": {
+  "added": "2026-11-19",
+  "district": "Houston County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.hcbe.net"
+ },
+ "1303870": {
+  "added": "2026-11-19",
+  "district": "Muscogee County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.muscogee.k12.ga.us"
+ },
+ "1304020": {
+  "added": "2026-11-19",
+  "district": "Paulding County",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.paulding.k12.ga.us"
+ },
+ "1602100": {
+  "added": "2026-11-19",
+  "district": "JOINT SCHOOL DISTRICT NO. 2",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.westada.org"
+ },
+ "1709930": {
+  "added": "2026-11-19",
+  "district": "Chicago Public Schools Dist 299",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.cps.edu"
+ },
+ "2200300": {
+  "added": "2026-11-19",
+  "district": "Caddo Parish",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.caddoschools.org"
+ },
+ "2200540": {
+  "added": "2026-11-19",
+  "district": "East Baton Rouge Parish",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.ebrschools.org"
+ },
+ "2200840": {
+  "added": "2026-11-19",
+  "district": "Jefferson Parish",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.jpschools.org"
+ },
+ "2200870": {
+  "added": "2026-11-19",
+  "district": "Lafayette Parish",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.lpssonline.com"
+ },
+ "2201650": {
+  "added": "2026-11-19",
+  "district": "St. Tammany Parish",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.stpsb.org"
+ },
+ "3172840": {
+  "added": "2026-11-19",
+  "district": "LINCOLN PUBLIC SCHOOLS",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.lps.org"
+ },
+ "3174820": {
+  "added": "2026-11-19",
+  "district": "OMAHA PUBLIC SCHOOLS",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.ops.org"
+ },
+ "4819650": {
+  "added": "2026-11-19",
+  "district": "FORT BEND ISD",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.fortbendisd.com"
+ },
+ "4900480": {
+  "added": "2026-11-19",
+  "district": "Kane District",
+  "pmn": 739,
+  "source": "Nov 19 2026: Civic IQ alert showed the crawler missed Kane; NCES URL kane.k12.ut.us is dead",
+  "web": "https://kanek12.org"
+ },
+ "5509600": {
+  "added": "2026-11-19",
+  "district": "Milwaukee School District",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://mps.milwaukee.k12.wi.us"
+ },
+ "635310": {
+  "added": "2026-11-19",
+  "district": "Santa Ana Unified",
+  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
+  "web": "https://www.sausd.us"
+ }
+}

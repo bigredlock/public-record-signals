@@ -34,7 +34,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from concurrent.futures import TimeoutError as FutTimeout
 from pathlib import Path
 
-from crawler import classify, config, http
+from crawler import classify, config, http, overrides
 from crawler.ledger import Ledger
 from crawler.sources import boards, money
 
@@ -61,7 +61,7 @@ def save_json(p: Path, obj):
 
 def districts():
     d = load_json(DATA / "directory.json", [])
-    return [x for x in d if x.get("icp")]
+    return overrides.apply([x for x in d if x.get("icp")], overrides.load(DATA / "web_overrides.json"))
 
 
 STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "DC": "District Of Columbia", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"}
@@ -114,8 +114,18 @@ def ensure_ledger() -> Ledger:
 def cmd_classify(args, run: Run):
     plat = classify.load(DATA / "platforms.json")
     recheck = (dt.date.today() - dt.timedelta(days=30)).isoformat()
-    todo = [d for d in districts() if d["id"] not in plat
-            or (plat[d["id"]].get("platform") in boards.NO_READER and plat[d["id"]].get("checked", "") < recheck)][: args.limit]
+    def needs(d):
+        p = plat.get(d["id"])
+        if not p:
+            return True
+        # Nov 19: a new or changed web override is checked on the next run, not after the 30-day recheck
+        if d.get("web_nces") is not None and p.get("web_tried") != d.get("web"):
+            return True
+        return p.get("platform") in boards.NO_READER and p.get("checked", "") < recheck
+
+    todo = [d for d in districts() if needs(d)]
+    todo.sort(key=lambda d: d.get("web_nces") is None)  # overrides first
+    todo = todo[: args.limit]
     print(f"classify: {len(todo)} districts to check ({len(plat)} done)")
     done = 0
     cap = (args.budget_min or 0) * 60 * 0.3  # classification gets at most 30% of the run budget
@@ -156,6 +166,8 @@ def read_one(d, p, since):
 
 
 def _read_one(d, p, since):
+    if d.get("pmn"):
+        return _read_with_pmn(d, p, since)
     reader = boards.READERS.get(p["platform"])
     if not reader:
         return d, [], "no_reader", p["platform"]
@@ -170,6 +182,28 @@ def _read_one(d, p, since):
             except Exception as e2:
                 return d, [], code, f"{e} | fallback: {type(e2).__name__}"
         return d, [], code, str(e)[:200]
+
+
+def _read_with_pmn(d, p, since):
+    """Utah districts with a Public Notice Website id: read the state portal (long lookback) plus the district's own
+    platform when there is a reader for it. The read counts as successful when either source succeeds."""
+    matches, codes, notes = [], [], []
+    if p["platform"] in boards.READERS:
+        _, m, code, note = _read_one(dict(d, pmn=None), p, since)
+        matches += m
+        if code:
+            codes.append(code)
+            notes.append(f"{p['platform']}: {note}")
+    psince = min(since, dt.date.today() - dt.timedelta(days=config.PMN_LOOKBACK_DAYS))
+    try:
+        matches += boards.pmn(d, d["pmn"], psince, TODAY)
+        return d, matches, None, "; ".join(notes)
+    except Exception as e:
+        codes.append(http.diagnose(e))
+        notes.append(f"pmn: {str(e)[:150]}")
+    if p["platform"] in boards.READERS and len(codes) == 1:  # district platform worked, only the portal failed
+        return d, matches, None, "; ".join(notes)
+    return d, matches, codes[-1], " | ".join(notes)[:200]
 
 
 def record(led: Ledger, c: Counter, matches) -> bool:
@@ -212,7 +246,7 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
 
     def due(d):
         p = plat.get(d["id"])
-        if not p or p["platform"] not in boards.READERS:
+        if not d.get("pmn") and (not p or p["platform"] not in boards.READERS):
             return False
         f = failures.get(d["id"])
         if f and f.get("retry_after", "") > TODAY:
@@ -233,14 +267,19 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
     stopped = False
 
     def checkpoint():
+        state["pmn_seen"] = sorted(boards.PMN_SEEN)[-5000:]
         led.save()
         state["deferred"] = [x["id"] for x in todo if x["id"] not in finished]
         save_json(DATA / "state.json", state)
         run.save()
 
+    boards.PMN_SEEN.update(state.get("pmn_seen", []))
     real0 = time.monotonic()
     ex = ThreadPoolExecutor(config.WORKERS)
-    futs = {ex.submit(reader, d, plat[d["id"]], since): d for d in todo}
+    # A district never read successfully before is backfilled a full year (config.FIRST_READ_LOOKBACK_DAYS).
+    since_first = dt.date.today() - dt.timedelta(days=config.FIRST_READ_LOOKBACK_DAYS)
+    blank = {"platform": "none", "agenda_url": ""}
+    futs = {ex.submit(reader, d, plat.get(d["id"], blank), since if d["id"] in walked else since_first): d for d in todo}
     # Hard stop: a hung read can no longer hold the run past the budget, because as_completed gives up
     # when the budget runs out even if nothing finishes, and the pool is never joined.
     # Budget counts from process start, so classification time comes out of it too.
@@ -258,7 +297,8 @@ def cmd_agendas(args, run: Run, led: Ledger, reader=read_one, clock=time.time):
                 failures[d["id"]] = {"code": code, "note": note, "attempts": prev.get("attempts", 0) + 1, "last": TODAY,
                                      "retry_after": (dt.date.today() + dt.timedelta(days=days)).isoformat(),
                                      "district": d["n"], "state": d["s"], "students": d.get("st", 0),
-                                     "platform": plat[d["id"]]["platform"], "url": plat[d["id"]].get("agenda_url", "")}
+                                     "platform": plat.get(d["id"], {}).get("platform", ""),
+                                     "url": plat.get(d["id"], {}).get("agenda_url", "")}
                 c["failed"] += 1
                 c["failed_" + code] += 1
             else:
@@ -370,6 +410,8 @@ def write_recovery(diag):
         if i in out or i not in dirs or p.get("platform") not in boards.NO_READER:
             continue
         d = dirs[i]
+        if d.get("pmn"):
+            continue  # read through the Utah Public Notice Website instead
         code = {"none": "no_portal_found", "blocked": "site_blocked"}.get(p["platform"], "no_reader_" + p["platform"])
         out[i] = {"nces_id": i, "district": d["n"], "state": d["s"], "students": d.get("st", 0), "code": code,
                   "note": p.get("note", ""), "platform": p["platform"], "url": p.get("agenda_url", ""), "attempts": 0,
