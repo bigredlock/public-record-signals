@@ -1,61 +1,59 @@
 {
-"generated": "2026-11-19T04:39:40+00:00",
-"run_id": "20261119T030022Z",
+"generated": "2026-11-19T16:11:24+00:00",
+"run_id": "20261119T160946Z",
 "status": "complete",
 "last_agenda_run": "2026-11-19",
-"districts_read": 57,
-"new_matches": 26,
-"feed_size": 3718,
-"walked_total": 5527,
-"checked_last_7_days": 1677,
-"failed_total": 342,
+"districts_read": 11,
+"new_matches": 43,
+"feed_size": 3750,
+"walked_total": 5538,
+"checked_last_7_days": 1688,
+"failed_total": 346,
 "deferred": 0,
 "ledger": {
-"records": 5695,
-"review": 1008,
+"records": 5738,
+"review": 1028,
 "changed": 1,
-"low": 2709,
-"duplicate": 1977,
-"groups": 3558,
-"next_seq": 5696
+"low": 2721,
+"duplicate": 1988,
+"groups": 3590,
+"next_seq": 5739
 },
 "counts": {
-"classified": 0,
-"discovered": 59,
-"queued": 59,
-"fetched": 57,
-"parsed_matches": 412,
-"duplicated": 389,
-"new_records": 26,
-"disp_low": 14,
-"fallback_reads": 12,
-"failed": 2,
-"failed_rate_limited": 1,
-"failed_forbidden": 1,
-"disp_review": 8,
-"qualified": 9,
-"disp_duplicate": 3,
-"disp_changed": 1,
+"classified": 25,
+"discovered": 15,
+"queued": 15,
+"fetched": 11,
+"failed": 4,
+"failed_forbidden": 2,
+"failed_robots": 2,
+"parsed_matches": 199,
+"new_records": 43,
+"disp_low": 12,
+"disp_review": 20,
+"qualified": 20,
+"disp_duplicate": 11,
+"duplicated": 167,
 "deferred": 0,
 "not_queued": 0,
 "money_matches": 157
 },
 "sources": {
 "classify": {
-"last_attempted": "2026-11-19T03:00:22+00:00",
-"last_success": "2026-11-19T03:00:22+00:00"
+"last_attempted": "2026-11-19T16:10:59+00:00",
+"last_success": "2026-11-19T16:10:59+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-19T04:39:21+00:00",
-"last_success": "2026-11-19T04:39:21+00:00"
+"last_attempted": "2026-11-19T16:11:17+00:00",
+"last_success": "2026-11-19T16:11:17+00:00"
 },
 "usaspending": {
-"last_attempted": "2026-11-19T04:39:25+00:00",
-"last_success": "2026-11-19T04:39:25+00:00"
+"last_attempted": "2026-11-19T16:11:21+00:00",
+"last_success": "2026-11-19T16:11:21+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-19T04:39:40+00:00",
-"last_success": "2026-11-19T04:39:40+00:00"
+"last_attempted": "2026-11-19T16:11:24+00:00",
+"last_success": "2026-11-19T16:11:24+00:00"
 }
 },
 "blocked": [
@@ -149,6 +147,19 @@
 "students": 72272,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/tx/austinisd/Board.nsf/Public"
+},
+{
+"nces_id": "5509600",
+"code": "robots",
+"note": "robots.txt disallows https://www.milwaukeepublicschools.org/fs/pages/872",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Milwaukee School District",
+"state": "Wisconsin",
+"students": 65599,
+"platform": "site",
+"url": "https://www.milwaukeepublicschools.org/about/board"
 },
 {
 "nces_id": "622500",
@@ -255,6 +266,19 @@
 "url": "https://go.boarddocs.com/sc/horry/Board.nsf/Public"
 },
 {
+"nces_id": "2200840",
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/la/jppss/Board.nsf/Public | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "Jefferson Parish",
+"state": "Louisiana",
+"students": 46790,
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/la/jppss/Board.nsf/Public"
+},
+{
 "nces_id": "4826580",
 "code": "robots",
 "note": "robots.txt disallows https://files.smartsites.parentsquare.com/5626/november_17-2026_-_agenda_for_regular_meeting.pdf",
@@ -279,6 +303,19 @@
 "students": 46515,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/oh/columbus/Board.nsf/Public"
+},
+{
+"nces_id": "1201260",
+"code": "forbidden",
+"note": "HTTP 403 at https://www.marionschools.net/school_board/agendas_minutes",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "MARION",
+"state": "Florida",
+"students": 46352,
+"platform": "site",
+"url": "https://www.marionschools.net/school_board"
 },
 {
 "nces_id": "634170",
@@ -331,6 +368,19 @@
 "students": 42573,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/ak/asdk12/Board.nsf/Public"
+},
+{
+"nces_id": "1301110",
+"code": "robots",
+"note": "robots.txt disallows https://www.cherokeek12.net/fs/pages/7152",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Cherokee County",
+"state": "Georgia",
+"students": 42031,
+"platform": "site",
+"url": "https://www.cherokeek12.net/board-of-education"
 },
 {
 "nces_id": "3704620",
@@ -2606,61 +2656,9 @@
 "students": 1810,
 "platform": "site",
 "url": "https://www.lasd.us/school_board"
-},
-{
-"nces_id": "4207560",
-"code": "forbidden",
-"note": "HTTP 403 at https://www.dasd.us/Public/Agenda/4150?meeting=771581",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-24",
-"district": "Derry Area SD",
-"state": "Pennsylvania",
-"students": 1809,
-"platform": "site",
-"url": "https://www.dasd.us/apps/pages/index.jsp?uREC_ID=2015964&type=d&pREC_ID=2591809"
-},
-{
-"nces_id": "2105760",
-"code": "robots",
-"note": "robots.txt disallows https://files.smartsites.parentsquare.com/12141/april202026regularsessionworksessionminutes.pdf",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-12-10",
-"district": "Washington County",
-"state": "Kentucky",
-"students": 1807,
-"platform": "site",
-"url": "https://www.washington.kyschools.us/415851_2"
-},
-{
-"nces_id": "3904393",
-"code": "robots",
-"note": "robots.txt disallows https://files.smartsites.parentsquare.com/8398/2-january_2026_organizational_meeting.pdf",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-12-10",
-"district": "Eaton Community City",
-"state": "Ohio",
-"students": 1805,
-"platform": "site",
-"url": "https://www.eaton.k12.oh.us/school-board"
-},
-{
-"nces_id": "626490",
-"code": "forbidden",
-"note": "HTTP 403 at https://muroc.ss19.sharpschool.com/UserFiles/Servers/Server_27852454/File/09-20-23%20Board%20Agenda.pdf",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-24",
-"district": "Muroc Joint Unified",
-"state": "California",
-"students": 1803,
-"platform": "site",
-"url": "https://www.muroc.k12.ca.us/board-of-trustees"
 }
 ],
-"blocked_count": 339,
+"blocked_count": 343,
 "errors": [
 {
 "nces_id": "628050",
@@ -2702,5 +2700,5 @@
 "url": "https://wellesleyps.org/schoolcommittee/minutes-archive/agendas-presentations-minutes-2026-27/"
 }
 ],
-"minutes": 99.0
+"minutes": 0.3
 }

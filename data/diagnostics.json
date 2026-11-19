@@ -1,8 +1,8 @@
 {
-"generated": "2026-11-19T04:39:21+00:00",
+"generated": "2026-11-19T16:11:17+00:00",
 "by_code": {
-"forbidden": 168,
-"robots": 170,
+"forbidden": 170,
+"robots": 172,
 "error": 1,
 "rate_limited": 1,
 "not_found": 2
@@ -98,6 +98,19 @@
 "students": 72272,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/tx/austinisd/Board.nsf/Public"
+},
+{
+"nces_id": "5509600",
+"code": "robots",
+"note": "robots.txt disallows https://www.milwaukeepublicschools.org/fs/pages/872",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Milwaukee School District",
+"state": "Wisconsin",
+"students": 65599,
+"platform": "site",
+"url": "https://www.milwaukeepublicschools.org/about/board"
 },
 {
 "nces_id": "622500",
@@ -204,6 +217,19 @@
 "url": "https://go.boarddocs.com/sc/horry/Board.nsf/Public"
 },
 {
+"nces_id": "2200840",
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/la/jppss/Board.nsf/Public | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "Jefferson Parish",
+"state": "Louisiana",
+"students": 46790,
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/la/jppss/Board.nsf/Public"
+},
+{
 "nces_id": "4826580",
 "code": "robots",
 "note": "robots.txt disallows https://files.smartsites.parentsquare.com/5626/november_17-2026_-_agenda_for_regular_meeting.pdf",
@@ -228,6 +254,19 @@
 "students": 46515,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/oh/columbus/Board.nsf/Public"
+},
+{
+"nces_id": "1201260",
+"code": "forbidden",
+"note": "HTTP 403 at https://www.marionschools.net/school_board/agendas_minutes",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "MARION",
+"state": "Florida",
+"students": 46352,
+"platform": "site",
+"url": "https://www.marionschools.net/school_board"
 },
 {
 "nces_id": "634170",
@@ -280,6 +319,19 @@
 "students": 42573,
 "platform": "boarddocs",
 "url": "https://go.boarddocs.com/ak/asdk12/Board.nsf/Public"
+},
+{
+"nces_id": "1301110",
+"code": "robots",
+"note": "robots.txt disallows https://www.cherokeek12.net/fs/pages/7152",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Cherokee County",
+"state": "Georgia",
+"students": 42031,
+"platform": "site",
+"url": "https://www.cherokeek12.net/board-of-education"
 },
 {
 "nces_id": "3704620",

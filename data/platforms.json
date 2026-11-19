@@ -1259,10 +1259,20 @@
 "platform": "site"
 },
 "1201260": {
+"agenda_url": "https://www.marionschools.net/school_board",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.marion.k12.fl.us/",
-"checked": "2026-11-10",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.marionschools.net"
 },
 "1201290": {
 "agenda_url": "https://go.boarddocs.com/fl/martin/Board.nsf/Public",
@@ -1463,10 +1473,20 @@
 "platform": "none"
 },
 "1300120": {
+"agenda_url": "https://simbli.eboardsolutions.com/Index.aspx?S=36031014",
+"checked": "2026-11-19",
+"fallback": "https://www.atlantapublicschools.us/about/departments/teaching-learning/student-handbook/board-of-education",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.atlantapublicschools.us"
 },
 "1300150": {
 "agenda_url": "",
@@ -1648,10 +1668,20 @@
 "platform": "none"
 },
 "1301020": {
+"agenda_url": "https://sccpss.community.diligentoneplatform.com/Portal/",
+"checked": "2026-11-19",
+"fallback": "https://www.sccpss.com/news/news-landing-page/~board/district-news/post/highlights-from-the-november-2026-board-meeting",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "diligent",
+"web_source": "override",
+"web_tried": "https://www.sccpss.com"
 },
 "1301080": {
 "agenda_url": "",
@@ -1660,10 +1690,20 @@
 "platform": "none"
 },
 "1301110": {
+"agenda_url": "https://www.cherokeek12.net/board-of-education",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.cherokeek12.net"
 },
 "1301170": {
 "agenda_url": "http://clarke.k12.ga.us",
@@ -1678,10 +1718,20 @@
 "platform": "simbli"
 },
 "1301290": {
+"agenda_url": "https://www.cobbk12.org/what-you-need-to-know-in-five-minutes-or-less-from-the-board-chair",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.cobbk12.org"
 },
 "1301350": {
 "agenda_url": "",
@@ -1763,10 +1813,20 @@
 "platform": "site"
 },
 "1301740": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4054",
+"checked": "2026-11-19",
+"fallback": "https://www.dekalbschoolsga.org/board/meet-the-boe",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.dekalbschoolsga.org"
 },
 "1301770": {
 "agenda_url": "",
@@ -1860,10 +1920,20 @@
 "platform": "site"
 },
 "1302280": {
+"agenda_url": "https://simbli.eboardsolutions.com/fulton",
+"checked": "2026-11-19",
+"fallback": "https://www.fultonschools.org/fcs-board-of-education/meeting-calendar",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.fultonschools.org"
 },
 "1302310": {
 "agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4072",
@@ -1910,10 +1980,20 @@
 "platform": "none"
 },
 "1302550": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031119",
+"checked": "2026-11-19",
+"fallback": "https://www.gcpsk12.org/about-us/board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "via board page",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.gcpsk12.org"
 },
 "1302580": {
 "agenda_url": "",
@@ -1952,16 +2032,36 @@
 "platform": "none"
 },
 "1302820": {
+"agenda_url": "https://simbli.eboardsolutions.com/sb_meetings/sb_meetinglisting.aspx?s=4088",
+"checked": "2026-11-19",
+"fallback": "https://www.henry.k12.ga.us/about-hcs/board-of-education",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.henry.k12.ga.us"
 },
 "1302880": {
+"agenda_url": "https://simbli.eboardsolutions.com/Index.aspx?S=4089",
+"checked": "2026-11-19",
+"fallback": "https://www.hcbe.net/boe",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.hcbe.net"
 },
 "1302910": {
 "agenda_url": "https://www.irwin.k12.ga.us/",
@@ -2107,10 +2207,20 @@
 "platform": "none"
 },
 "1303870": {
+"agenda_url": "https://simbli.eboardsolutions.com/index.aspx?S=4121",
+"checked": "2026-11-19",
+"fallback": "https://www.muscogee.k12.ga.us/about-us-clone/board-of-education-clone",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "via board page",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.muscogee.k12.ga.us"
 },
 "1303930": {
 "agenda_url": "",
@@ -2131,10 +2241,20 @@
 "platform": "none"
 },
 "1304020": {
+"agenda_url": "https://simbli.eboardsolutions.com/index.aspx?S=4125",
+"checked": "2026-11-19",
+"fallback": "https://www.paulding.k12.ga.us/board-of-education/about-the-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.paulding.k12.ga.us"
 },
 "1304050": {
 "agenda_url": "",
@@ -2569,10 +2689,20 @@
 "platform": "none"
 },
 "1602100": {
+"agenda_url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062\\",
+"checked": "2026-11-19",
+"fallback": "https://www.westada.org/o/wasd/page/board-of-trustees",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.westada.org"
 },
 "1602130": {
 "agenda_url": "",
@@ -3206,10 +3336,20 @@
 "platform": "site"
 },
 "1709930": {
+"agenda_url": "https://www.cps.edu/about/chicago-board-of-education/",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.cps.k12.il.us",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.cps.edu"
 },
 "1709960": {
 "agenda_url": "https://www.sd170.com/page/school-board",
@@ -9084,10 +9224,20 @@
 "platform": "none"
 },
 "2200300": {
+"agenda_url": "https://caddoschools-org.community.diligentoneplatform.com/Portal/\\",
+"checked": "2026-11-19",
+"fallback": "https://www.caddoschools.org/page/school-board-information",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "diligent",
+"web_source": "override",
+"web_tried": "https://www.caddoschools.org"
 },
 "2200330": {
 "agenda_url": "",
@@ -9132,10 +9282,20 @@
 "platform": "none"
 },
 "2200540": {
+"agenda_url": "https://ebrschools.org/about/#sb",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.ebrschools.org"
 },
 "2200600": {
 "agenda_url": "",
@@ -9186,16 +9346,35 @@
 "platform": "none"
 },
 "2200840": {
+"agenda_url": "https://go.boarddocs.com/la/jppss/Board.nsf/Public",
+"checked": "2026-11-19",
+"fallback": "https://www.jpschools.org/our-district/school-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "via board page",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://www.jpschools.org"
 },
 "2200870": {
+"agenda_url": "https://www.lpssonline.com",
+"checked": "2026-11-19",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "unreachable: SSLError",
+"platform": "none",
+"web_source": "override",
+"web_tried": "https://www.lpssonline.com"
 },
 "2200900": {
 "agenda_url": "",
@@ -9336,10 +9515,20 @@
 "platform": "none"
 },
 "2201650": {
+"agenda_url": "https://stpsb.community.diligentoneplatform.com/Portal/",
+"checked": "2026-11-19",
+"fallback": "https://www.stpsb.org/our-district/school-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "diligent",
+"web_source": "override",
+"web_tried": "https://www.stpsb.org"
 },
 "2201680": {
 "agenda_url": "",
@@ -17149,10 +17338,20 @@
 "platform": "none"
 },
 "3172840": {
+"agenda_url": "https://www.lps.org/page/board-of-education",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.lps.org"
 },
 "3173230": {
 "agenda_url": "",
@@ -17197,10 +17396,20 @@
 "platform": "none"
 },
 "3174820": {
+"agenda_url": "https://www.ops.org/departments/retirement-information-osers/board-of-trustees",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.ops.org"
 },
 "3175270": {
 "agenda_url": "",
@@ -33725,10 +33934,20 @@
 "platform": "boardbook"
 },
 "4819650": {
+"agenda_url": "https://meetings.boardbook.org/Public/Organization/649",
+"checked": "2026-11-19",
+"fallback": "https://www.fortbendisd.gov/our-district/leadership/board-of-trustees/board-meeting-live-stream",
+"history": [
+{
 "agenda_url": "http://www.fortbend.k12.tx.us/",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "via board page",
+"platform": "boardbook",
+"web_source": "override",
+"web_tried": "https://www.fortbendisd.com"
 },
 "4819700": {
 "agenda_url": "https://www.fwisd.org/board/our-school-board",
@@ -36078,10 +36297,19 @@
 "platform": "boardbook"
 },
 "4900480": {
+"agenda_url": "https://kanek12.org",
+"checked": "2026-11-19",
+"history": [
+{
 "agenda_url": "http://www.kane.k12.ut.us",
-"checked": "2026-11-10",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "unreachable: ConnectTimeout",
+"platform": "none",
+"web_source": "override",
+"web_tried": "https://kanek12.org"
 },
 "4900510": {
 "agenda_url": "https://www.loganschools.org/board-of-education",
@@ -39974,10 +40202,20 @@
 "platform": "boarddocs"
 },
 "5509600": {
+"agenda_url": "https://www.milwaukeepublicschools.org/about/board",
+"checked": "2026-11-19",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.milwaukee.k12.wi.us",
-"checked": "2026-11-07",
-"note": "unreachable: SSLError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://mps.milwaukee.k12.wi.us"
 },
 "5509720": {
 "agenda_url": "https://go.boarddocs.com/wi/nwood/Board.nsf/Public",
@@ -44242,10 +44480,20 @@
 "platform": "simbli"
 },
 "635310": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031510",
+"checked": "2026-11-19",
+"fallback": "https://www.sausd.us/school-board",
+"history": [
+{
 "agenda_url": "http://www.sausd.k12.ca.us",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-19"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.sausd.us"
 },
 "635430": {
 "agenda_url": "https://www.santaclarausd.org/about-us/board-of-trustees",

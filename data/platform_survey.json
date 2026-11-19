@@ -9854,18 +9854,77 @@
 "google_drive"
 ],
 "seen": "2026-11-19"
+},
+"3174820": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"5509600": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"1709930": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"1301290": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"3172840": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"1201260": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"2200840": {
+"vendors": [
+"boarddocs",
+"diligent",
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"1301110": {
+"vendors": [
+"youtube"
+],
+"seen": "2026-11-19"
+},
+"2200540": {
+"vendors": [
+"google_drive",
+"youtube"
+],
+"seen": "2026-11-19"
 }
 },
 "summary": {
-"generated": "2026-11-19T04:39:21+00:00",
-"districts_surveyed": 1462,
+"generated": "2026-11-19T16:11:17+00:00",
+"districts_surveyed": 1471,
 "icp_districts_by_vendor": {
-"youtube": 986,
-"google_drive": 973,
-"boarddocs": 238,
+"youtube": 995,
+"google_drive": 976,
+"boarddocs": 239,
 "simbli_eboard": 104,
 "boardbook": 94,
-"diligent": 82,
+"diligent": 83,
 "swagit": 25,
 "granicus": 20,
 "meetingdocs_other": 11,

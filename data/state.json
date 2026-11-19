@@ -5526,7 +5526,18 @@
 "691028": "2026-11-18",
 "3480180": "2026-11-18",
 "691111": "2026-11-18",
-"3416400": "2026-11-19"
+"3416400": "2026-11-19",
+"1302550": "2026-11-19",
+"3172840": "2026-11-19",
+"1301740": "2026-11-19",
+"1302820": "2026-11-19",
+"635310": "2026-11-19",
+"1709930": "2026-11-19",
+"1301290": "2026-11-19",
+"4900480": "2026-11-19",
+"2200540": "2026-11-19",
+"3174820": "2026-11-19",
+"4819650": "2026-11-19"
 },
 "cycle_started": "2026-11-07",
 "failures": {
@@ -9633,10 +9644,58 @@
 "students": 1782,
 "platform": "site",
 "url": "https://www.icschools.us/board_of_education2/board_of_education"
+},
+"1201260": {
+"code": "forbidden",
+"note": "HTTP 403 at https://www.marionschools.net/school_board/agendas_minutes",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "MARION",
+"state": "Florida",
+"students": 46352,
+"platform": "site",
+"url": "https://www.marionschools.net/school_board"
+},
+"5509600": {
+"code": "robots",
+"note": "robots.txt disallows https://www.milwaukeepublicschools.org/fs/pages/872",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Milwaukee School District",
+"state": "Wisconsin",
+"students": 65599,
+"platform": "site",
+"url": "https://www.milwaukeepublicschools.org/about/board"
+},
+"1301110": {
+"code": "robots",
+"note": "robots.txt disallows https://www.cherokeek12.net/fs/pages/7152",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-19",
+"district": "Cherokee County",
+"state": "Georgia",
+"students": 42031,
+"platform": "site",
+"url": "https://www.cherokeek12.net/board-of-education"
+},
+"2200840": {
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/la/jppss/Board.nsf/Public | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-19",
+"retry_after": "2026-12-03",
+"district": "Jefferson Parish",
+"state": "Louisiana",
+"students": 46790,
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/la/jppss/Board.nsf/Public"
 }
 },
 "deferred": [],
-"last_run": "20261119T030022Z",
+"last_run": "20261119T160946Z",
 "yield": {
 "1200390": "2026-11-07",
 "1201500": "2026-11-07",
@@ -10051,6 +10110,16 @@
 "4112930": "2026-11-18",
 "4680437": "2026-11-18",
 "691111": "2026-11-18",
-"4820190": "2026-11-19"
-}
+"4820190": "2026-11-19",
+"4900480": "2026-11-19",
+"2200540": "2026-11-19",
+"3174820": "2026-11-19",
+"4819650": "2026-11-19"
+},
+"pmn_seen": [
+"https://www.utah.gov/pmn/files/1485655.pdf",
+"https://www.utah.gov/pmn/files/1485663.pdf",
+"https://www.utah.gov/pmn/files/1501277.pdf",
+"https://www.utah.gov/pmn/files/1514827.pdf"
+]
 }

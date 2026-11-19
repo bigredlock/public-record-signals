@@ -1,18 +1,18 @@
 {
-"generated": "2026-11-19T04:39:41+00:00",
-"count": 1625,
+"generated": "2026-11-19T16:11:24+00:00",
+"count": 1614,
 "by_code": {
-"forbidden": 168,
-"no_portal_found": 860,
+"forbidden": 170,
 "no_reader_civicclerk": 2,
-"no_reader_diligent": 52,
+"no_reader_eboard": 149,
+"no_reader_diligent": 55,
 "site_blocked": 225,
-"robots": 170,
+"robots": 172,
+"no_portal_found": 836,
 "error": 1,
 "rate_limited": 1,
 "not_found": 2,
-"no_reader_granicus": 1,
-"no_reader_eboard": 143
+"no_reader_granicus": 1
 },
 "districts": [
 {
@@ -26,18 +26,6 @@
 "url": "https://www.lausd.org/boe",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "1709930",
-"district": "Chicago Public Schools Dist 299",
-"state": "Illinois",
-"students": 324130,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.cps.k12.il.us",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "1201440",
@@ -64,18 +52,6 @@
 "last": "2026-11-10"
 },
 {
-"nces_id": "1302550",
-"district": "Gwinnett County",
-"state": "Georgia",
-"students": 182518,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1200480",
 "district": "DUVAL",
 "state": "Florida",
@@ -100,18 +76,6 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "1301290",
-"district": "Cobb County",
-"state": "Georgia",
-"students": 105738,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1201080",
 "district": "LEE",
 "state": "Florida",
@@ -124,40 +88,23 @@
 "last": "2026-11-10"
 },
 {
-"nces_id": "1301740",
-"district": "DeKalb County",
-"state": "Georgia",
-"students": 91752,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1302280",
 "district": "Fulton County",
 "state": "Georgia",
 "students": 87019,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/fulton",
 "attempts": 0,
-"last": "2026-11-07"
-},
+"last": "2026-11-19",
+"history": [
 {
-"nces_id": "4819650",
-"district": "FORT BEND ISD",
-"state": "Texas",
-"students": 79663,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
+"agenda_url": "",
 "platform": "none",
-"url": "http://www.fortbend.k12.tx.us/",
-"attempts": 0,
-"last": "2026-11-07"
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "1201470",
@@ -212,12 +159,12 @@
 "district": "Milwaukee School District",
 "state": "Wisconsin",
 "students": 65599,
-"code": "no_portal_found",
-"note": "unreachable: SSLError",
-"platform": "none",
-"url": "http://www.milwaukee.k12.wi.us",
-"attempts": 0,
-"last": "2026-11-07"
+"code": "robots",
+"note": "robots.txt disallows https://www.milwaukeepublicschools.org/fs/pages/872",
+"platform": "site",
+"url": "https://www.milwaukeepublicschools.org/about/board",
+"attempts": 1,
+"last": "2026-11-19"
 },
 {
 "nces_id": "5100840",
@@ -316,18 +263,6 @@
 "last": "2026-11-07"
 },
 {
-"nces_id": "3174820",
-"district": "OMAHA PUBLIC SCHOOLS",
-"state": "Nebraska",
-"students": 52524,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1201740",
 "district": "ST. JOHNS",
 "state": "Florida",
@@ -368,12 +303,19 @@
 "district": "Atlanta Public Schools",
 "state": "Georgia",
 "students": 49945,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Index.aspx?S=36031014",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "3700011",
@@ -428,12 +370,12 @@
 "district": "Jefferson Parish",
 "state": "Louisiana",
 "students": 46790,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/la/jppss/Board.nsf/Public | fallback: Blocked",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/la/jppss/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-19"
 },
 {
 "nces_id": "4826580",
@@ -464,12 +406,12 @@
 "district": "MARION",
 "state": "Florida",
 "students": 46352,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.marion.k12.fl.us/",
-"attempts": 0,
-"last": "2026-11-10"
+"code": "forbidden",
+"note": "HTTP 403 at https://www.marionschools.net/school_board/agendas_minutes",
+"platform": "site",
+"url": "https://www.marionschools.net/school_board",
+"attempts": 1,
+"last": "2026-11-19"
 },
 {
 "nces_id": "3600151",
@@ -520,18 +462,6 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "1302820",
-"district": "Henry County",
-"state": "Georgia",
-"students": 43012,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "200180",
 "district": "Anchorage School District",
 "state": "Alaska",
@@ -556,28 +486,16 @@
 "last": "2026-11-07"
 },
 {
-"nces_id": "3172840",
-"district": "LINCOLN PUBLIC SCHOOLS",
-"state": "Nebraska",
-"students": 42301,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1301110",
 "district": "Cherokee County",
 "state": "Georgia",
 "students": 42031,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
+"code": "robots",
+"note": "robots.txt disallows https://www.cherokeek12.net/fs/pages/7152",
+"platform": "site",
+"url": "https://www.cherokeek12.net/board-of-education",
+"attempts": 1,
+"last": "2026-11-19"
 },
 {
 "nces_id": "3600123",
@@ -628,28 +546,23 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "2200540",
-"district": "East Baton Rouge Parish",
-"state": "Louisiana",
-"students": 39320,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1602100",
 "district": "JOINT SCHOOL DISTRICT NO. 2",
 "state": "Idaho",
 "students": 38740,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062\\",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "802340",
@@ -748,28 +661,23 @@
 "last": "2026-11-07"
 },
 {
-"nces_id": "635310",
-"district": "Santa Ana Unified",
-"state": "California",
-"students": 36036,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.sausd.k12.ca.us",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "2201650",
 "district": "St. Tammany Parish",
 "state": "Louisiana",
 "students": 35956,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_diligent",
+"note": "",
+"platform": "diligent",
+"url": "https://stpsb.community.diligentoneplatform.com/Portal/",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "3700530",
@@ -788,12 +696,19 @@
 "district": "Savannah-Chatham County",
 "state": "Georgia",
 "students": 35744,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_diligent",
+"note": "",
+"platform": "diligent",
+"url": "https://sccpss.community.diligentoneplatform.com/Portal/",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "3904375",
@@ -932,12 +847,19 @@
 "district": "Caddo Parish",
 "state": "Louisiana",
 "students": 32165,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_diligent",
+"note": "",
+"platform": "diligent",
+"url": "https://caddoschools-org.community.diligentoneplatform.com/Portal/\\",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "1201380",
@@ -992,12 +914,19 @@
 "district": "Paulding County",
 "state": "Georgia",
 "students": 31426,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/index.aspx?S=4125",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "5304230",
@@ -1016,12 +945,19 @@
 "district": "Houston County",
 "state": "Georgia",
 "students": 30939,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Index.aspx?S=4089",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "4704020",
@@ -1089,23 +1025,37 @@
 "state": "Louisiana",
 "students": 29396,
 "code": "no_portal_found",
-"note": "no website in NCES",
+"note": "unreachable: SSLError",
 "platform": "none",
-"url": "",
+"url": "https://www.lpssonline.com",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "1303870",
 "district": "Muscogee County",
 "state": "Georgia",
 "students": 29362,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "via board page",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/index.aspx?S=4121",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-19",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-19"
+}
+]
 },
 {
 "nces_id": "4808130",
@@ -14376,18 +14326,6 @@
 "note": "no website in NCES",
 "platform": "none",
 "url": "",
-"attempts": 0,
-"last": "2026-11-10"
-},
-{
-"nces_id": "4900480",
-"district": "Kane District",
-"state": "Utah",
-"students": 1484,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.kane.k12.ut.us",
 "attempts": 0,
 "last": "2026-11-10"
 },
