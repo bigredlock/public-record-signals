@@ -1,18 +1,19 @@
 {
-"generated": "2026-11-19T16:11:24+00:00",
+"generated": "2026-11-20T03:01:57+00:00",
 "count": 1614,
 "by_code": {
-"forbidden": 170,
+"forbidden": 172,
 "no_reader_civicclerk": 2,
-"no_reader_eboard": 149,
-"no_reader_diligent": 55,
+"no_reader_eboard": 129,
+"robots": 192,
 "site_blocked": 225,
-"robots": 172,
+"no_reader_diligent": 49,
 "no_portal_found": 836,
 "error": 1,
 "rate_limited": 1,
-"not_found": 2,
-"no_reader_granicus": 1
+"not_found": 3,
+"no_reader_granicus": 1,
+"bot_wall": 3
 },
 "districts": [
 {
@@ -111,12 +112,12 @@
 "district": "OSCEOLA",
 "state": "Florida",
 "students": 75314,
-"code": "no_reader_diligent",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://files.smartsites.parentsquare.com/5825/board_meeting_schedule_2027.pdf",
 "platform": "diligent",
 "url": "https://osceola-schools.community.diligentoneplatform.com/home/policies/policydoc/3ad18ae6-f4fe-48d3-858d-44c11e78274c",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3500060",
@@ -779,8 +780,8 @@
 "note": "400 Client Error: 'Agenda Draft Status' or 'Agenda Status Not Vievable By The Public' is not setup in settings. Value should be greater than 0. for url: https://webapi.legistar.com/v1/ousd/events?$fil",
 "platform": "legistar",
 "url": "https://ousd.legistar.com",
-"attempts": 2,
-"last": "2026-11-18"
+"attempts": 3,
+"last": "2026-11-20"
 },
 {
 "nces_id": "638010",
@@ -1043,19 +1044,12 @@
 "district": "Muscogee County",
 "state": "Georgia",
 "students": 29362,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.muscogee.k12.ga.us/fs/resource-manager/view/c0d28d37-bc9e-4df9-865d-4d494928c700",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/index.aspx?S=4121",
-"attempts": 0,
-"last": "2026-11-19",
-"history": [
-{
-"agenda_url": "",
-"platform": "none",
-"until": "2026-11-19"
-}
-]
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4808130",
@@ -4134,12 +4128,12 @@
 "district": "SUMTER",
 "state": "Florida",
 "students": 10013,
-"code": "no_reader_diligent",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://files.smartsites.parentsquare.com/7487/2026_school_board_calendar.pdf",
 "platform": "diligent",
 "url": "https://sumter.community.diligentoneplatform.com/Portal/Default.aspx",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3405610",
@@ -9282,12 +9276,12 @@
 "district": "TAYLOR",
 "state": "Florida",
 "students": 2524,
-"code": "no_reader_diligent",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.taylor.k12.fl.us/sys/content/newspost/102356f0c2c84d8388c92a3f5edd931c",
 "platform": "diligent",
 "url": "https://taylor-k12.community.diligentoneplatform.com/Portal/",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "2200960",
@@ -11154,12 +11148,12 @@
 "district": "Robla Elementary",
 "state": "California",
 "students": 1894,
-"code": "no_reader_eboard",
-"note": "",
+"code": "forbidden",
+"note": "district site: HTTP 403 at https://www.robla.k12.ca.us/apps/events/2026/11/12/35820881/?REC_ID=35820881&id=0",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/index.aspx?S=36030208",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4200093",
@@ -12390,12 +12384,12 @@
 "district": "Pittsgrove Township School District",
 "state": "New Jersey",
 "students": 1696,
-"code": "no_reader_eboard",
-"note": "",
+"code": "bot_wall",
+"note": "district site: bot protection page at https://www.pittsgrove.net/board_of_education/b_o_e_agenda",
 "platform": "eboard",
 "url": "http://simbli.eboardsolutions.com/Meetings/MeetingListing.aspx?S=60861",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "620730",
@@ -12954,24 +12948,24 @@
 "district": "West Muskingum Local",
 "state": "Ohio",
 "students": 1636,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.westmschools.org/fs/resource-manager/view/5bcf9720-c94e-4121-b06c-de6077fa036b",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032215",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3904990",
 "district": "Northwest Local",
 "state": "Ohio",
 "students": 1636,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://files.smartsites.parentsquare.com/8126/regular_meeting_agenda_6-22-26.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032190",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "1600144",
@@ -13074,12 +13068,12 @@
 "district": "Atlantic Comm School District",
 "state": "Iowa",
 "students": 1621,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.atlanticiaschools.org/fs/pages/1205",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031831",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4834920",
@@ -13278,12 +13272,12 @@
 "district": "HASTINGS-ON-HUDSON UNION FREE SCHOOL DISTRICT",
 "state": "New York",
 "students": 1604,
-"code": "no_reader_diligent",
-"note": "",
+"code": "forbidden",
+"note": "district site: HTTP 403 at https://go.boarddocs.com/ny/hhufsd/Board.nsf/files/DD6TLX77F3D1/$file/FMS%20Flood%20and%20Bond%20Update%201_22_2025.pdf",
 "platform": "diligent",
 "url": "https://hoh-schools.community.diligentoneplatform.com/Portal/Default.aspx",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4208490",
@@ -13562,6 +13556,18 @@
 "last": "2026-11-11"
 },
 {
+"nces_id": "2932190",
+"district": "WINFIELD R-IV",
+"state": "Missouri",
+"students": 1577,
+"code": "robots",
+"note": "district site: robots.txt disallows https://files.smartsites.parentsquare.com/10363/school_board_budget_memo_2026-27.pdf",
+"platform": "diligent",
+"url": "https://winfield.community.diligentoneplatform.com/Portal/",
+"attempts": 1,
+"last": "2026-11-20"
+},
+{
 "nces_id": "2607140",
 "district": "Buchanan Community Schools",
 "state": "Michigan",
@@ -13570,18 +13576,6 @@
 "note": "unreachable: SSLError",
 "platform": "none",
 "url": "http://www.buchananschools.com",
-"attempts": 0,
-"last": "2026-11-10"
-},
-{
-"nces_id": "2932190",
-"district": "WINFIELD R-IV",
-"state": "Missouri",
-"students": 1577,
-"code": "no_reader_diligent",
-"note": "via board page",
-"platform": "diligent",
-"url": "https://winfield.community.diligentoneplatform.com/Portal/",
 "attempts": 0,
 "last": "2026-11-10"
 },
@@ -13698,12 +13692,12 @@
 "district": "HIGHLAND CENTRAL SCHOOL DISTRICT",
 "state": "New York",
 "students": 1563,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.highland-k12.org/fs/pages/1105",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/index.aspx?s=170011",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3302340",
@@ -13722,12 +13716,12 @@
 "district": "Vinton-Shellsburg Comm School District",
 "state": "Iowa",
 "students": 1558,
-"code": "no_reader_eboard",
-"note": "",
+"code": "bot_wall",
+"note": "district site: bot protection page at https://www.vscsd.org/school-board",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031132",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4215990",
@@ -14282,6 +14276,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "3904684",
+"district": "Amanda-Clearcreek Local",
+"state": "Ohio",
+"students": 1493,
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.amanda.k12.oh.us/fs/resource-manager/view/cf5232eb-7dd0-4310-8f5f-5ba110ff22c4",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032131",
+"attempts": 1,
+"last": "2026-11-20"
+},
+{
 "nces_id": "2617220",
 "district": "Grosse Ile Township Schools",
 "state": "Michigan",
@@ -14290,18 +14296,6 @@
 "note": "no website in NCES",
 "platform": "none",
 "url": "",
-"attempts": 0,
-"last": "2026-11-10"
-},
-{
-"nces_id": "3904684",
-"district": "Amanda-Clearcreek Local",
-"state": "Ohio",
-"students": 1493,
-"code": "no_reader_eboard",
-"note": "via board page",
-"platform": "eboard",
-"url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032131",
 "attempts": 0,
 "last": "2026-11-10"
 },
@@ -15858,12 +15852,12 @@
 "district": "Los Nietos",
 "state": "California",
 "students": 1210,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/73d0/05/31/24/231231-f32d732a-6590-43d6-8c41-01177967c969.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030313",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3502800",
@@ -15894,12 +15888,12 @@
 "district": "Mitchell County",
 "state": "Georgia",
 "students": 1203,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/b78c/01/26/26/123513-236a12f4-538c-40b2-a202-3b178b0c251c.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=4116",
-"attempts": 0,
-"last": "2026-11-10"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "5602370",
@@ -17226,12 +17220,12 @@
 "district": "Delphos City",
 "state": "Ohio",
 "students": 943,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.delphoscityschools.org/fs/resource-manager/view/09b5e48a-e833-4a59-b7be-e6d641ffb6a0",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032149&amp;ptid=qo79RxbUbdO3GjATNVIJ7Q==",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "2700276",
@@ -17610,12 +17604,12 @@
 "district": "West Bolivar Consolidated School District",
 "state": "Mississippi",
 "students": 873,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.wbcsdk12.org/sys/content/newspost/11f8974b86d542be8c146e9b278d6843",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031804&amp;revid=QJVLslshi9zQnplusATRpcpCSAbQ==&amp;ptid=9slshUHzTHxaaYMVf6zKpJz3Q==&amp;secid=hSGrPqF4gplus5plusbZ62PcQufA==&amp;PG=6&amp;IRP=0&amp;isPndg=false",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3104980",
@@ -17826,12 +17820,12 @@
 "district": "THOUSAND ISLANDS CENTRAL SCHOOL DISTRICT",
 "state": "New York",
 "students": 816,
-"code": "no_reader_diligent",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://files.smartsites.parentsquare.com/12319/72925_agendadocx.pdf",
 "platform": "diligent",
 "url": "https://thousandislandcsd.community.diligentoneplatform.com/",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3904556",
@@ -18426,12 +18420,12 @@
 "district": "Carbon County School District #2",
 "state": "Wyoming",
 "students": 573,
-"code": "no_reader_eboard",
-"note": "",
+"code": "bot_wall",
+"note": "district site: bot protection page at https://www.crb2.org/86109_3",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031911&amp;ptid=UbQL1xGtQpuhwEoCYu2lOw==",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3502400",
@@ -18474,12 +18468,12 @@
 "district": "Frontier Local",
 "state": "Ohio",
 "students": 540,
-"code": "no_reader_eboard",
-"note": "",
+"code": "not_found",
+"note": "district site: 404 Client Error: Not Found for url: https://www.flsd.k12.oh.us/board_of_education",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032159",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "5307260",
@@ -18702,12 +18696,12 @@
 "district": "Baker K-12 Schools",
 "state": "Montana",
 "students": 464,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://www.baker.k12.mt.us/fs/pages/562",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031294",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4636060",
@@ -18822,12 +18816,12 @@
 "district": "Sierra-Plumas Joint Unified",
 "state": "California",
 "students": 414,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/3349/11/06/26/172242-dbba0bf2-c80d-4b06-92a7-c049fec8661f.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Index.aspx?S=36030473",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "3023900",
@@ -18978,12 +18972,12 @@
 "district": "Howard School District 48-3",
 "state": "South Dakota",
 "students": 356,
-"code": "no_reader_eboard",
-"note": "via board page",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/5daa/07/22/26/202451-97d7f637-e832-403a-b2aa-cb9dc97152eb.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/sd/howard",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "4600028",
@@ -19062,12 +19056,12 @@
 "district": "Haakon School District 27-1",
 "state": "South Dakota",
 "students": 326,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/7e9f/08/25/26/085914-b8267906-fb00-4ca9-83c7-3a2ccb81373d.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=1126&ptid=amIgTZiB9plushNjl6WXhfiOQ==",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "805910",
@@ -19110,12 +19104,12 @@
 "district": "Butte Valley Unified",
 "state": "California",
 "students": 313,
-"code": "no_reader_eboard",
-"note": "",
+"code": "robots",
+"note": "district site: robots.txt disallows https://4.files.edl.io/5aae/11/09/26/190554-5ace4749-7a99-462a-bb6f-c2975a68d3ed.pdf",
 "platform": "eboard",
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031539",
-"attempts": 0,
-"last": "2026-11-11"
+"attempts": 1,
+"last": "2026-11-20"
 },
 {
 "nces_id": "2012390",

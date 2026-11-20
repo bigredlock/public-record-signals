@@ -572,24 +572,92 @@
 "ocr_docs": 0,
 "image_only_pages": 0
 }
+},
+{
+"run_id": "20261120T025716Z",
+"started": "2026-11-20T02:57:16+00:00",
+"finished": "2026-11-20T03:01:57+00:00",
+"status": "complete",
+"counts": {
+"classified": 0,
+"discovered": 209,
+"queued": 209,
+"failed": 27,
+"failed_error": 1,
+"fetched": 182,
+"fallback_reads": 181,
+"failed_robots": 20,
+"failed_forbidden": 2,
+"parsed_matches": 304,
+"new_records": 101,
+"disp_low": 57,
+"disp_review": 20,
+"qualified": 20,
+"disp_duplicate": 24,
+"duplicated": 227,
+"failed_bot_wall": 3,
+"failed_not_found": 1,
+"deferred": 0,
+"not_queued": 0,
+"money_matches": 154
+},
+"sources": {
+"classify": {
+"ok": true,
+"note": ""
+},
+"agendas": {
+"ok": true,
+"note": ""
+},
+"usaspending": {
+"ok": true,
+"note": ""
+},
+"grants_gov": {
+"ok": true,
+"note": ""
+}
+},
+"notes": [],
+"yield": {
+"fallback": {
+"reads": 181,
+"matches": 150
+},
+"site": {
+"reads": 1,
+"matches": 0
+}
+},
+"minutes": 4.6,
+"http": {
+"fetched": 551,
+"pdfs": 53,
+"pdf_pages": 473,
+"ocr_pages": 15,
+"ocr_docs": 6,
+"image_only_pages": 106,
+"docs_skipped_time": 15
+}
 }
 ],
 "sources": {
 "classify": {
-"last_attempted": "2026-11-19T16:10:59+00:00",
-"last_success": "2026-11-19T16:10:59+00:00"
+"last_attempted": "2026-11-20T02:57:16+00:00",
+"last_success": "2026-11-20T02:57:16+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-19T16:11:17+00:00",
-"last_success": "2026-11-19T16:11:17+00:00"
+"last_attempted": "2026-11-20T03:01:49+00:00",
+"last_success": "2026-11-20T03:01:49+00:00"
 },
 "usaspending": {
-"last_attempted": "2026-11-19T16:11:21+00:00",
-"last_success": "2026-11-19T16:11:21+00:00"
+"last_attempted": "2026-11-20T03:01:54+00:00",
+"last_success": "2026-11-20T03:01:54+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-19T16:11:24+00:00",
-"last_success": "2026-11-19T16:11:24+00:00"
+"last_attempted": "2026-11-20T03:01:57+00:00",
+"last_success": "2026-11-20T03:01:57+00:00"
 }
 }
 }
