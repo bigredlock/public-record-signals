@@ -1,5 +1,5 @@
 {
-"generated": "2026-11-20T03:01:57+00:00",
+"generated": "2026-11-21T02:57:42+00:00",
 "count": 1614,
 "by_code": {
 "forbidden": 172,
@@ -1393,11 +1393,11 @@
 "state": "North Carolina",
 "students": 24470,
 "code": "rate_limited",
-"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017-11-6.pdf",
+"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/Agenda%2010.2.2017.pdf",
 "platform": "site",
 "url": "https://www.pitt.k12.nc.us/board/board-of-education",
-"attempts": 2,
-"last": "2026-11-19"
+"attempts": 3,
+"last": "2026-11-21"
 },
 {
 "nces_id": "2928860",

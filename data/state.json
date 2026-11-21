@@ -7164,10 +7164,10 @@
 },
 "3700012": {
 "code": "rate_limited",
-"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/2017-11-6.pdf",
-"attempts": 2,
-"last": "2026-11-19",
-"retry_after": "2026-11-21",
+"note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/Agenda%2010.2.2017.pdf",
+"attempts": 3,
+"last": "2026-11-21",
+"retry_after": "2026-11-23",
 "district": "Pitt County Schools",
 "state": "North Carolina",
 "students": 24470,
@@ -10188,7 +10188,7 @@
 }
 },
 "deferred": [],
-"last_run": "20261120T025716Z",
+"last_run": "20261121T025721Z",
 "yield": {
 "1200390": "2026-11-07",
 "1201500": "2026-11-07",
