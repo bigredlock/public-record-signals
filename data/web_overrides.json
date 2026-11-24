@@ -1,15 +1,33 @@
 {
+ "1200030": {
+  "added": "2026-11-24",
+  "district": "ALACHUA",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.alachuaschools.net"
+ },
  "1201260": {
   "added": "2026-11-19",
   "district": "MARION",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.marionschools.net"
  },
+ "1201650": {
+  "added": "2026-11-24",
+  "district": "SANTA ROSA",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.santarosaschools.org"
+ },
  "1300120": {
   "added": "2026-11-19",
   "district": "Atlanta Public Schools",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.atlantapublicschools.us"
+ },
+ "1300420": {
+  "added": "2026-11-24",
+  "district": "Bibb County",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.bcsdk12.net"
  },
  "1301020": {
   "added": "2026-11-19",
@@ -29,11 +47,29 @@
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.cobbk12.org"
  },
+ "1301410": {
+  "added": "2026-11-24",
+  "district": "Columbia County",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.ccboe.net"
+ },
  "1301740": {
   "added": "2026-11-19",
   "district": "DeKalb County",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.dekalbschoolsga.org"
+ },
+ "1301860": {
+  "added": "2026-11-24",
+  "district": "Douglas County",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.dcssga.org"
+ },
+ "1302130": {
+  "added": "2026-11-24",
+  "district": "Fayette County",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.fcboe.org"
  },
  "1302280": {
   "added": "2026-11-19",
@@ -71,6 +107,18 @@
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.paulding.k12.ga.us"
  },
+ "1304380": {
+  "added": "2026-11-24",
+  "district": "Richmond County",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.rcboe.org"
+ },
+ "1600360": {
+  "added": "2026-11-24",
+  "district": "BOISE INDEPENDENT DISTRICT",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.boiseschools.org"
+ },
  "1602100": {
   "added": "2026-11-19",
   "district": "JOINT SCHOOL DISTRICT NO. 2",
@@ -83,11 +131,29 @@
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.cps.edu"
  },
+ "2200090": {
+  "added": "2026-11-24",
+  "district": "Ascension Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.ascensionschools.org"
+ },
+ "2200270": {
+  "added": "2026-11-24",
+  "district": "Bossier Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.bossierschools.org"
+ },
  "2200300": {
   "added": "2026-11-19",
   "district": "Caddo Parish",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.caddoschools.org"
+ },
+ "2200330": {
+  "added": "2026-11-24",
+  "district": "Calcasieu Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.cpsb.org"
  },
  "2200540": {
   "added": "2026-11-19",
@@ -102,10 +168,22 @@
   "web": "https://www.jpschools.org"
  },
  "2200870": {
-  "added": "2026-11-19",
+  "added": "2026-11-24",
   "district": "Lafayette Parish",
-  "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
-  "web": "https://www.lpssonline.com"
+  "source": "weekly repair 2026-11-24: replaced failed override via web search",
+  "web": "https://lpssonline.com"
+ },
+ "2201020": {
+  "added": "2026-11-24",
+  "district": "Livingston Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.lpsb.org"
+ },
+ "2201200": {
+  "added": "2026-11-24",
+  "district": "Ouachita Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.opsb.net"
  },
  "2201650": {
   "added": "2026-11-19",
@@ -113,11 +191,29 @@
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.stpsb.org"
  },
+ "2201680": {
+  "added": "2026-11-24",
+  "district": "Tangipahoa Parish",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.tangischools.org"
+ },
+ "2628560": {
+  "added": "2026-11-24",
+  "district": "Plymouth-Canton Community Schools",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.pccsk12.com"
+ },
  "3172840": {
   "added": "2026-11-19",
   "district": "LINCOLN PUBLIC SCHOOLS",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.lps.org"
+ },
+ "3173740": {
+  "added": "2026-11-24",
+  "district": "MILLARD PUBLIC SCHOOLS",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.mpsomaha.org"
  },
  "3174820": {
   "added": "2026-11-19",
@@ -125,11 +221,53 @@
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.ops.org"
  },
+ "3703450": {
+  "added": "2026-11-24",
+  "district": "Onslow County Schools",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.onslow.k12.nc.us"
+ },
+ "406330": {
+  "added": "2026-11-24",
+  "district": "Phoenix Union High School District (4286)",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.pxu.org"
+ },
+ "408800": {
+  "added": "2026-11-24",
+  "district": "Tucson Unified District (4403)",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.tusd1.org"
+ },
+ "4400900": {
+  "added": "2026-11-24",
+  "district": "Providence",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.providenceschools.org"
+ },
+ "4502010": {
+  "added": "2026-11-24",
+  "district": "Dorchester 02",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.ddtwo.org"
+ },
+ "4800030": {
+  "added": "2026-11-24",
+  "district": "UPLIFT EDUCATION",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.uplifteducation.org"
+ },
  "4819650": {
   "added": "2026-11-19",
   "district": "FORT BEND ISD",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://www.fortbendisd.com"
+ },
+ "4834830": {
+  "added": "2026-11-24",
+  "district": "PFLUGERVILLE ISD",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.pfisd.net"
  },
  "4900480": {
   "added": "2026-11-19",
@@ -138,11 +276,77 @@
   "source": "Nov 19 2026: Civic IQ alert showed the crawler missed Kane; NCES URL kane.k12.ut.us is dead",
   "web": "https://kanek12.org"
  },
+ "5102670": {
+  "added": "2026-11-24",
+  "district": "Norfolk City Public Schools",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.npsk12.com"
+ },
+ "5300300": {
+  "added": "2026-11-24",
+  "district": "Auburn School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.auburn.wednet.edu"
+ },
+ "5300390": {
+  "added": "2026-11-24",
+  "district": "Bellevue School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://bsd405.org"
+ },
+ "5302400": {
+  "added": "2026-11-24",
+  "district": "Edmonds School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.edmonds.wednet.edu"
+ },
+ "5303960": {
+  "added": "2026-11-24",
+  "district": "Kent School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.kent.k12.wa.us"
+ },
+ "5306570": {
+  "added": "2026-11-24",
+  "district": "Pasco School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.psd1.org"
+ },
+ "5306960": {
+  "added": "2026-11-24",
+  "district": "Puyallup School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.puyallupsd.org"
+ },
+ "5308700": {
+  "added": "2026-11-24",
+  "district": "Tacoma School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.tacomaschools.org"
+ },
+ "5309270": {
+  "added": "2026-11-24",
+  "district": "Vancouver School District",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://vansd.org"
+ },
+ "5400600": {
+  "added": "2026-11-24",
+  "district": "Kanawha County Schools",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://kcs.kana.k12.wv.us"
+ },
  "5509600": {
   "added": "2026-11-19",
   "district": "Milwaukee School District",
   "source": "Claude seed Nov 19 2026 from known district domain (crawler verifies on fetch)",
   "web": "https://mps.milwaukee.k12.wi.us"
+ },
+ "623340": {
+  "added": "2026-11-24",
+  "district": "Madera Unified",
+  "source": "weekly repair 2026-11-24: web search, district domain",
+  "web": "https://www.maderausd.org"
  },
  "635310": {
   "added": "2026-11-19",
