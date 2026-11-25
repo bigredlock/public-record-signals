@@ -1,5 +1,5 @@
 {
-"generated": "2026-11-24T05:22:03+00:00",
+"generated": "2026-11-25T05:27:58+00:00",
 "note": "compatibility copy; use data/ledger/ (stable seq) instead",
 "matches": [
 {
@@ -80493,6 +80493,31 @@
 "reason": "generic words only (safety)"
 },
 {
+"id": "0eb15514b99e23c0",
+"district": "Rochester School District",
+"state": "Washington",
+"nces_id": "5307470",
+"students": 2175,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.rochester.wednet.edu/page/school-board",
+"page": null,
+"title": "School Board",
+"date": "",
+"matched": [
+"secure"
+],
+"strong": false,
+"snippet": "dopts a budget, policies and hires a superintendent responsible for carrying out the business of the school district; Attempts to secure adequate financing for the district's operation, including submission of special levies and bond proposals to the public; Speaks",
+"found": "2026-11-25",
+"page_hash": "ea6a090ce392",
+"seq": 6156,
+"group_key": "dd6af405d4101859",
+"text_hash": "ea6a090ce392",
+"disposition": "low",
+"reason": "generic words only (secure)"
+},
+{
 "id": "76c9943dfd4e6dad",
 "district": "Barre Unified Union School District #97",
 "state": "Vermont",
@@ -81478,6 +81503,56 @@
 "reason": "generic words only (safety)"
 },
 {
+"id": "55006dfc74a1a1ec",
+"district": "Berkeley SD 87",
+"state": "Illinois",
+"nces_id": "1706000",
+"students": 2147,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.berkeley87.org/UserFiles/Servers/Server_389410/File/sept%20minutess.pdf",
+"page": 3,
+"title": "Minutes",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "INESS None CLOSED SESSION None IASB No Report EDUCATION & FINANCE No Report POLICY & LEGISLATION No Report FACILITIES None HEALTH/SAFETY & TRANSPORTATION No Report PUBLIC RELATIONS No Report PARENT-TEACHER ADVISORY No Report BILINGUAL ADVISORY No Report FOOD SERVICE",
+"found": "2026-11-25",
+"page_hash": "a5454b50178d",
+"seq": 6157,
+"group_key": "176c4ec502bee86e",
+"text_hash": "a5454b50178d",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
+"id": "f88d1aeb479eb780",
+"district": "Berkeley SD 87",
+"state": "Illinois",
+"nces_id": "1706000",
+"students": 2147,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.berkeley87.org/UserFiles/Servers/Server_389410/File/sept%20minutess.pdf",
+"page": 6,
+"title": "Minutes",
+"date": "",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "SCHOOLS). Roll Call Vote Ayes: Hightower Nays: None Jackson Mason Absent: Chavez, Espinoza Walker Mora Motion carried 6-0 SERIOUS SAFETY HAZARD ANNUAL RESOLUTION Member Jackson moved, seconded by Member Mason, THAT THE BOARD OF EDUCATION APPROVE THE SERIOUS SAFETY HAZARD ANNUAL RESOLUTION, AS PRESENTED.",
+"found": "2026-11-25",
+"page_hash": "570cf8eb8e9a",
+"seq": 6158,
+"group_key": "20d2e423004732b8",
+"text_hash": "570cf8eb8e9a",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
 "id": "821fed475e7c005d",
 "district": "Richland County CUSD 1",
 "state": "Illinois",
@@ -81982,6 +82057,31 @@
 "reason": "generic words only (safety)"
 },
 {
+"id": "488a86b6cb2cc675",
+"district": "Regional School District 05",
+"state": "Connecticut",
+"nces_id": "903660",
+"students": 2138,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://resources.finalsite.net/images/v1795005045/amityregion5org/uzyeklls12hlqivoxyw9/ARD5-BOE-RM-Minutes-2026-11-09.pdf",
+"page": 2,
+"title": "Regular Meeting Minutes: 2026 - 11 - 09",
+"date": "2026-11-09",
+"matched": [
+"safety"
+],
+"strong": false,
+"snippet": "’S REPORT a. Committee Reports 1. ACES 2. Ad Hoc School Start Time 3. CABE 4. Communications 5. Curriculum 6. District Health and Safety 7. District Technology a. Monthly Report 8. Facilities a. Monthly Report 9. Finance a. Presentation and Discussion of Third Quart",
+"found": "2026-11-25",
+"page_hash": "4cb83a80c713",
+"seq": 6162,
+"group_key": "8ff014841f8fc9e8",
+"text_hash": "4cb83a80c713",
+"disposition": "low",
+"reason": "generic words only (safety)"
+},
+{
 "id": "6f00cbb87dfe5a7d",
 "district": "BRIDGEPORT ISD",
 "state": "Texas",
@@ -82221,6 +82321,56 @@
 "seq": 4104,
 "group_key": "dec6511b861a2e79",
 "text_hash": "",
+"disposition": "low",
+"reason": "generic words only (school resource officer)"
+},
+{
+"id": "76ea76c9a519d1e9",
+"district": "Hermantown Community Schools",
+"state": "Minnesota",
+"nces_id": "2713920",
+"students": 2118,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Agenda/2711?meeting=778468",
+"page": null,
+"title": "Agenda",
+"date": "2026-11-23",
+"matched": [
+"school resource officer"
+],
+"strong": false,
+"snippet": "chool, and Community Education Reports VIII. Recognition of Visitor Business IX. Administrative Report IX.A. Officer Jason Salo - School Resource Officer Update X. Correspondence XI. Superintendent's Discussion Items XI.A. Enrollment Update XI.B. Other XII. Committee Reports XIII. Old Business XIII.A. New Position Request for High School Newspaper Advisor XIII.B. Approval of 2027-2028 School Calendar XIII.C. 2027 Board Meeting Dates XIII.D. Hermantown Community Schools and Hermantown Police Department School Resource Officer Agreement XIII.E. District Policy Update: #506 XIII.F. TeamWorks - Hermantown Community Schools Strategic Plan XIV. New Business",
+"found": "2026-11-25",
+"page_hash": "14be5d495028",
+"seq": 6164,
+"group_key": "866e0eb7811cfd02",
+"text_hash": "14be5d495028",
+"disposition": "low",
+"reason": "generic words only (school resource officer)"
+},
+{
+"id": "7a55252b3bfb170a",
+"district": "Hermantown Community Schools",
+"state": "Minnesota",
+"nces_id": "2713920",
+"students": 2118,
+"source_type": "agenda",
+"platform": "boardbook",
+"url": "https://meetings.boardbook.org/Public/Minutes/2711?meeting=776294",
+"page": null,
+"title": "Minutes",
+"date": "2026-11-09",
+"matched": [
+"school resource officer"
+],
+"strong": false,
+"snippet": "l of 2027-2028 School Calendar XV.C. 2027 Board Meeting Dates XV.D. Hermantown Community Schools and Hermantown Police Department School Resource Officer Agreement XV.E. District Policy Update: #506 XV.F. TeamWorks - Hermantown Community Schools Strategic Plan XVI. Closed Session fo",
+"found": "2026-11-25",
+"page_hash": "888d08a0fcdf",
+"seq": 6165,
+"group_key": "f7085e7ae969665b",
+"text_hash": "888d08a0fcdf",
 "disposition": "low",
 "reason": "generic words only (school resource officer)"
 },
@@ -83595,6 +83745,31 @@
 "seq": 4191,
 "group_key": "fb3ebadc00b5cd4a",
 "text_hash": "",
+"disposition": "low",
+"reason": "generic words only (sro)"
+},
+{
+"id": "169aab07eca1aae1",
+"district": "Macomb CUSD 185",
+"state": "Illinois",
+"nces_id": "1723920",
+"students": 2075,
+"source_type": "agenda",
+"platform": "site",
+"url": "https://www.macomb185.org/Archive.aspx?ADID=997",
+"page": null,
+"title": "Most Current Regular Board Meeting Agenda",
+"date": "",
+"matched": [
+"sro"
+],
+"strong": false,
+"snippet": "�����$�\u0001| �N)u \u001a�P�e�� �S�Ri�%���r\u0017�L`\u0017��������\u0019RI%�J �\b��P��\u0010Y�G:M)d�q�Z\u0017��{j��\u0012\u0015���9�G��G�[�cf`[q-��EOq\u0010��HX��)RG^EGci ���\u0011b����sRO\u0012�o$,HY\u0014�#� 2��;+T�\"J�yn����QE\u0014QE\u0014QE\u0014QE\u0014QE\u0015�7�-f����s1br\u000f^�oM�\"�D�T�6�gq �k�D��h%gU$ ���i�|ZtM ,�\u0019� �TZ��k�J��]\\ e\b\u0019 ���,a��1A�\u0004��",
+"found": "2026-11-25",
+"page_hash": "78a4a4386f06",
+"seq": 6166,
+"group_key": "81d5cf883abc8aab",
+"text_hash": "78a4a4386f06",
 "disposition": "low",
 "reason": "generic words only (sro)"
 },

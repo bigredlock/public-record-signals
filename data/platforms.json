@@ -962,10 +962,20 @@
 "platform": "site"
 },
 "1200030": {
+"agenda_url": "https://go.boarddocs.com/fl/alaco/Board.nsf/Public",
+"checked": "2026-11-25",
+"fallback": "https://www.alachuaschools.net/",
+"history": [
+{
 "agenda_url": "http://www.sbac.edu/pages/ACPS",
-"checked": "2026-11-10",
-"note": "unreachable: HTTPError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://www.alachuaschools.net"
 },
 "1200060": {
 "agenda_url": "https://www.bakerk12.org/board-of-education/about-the-board/board-of-education",
@@ -1359,10 +1369,20 @@
 "platform": "boarddocs"
 },
 "1201650": {
+"agenda_url": "https://santarosacosdfl.portal.civicclerk.com/\\",
+"checked": "2026-11-25",
+"fallback": "https://www.santarosaschools.org/page/our-school-board",
+"history": [
+{
 "agenda_url": "http://www.santarosa.k12.fl.us/",
-"checked": "2026-11-10",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "civicclerk",
+"web_source": "override",
+"web_tried": "https://www.santarosaschools.org"
 },
 "1201680": {
 "agenda_url": "https://www.sarasotacountyschools.net/",
@@ -1558,10 +1578,20 @@
 "platform": "site"
 },
 "1300420": {
+"agenda_url": "https://simbli.eboardsolutions.com/AboutUs/AboutUs.aspx?S=4013&amp;TID=1",
+"checked": "2026-11-25",
+"fallback": "https://www.bcsdk12.net/",
+"history": [
+{
 "agenda_url": "http://www.bibb.k12.ga.us",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.bcsdk12.net"
 },
 "1300440": {
 "agenda_url": "http://www.bleckley.k12.ga.us",
@@ -1746,10 +1776,20 @@
 "platform": "none"
 },
 "1301410": {
+"agenda_url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031361",
+"checked": "2026-11-25",
+"fallback": "https://www.ccboe.net/apps/pages/index.jsp?uREC_ID=1197232&type=d&pREC_ID=1438919",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "via board page",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.ccboe.net"
 },
 "1301440": {
 "agenda_url": "http://www.commerce-city.k12.ga.us",
@@ -1847,10 +1887,20 @@
 "platform": "none"
 },
 "1301860": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4058",
+"checked": "2026-11-25",
+"fallback": "https://www.dcssga.org/page/board-members",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.dcssga.org"
 },
 "1301870": {
 "agenda_url": "",
@@ -1895,10 +1945,20 @@
 "platform": "none"
 },
 "1302130": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4067",
+"checked": "2026-11-25",
+"fallback": "https://www.fcboe.org/board-of-ed/board-meeting-schedule",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.fcboe.org"
 },
 "1302190": {
 "agenda_url": "https://www.floydboe.net/about-us/board-of-education",
@@ -2302,10 +2362,20 @@
 "platform": "none"
 },
 "1304380": {
+"agenda_url": "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=4137&amp;revid=plusN9z4sxop9qO5pBQQe7kNg==&amp;ptid=amIgTZiB9plushNjl6WXhfiOQ==&amp;secid=p6v70fD4K8ukRv6vtplusTtSg==&amp;PG=6&amp;IRP=0",
+"checked": "2026-11-25",
+"fallback": "https://www.rcboe.org/about-us12/board-of-education/board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "eboard",
+"web_source": "override",
+"web_tried": "https://www.rcboe.org"
 },
 "1304410": {
 "agenda_url": "",
@@ -2539,10 +2609,20 @@
 "platform": "none"
 },
 "1600360": {
+"agenda_url": "https://www.boiseschools.org/342852_2",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.boiseschools.org"
 },
 "1600420": {
 "agenda_url": "",
@@ -9146,10 +9226,20 @@
 "platform": "none"
 },
 "2200090": {
+"agenda_url": "https://www.ascensionschools.org",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.ascensionschools.org"
 },
 "2200120": {
 "agenda_url": "",
@@ -9212,10 +9302,20 @@
 "platform": "none"
 },
 "2200270": {
+"agenda_url": "https://bossierschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx\\",
+"checked": "2026-11-25",
+"fallback": "https://www.bossierschools.org/page/school-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "diligent",
+"web_source": "override",
+"web_tried": "https://www.bossierschools.org"
 },
 "2200297": {
 "agenda_url": "",
@@ -9240,10 +9340,20 @@
 "web_tried": "https://www.caddoschools.org"
 },
 "2200330": {
+"agenda_url": "https://www.cpsb.org/our-district/board/boardmeetingagendas",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.cpsb.org"
 },
 "2200360": {
 "agenda_url": "",
@@ -9362,19 +9472,24 @@
 "web_tried": "https://www.jpschools.org"
 },
 "2200870": {
-"agenda_url": "https://www.lpssonline.com",
-"checked": "2026-11-19",
+"agenda_url": "https://lpssonline.com",
+"checked": "2026-11-25",
 "history": [
 {
 "agenda_url": "",
 "platform": "none",
 "until": "2026-11-19"
+},
+{
+"agenda_url": "https://www.lpssonline.com",
+"platform": "none",
+"until": "2026-11-25"
 }
 ],
 "note": "unreachable: SSLError",
 "platform": "none",
 "web_source": "override",
-"web_tried": "https://www.lpssonline.com"
+"web_tried": "https://lpssonline.com"
 },
 "2200900": {
 "agenda_url": "",
@@ -9395,10 +9510,20 @@
 "platform": "none"
 },
 "2201020": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031128",
+"checked": "2026-11-25",
+"fallback": "https://www.lpsb.org/our_district/board_meeting_information_archive",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "via board page",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.lpsb.org"
 },
 "2201050": {
 "agenda_url": "",
@@ -9431,10 +9556,20 @@
 "platform": "none"
 },
 "2201200": {
+"agenda_url": "https://www.opsb.net/about-us/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.opsb.net"
 },
 "2201230": {
 "agenda_url": "",
@@ -9531,10 +9666,20 @@
 "web_tried": "https://www.stpsb.org"
 },
 "2201680": {
+"agenda_url": "https://www.tangischools.org/district/news/details/~board/district-announcements/post/school-board-meetings",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.tangischools.org"
 },
 "2201740": {
 "agenda_url": "",
@@ -13191,10 +13336,20 @@
 "platform": "site"
 },
 "2628560": {
+"agenda_url": "https://www.pccsk12.com/about/board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.pccs.k12.mi.us",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.pccsk12.com"
 },
 "2628740": {
 "agenda_url": "https://go.boarddocs.com/mi/pont/Board.nsf/Public",
@@ -17366,10 +17521,19 @@
 "platform": "none"
 },
 "3173740": {
+"agenda_url": "https://www.mpsomaha.org",
+"checked": "2026-11-25",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "HTTP 403 at https://www.mpsomaha.org",
+"platform": "blocked",
+"web_source": "override",
+"web_tried": "https://www.mpsomaha.org"
 },
 "3173800": {
 "agenda_url": "",
@@ -23121,10 +23285,20 @@
 "platform": "boarddocs"
 },
 "3703450": {
+"agenda_url": "https://www.onslow.k12.nc.us/our-district/board-of-education/board-of-education",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://onslowcounty.schoolinsites.com/",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.onslow.k12.nc.us"
 },
 "3703480": {
 "agenda_url": "https://simbli.eboardsolutions.com/sb_meetings/sb_meetinglisting.aspx?s=680",
@@ -27285,10 +27459,20 @@
 "platform": "boarddocs"
 },
 "406330": {
+"agenda_url": "https://www.pxu.org/page/december-board-meeting",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.phoenixunion.org/",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectTimeout",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.pxu.org"
 },
 "406440": {
 "agenda_url": "https://www.pimaschools.com/",
@@ -27476,10 +27660,19 @@
 "platform": "site"
 },
 "408800": {
+"agenda_url": "https://www.tusd1.org",
+"checked": "2026-11-25",
+"history": [
+{
 "agenda_url": "http://www.tusd1.org",
-"checked": "2026-11-07",
+"platform": "none",
+"until": "2026-11-25"
+}
+],
 "note": "unreachable: HTTPError",
-"platform": "none"
+"platform": "none",
+"web_source": "override",
+"web_tried": "https://www.tusd1.org"
 },
 "408820": {
 "agenda_url": "https://www.unionesd.org/",
@@ -30622,10 +30815,20 @@
 "platform": "none"
 },
 "4400900": {
+"agenda_url": "https://www.providenceschools.org/about-us/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.providenceschools.org"
 },
 "4400960": {
 "agenda_url": "",
@@ -30792,10 +30995,20 @@
 "platform": "site"
 },
 "4502010": {
+"agenda_url": "https://go.boarddocs.com/sc/ddtw/Board.nsf/Public",
+"checked": "2026-11-25",
+"fallback": "https://www.ddtwo.org/district/board-of-trustees",
+"history": [
+{
 "agenda_url": "http://www.ddtwo.org/DO",
-"checked": "2026-11-07",
-"note": "unreachable: HTTPError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://www.ddtwo.org"
 },
 "4502070": {
 "agenda_url": "https://edgefield.k12.sc.us/school-board/members",
@@ -32460,10 +32673,20 @@
 "platform": "site"
 },
 "4800030": {
+"agenda_url": "https://uplifteducation.org/about/board-of-trustees/",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.upliftparent.org/uplifteducation",
-"checked": "2026-11-07",
-"note": "unreachable: HTTPError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.uplifteducation.org"
 },
 "4800034": {
 "agenda_url": "https://www.cumberlandacademy.com/page/school-board",
@@ -35190,10 +35413,20 @@
 "platform": "boardbook"
 },
 "4834830": {
+"agenda_url": "https://www.pfisd.net/about-us/pfisd-board-of-trustees",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.pflugervilleisd.net",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.pfisd.net"
 },
 "4834860": {
 "agenda_url": "https://meetings.boardbook.org/Public/Organization/2163",
@@ -37641,10 +37874,20 @@
 "platform": "site"
 },
 "5102670": {
+"agenda_url": "https://www.npsk12.com/our-division/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "http://www.nps.k12.va.us",
-"checked": "2026-11-07",
-"note": "unreachable: HTTPError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.npsk12.com"
 },
 "5102710": {
 "agenda_url": "https://www.ncpsk12.com/",
@@ -38127,10 +38370,20 @@
 "platform": "boarddocs"
 },
 "5300300": {
+"agenda_url": "https://www.auburn.wednet.edu/our-district/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.auburn.wednet.edu"
 },
 "5300330": {
 "agenda_url": "https://go.boarddocs.com/wa/bisd/Board.nsf/Public",
@@ -38146,10 +38399,20 @@
 "platform": "boarddocs"
 },
 "5300390": {
+"agenda_url": "https://www.bsd405.org/about-us/school-board/public-comments",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://bsd405.org"
 },
 "5300420": {
 "agenda_url": "https://www.bellinghamschools.org/school-board",
@@ -38375,10 +38638,20 @@
 "platform": "none"
 },
 "5302400": {
+"agenda_url": "https://go.boarddocs.com/wa/edmonds/Board.nsf/Public",
+"checked": "2026-11-25",
+"fallback": "https://www.edmonds.wednet.edu/our-district/school-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://www.edmonds.wednet.edu"
 },
 "5302460": {
 "agenda_url": "https://esd401.org/",
@@ -38497,10 +38770,20 @@
 "platform": "site"
 },
 "5303960": {
+"agenda_url": "https://go.boarddocs.com/wa/ksdwa/Board.nsf/Public",
+"checked": "2026-11-25",
+"fallback": "https://www.kent.k12.wa.us/page/school-board",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://www.kent.k12.wa.us"
 },
 "5303990": {
 "agenda_url": "https://www.kfschools.org/o/kfsd/page/board-meetings",
@@ -38775,10 +39058,20 @@
 "platform": "site"
 },
 "5306570": {
+"agenda_url": "https://www.psd1.org/about/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.psd1.org"
 },
 "5306690": {
 "agenda_url": "",
@@ -38819,10 +39112,20 @@
 "platform": "site"
 },
 "5306960": {
+"agenda_url": "https://www.puyallupsd.org/about-us/departments/capital-projects/community-participation/ferrucci-and-glacier-view-boundary-review-scut/brcfeedback",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.puyallupsd.org"
 },
 "5307020": {
 "agenda_url": "https://www.qvschools.org/",
@@ -39014,10 +39317,20 @@
 "platform": "boarddocs"
 },
 "5308700": {
+"agenda_url": "https://www.tacomaschools.org/about/school-board",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "board page on district site",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://www.tacomaschools.org"
 },
 "5308760": {
 "agenda_url": "",
@@ -39070,10 +39383,20 @@
 "platform": "site"
 },
 "5309270": {
+"agenda_url": "https://go.boarddocs.com/wa/vpswa/Board.nsf/Public",
+"checked": "2026-11-25",
+"fallback": "https://www.vansd.org/",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "boarddocs",
+"web_source": "override",
+"web_tried": "https://vansd.org"
 },
 "5309300": {
 "agenda_url": "https://go.boarddocs.com/wa/visd/Board.nsf/Public",
@@ -39304,10 +39627,20 @@
 "platform": "site"
 },
 "5400600": {
+"agenda_url": "https://kcs.kana.k12.wv.us/",
+"checked": "2026-11-25",
+"fallback": "",
+"history": [
+{
 "agenda_url": "",
-"checked": "2026-11-07",
-"note": "no website in NCES",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "no board link found; homepage only",
+"platform": "site",
+"web_source": "override",
+"web_tried": "https://kcs.kana.k12.wv.us"
 },
 "5400630": {
 "agenda_url": "https://www.lewisboe.com/page/board-of-education",
@@ -43467,10 +43800,20 @@
 "platform": "site"
 },
 "623340": {
+"agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030830",
+"checked": "2026-11-25",
+"fallback": "https://www.maderausd.org/",
+"history": [
+{
 "agenda_url": "http://www.madera.k12.ca.us",
-"checked": "2026-11-07",
-"note": "unreachable: ConnectionError",
-"platform": "none"
+"platform": "none",
+"until": "2026-11-25"
+}
+],
+"note": "",
+"platform": "simbli",
+"web_source": "override",
+"web_tried": "https://www.maderausd.org"
 },
 "623430": {
 "agenda_url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030317",

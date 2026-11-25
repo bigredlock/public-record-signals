@@ -1,15 +1,15 @@
 {
-"generated": "2026-11-24T05:22:05+00:00",
-"count": 2190,
+"generated": "2026-11-25T05:28:02+00:00",
+"count": 2184,
 "by_code": {
-"forbidden": 380,
-"no_reader_civicclerk": 2,
-"no_reader_eboard": 129,
-"robots": 422,
-"site_blocked": 225,
-"no_reader_diligent": 49,
-"no_portal_found": 836,
-"bot_wall": 135,
+"forbidden": 382,
+"no_reader_civicclerk": 3,
+"no_reader_eboard": 132,
+"robots": 438,
+"site_blocked": 226,
+"no_reader_diligent": 50,
+"no_portal_found": 803,
+"bot_wall": 138,
 "error": 1,
 "rate_limited": 1,
 "not_found": 7,
@@ -603,9 +603,16 @@
 "code": "no_portal_found",
 "note": "unreachable: HTTPError",
 "platform": "none",
-"url": "http://www.tusd1.org",
+"url": "https://www.tusd1.org",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-25",
+"history": [
+{
+"agenda_url": "http://www.tusd1.org",
+"platform": "none",
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "4501170",
@@ -1110,12 +1117,19 @@
 "district": "SANTA ROSA",
 "state": "Florida",
 "students": 29624,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.santarosa.k12.fl.us/",
+"code": "no_reader_civicclerk",
+"note": "",
+"platform": "civicclerk",
+"url": "https://santarosacosdfl.portal.civicclerk.com/\\",
 "attempts": 0,
-"last": "2026-11-10"
+"last": "2026-11-25",
+"history": [
+{
+"agenda_url": "http://www.santarosa.k12.fl.us/",
+"platform": "none",
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "3600099",
@@ -1137,14 +1151,19 @@
 "code": "no_portal_found",
 "note": "unreachable: SSLError",
 "platform": "none",
-"url": "https://www.lpssonline.com",
+"url": "https://lpssonline.com",
 "attempts": 0,
-"last": "2026-11-19",
+"last": "2026-11-25",
 "history": [
 {
 "agenda_url": "",
 "platform": "none",
 "until": "2026-11-19"
+},
+{
+"agenda_url": "https://www.lpssonline.com",
+"platform": "none",
+"until": "2026-11-25"
 }
 ]
 },
@@ -1177,24 +1196,19 @@
 "district": "Richmond County",
 "state": "Georgia",
 "students": 28923,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=4137&amp;revid=plusN9z4sxop9qO5pBQQe7kNg==&amp;ptid=amIgTZiB9plushNjl6WXhfiOQ==&amp;secid=p6v70fD4K8ukRv6vtplusTtSg==&amp;PG=6&amp;IRP=0",
 "attempts": 0,
-"last": "2026-11-07"
-},
+"last": "2026-11-25",
+"history": [
 {
-"nces_id": "5308700",
-"district": "Tacoma School District",
-"state": "Washington",
-"students": 28847,
-"code": "no_portal_found",
-"note": "no website in NCES",
+"agenda_url": "",
 "platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "4503390",
@@ -1213,12 +1227,19 @@
 "district": "Columbia County",
 "state": "Georgia",
 "students": 28566,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_eboard",
+"note": "via board page",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031361",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-25",
+"history": [
+{
+"agenda_url": "",
+"platform": "none",
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "603630",
@@ -1231,18 +1252,6 @@
 "url": "https://go.boarddocs.com/ca/bcsdca/Board.nsf/Public",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "1200030",
-"district": "ALACHUA",
-"state": "Florida",
-"students": 28204,
-"code": "no_portal_found",
-"note": "unreachable: HTTPError",
-"platform": "none",
-"url": "http://www.sbac.edu/pages/ACPS",
-"attempts": 0,
-"last": "2026-11-10"
 },
 {
 "nces_id": "802490",
@@ -1269,30 +1278,6 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "2200330",
-"district": "Calcasieu Parish",
-"state": "Louisiana",
-"students": 27851,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "3703450",
-"district": "Onslow County Schools",
-"state": "North Carolina",
-"students": 27551,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://onslowcounty.schoolinsites.com/",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "1302610",
 "district": "Hall County",
 "state": "Georgia",
@@ -1305,34 +1290,10 @@
 "last": "2026-11-24"
 },
 {
-"nces_id": "5102670",
-"district": "Norfolk City Public Schools",
-"state": "Virginia",
-"students": 26807,
-"code": "no_portal_found",
-"note": "unreachable: HTTPError",
-"platform": "none",
-"url": "http://www.nps.k12.va.us",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "3600092",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #15",
 "state": "New York",
 "students": 26509,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "2201020",
-"district": "Livingston Parish",
-"state": "Louisiana",
-"students": 26499,
 "code": "no_portal_found",
 "note": "no website in NCES",
 "platform": "none",
@@ -1389,18 +1350,6 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "4502010",
-"district": "Dorchester 02",
-"state": "South Carolina",
-"students": 25928,
-"code": "no_portal_found",
-"note": "unreachable: HTTPError",
-"platform": "none",
-"url": "http://www.ddtwo.org/DO",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "3600086",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT # 9",
 "state": "New York",
@@ -1409,18 +1358,6 @@
 "note": "no website in NCES",
 "platform": "none",
 "url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "406330",
-"district": "Phoenix Union High School District (4286)",
-"state": "Arizona",
-"students": 25800,
-"code": "no_portal_found",
-"note": "unreachable: ConnectTimeout",
-"platform": "none",
-"url": "http://www.phoenixunion.org/",
 "attempts": 0,
 "last": "2026-11-07"
 },
@@ -1459,42 +1396,6 @@
 "url": "https://www.chino.k12.ca.us/64965_1",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "1301860",
-"district": "Douglas County",
-"state": "Georgia",
-"students": 25521,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "4834830",
-"district": "PFLUGERVILLE ISD",
-"state": "Texas",
-"students": 25477,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.pflugervilleisd.net",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "5303960",
-"district": "Kent School District",
-"state": "Washington",
-"students": 25358,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "623610",
@@ -1629,18 +1530,6 @@
 "last": "2026-11-24"
 },
 {
-"nces_id": "2200090",
-"district": "Ascension Parish",
-"state": "Louisiana",
-"students": 23743,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "3600101",
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #29",
 "state": "New York",
@@ -1649,18 +1538,6 @@
 "note": "no website in NCES",
 "platform": "none",
 "url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "4800030",
-"district": "UPLIFT EDUCATION",
-"state": "Texas",
-"students": 23384,
-"code": "no_portal_found",
-"note": "unreachable: HTTPError",
-"platform": "none",
-"url": "http://www.upliftparent.org/uplifteducation",
 "attempts": 0,
 "last": "2026-11-07"
 },
@@ -1681,24 +1558,19 @@
 "district": "MILLARD PUBLIC SCHOOLS",
 "state": "Nebraska",
 "students": 23253,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "site_blocked",
+"note": "HTTP 403 at https://www.mpsomaha.org",
+"platform": "blocked",
+"url": "https://www.mpsomaha.org",
 "attempts": 0,
-"last": "2026-11-07"
-},
+"last": "2026-11-25",
+"history": [
 {
-"nces_id": "5400600",
-"district": "Kanawha County Schools",
-"state": "West Virginia",
-"students": 23085,
-"code": "no_portal_found",
-"note": "no website in NCES",
+"agenda_url": "",
 "platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "402690",
@@ -1735,18 +1607,6 @@
 "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4046",
 "attempts": 1,
 "last": "2026-11-24"
-},
-{
-"nces_id": "5306960",
-"district": "Puyallup School District",
-"state": "Washington",
-"students": 23026,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "4826130",
@@ -1849,24 +1709,19 @@
 "district": "Bossier Parish",
 "state": "Louisiana",
 "students": 22224,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
+"code": "no_reader_diligent",
+"note": "",
+"platform": "diligent",
+"url": "https://bossierschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx\\",
 "attempts": 0,
-"last": "2026-11-07"
-},
+"last": "2026-11-25",
+"history": [
 {
-"nces_id": "1600360",
-"district": "BOISE INDEPENDENT DISTRICT",
-"state": "Idaho",
-"students": 22134,
-"code": "no_portal_found",
-"note": "no website in NCES",
+"agenda_url": "",
 "platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "3624750",
@@ -1903,18 +1758,6 @@
 "url": "https://go.boarddocs.com/sc/rcsd1/board.nsf/Public",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "5309270",
-"district": "Vancouver School District",
-"state": "Washington",
-"students": 21783,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "613890",
@@ -1981,12 +1824,19 @@
 "district": "Bibb County",
 "state": "Georgia",
 "students": 21334,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.bibb.k12.ga.us",
+"code": "no_reader_eboard",
+"note": "",
+"platform": "eboard",
+"url": "https://simbli.eboardsolutions.com/AboutUs/AboutUs.aspx?S=4013&amp;TID=1",
 "attempts": 0,
-"last": "2026-11-07"
+"last": "2026-11-25",
+"history": [
+{
+"agenda_url": "http://www.bibb.k12.ga.us",
+"platform": "none",
+"until": "2026-11-25"
+}
+]
 },
 {
 "nces_id": "3904490",
@@ -2011,18 +1861,6 @@
 "url": "https://www.rvaschools.net/258090_3",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "5302400",
-"district": "Edmonds School District",
-"state": "Washington",
-"students": 20955,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "100390",
@@ -2085,30 +1923,6 @@
 "last": "2026-11-16"
 },
 {
-"nces_id": "5300390",
-"district": "Bellevue School District",
-"state": "Washington",
-"students": 20339,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "4400900",
-"district": "Providence",
-"state": "Rhode Island",
-"students": 20250,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "5400060",
 "district": "Berkeley County Schools",
 "state": "West Virginia",
@@ -2137,30 +1951,6 @@
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #19",
 "state": "New York",
 "students": 19984,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "623340",
-"district": "Madera Unified",
-"state": "California",
-"students": 19935,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.madera.k12.ca.us",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "1302130",
-"district": "Fayette County",
-"state": "Georgia",
-"students": 19800,
 "code": "no_portal_found",
 "note": "no website in NCES",
 "platform": "none",
@@ -2265,18 +2055,6 @@
 "last": "2026-11-24"
 },
 {
-"nces_id": "2201680",
-"district": "Tangipahoa Parish",
-"state": "Louisiana",
-"students": 19077,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
 "nces_id": "4900870",
 "district": "Salt Lake District",
 "state": "Utah",
@@ -2287,18 +2065,6 @@
 "url": "https://www.slcschools.org/board-of-education",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "5306570",
-"district": "Pasco School District",
-"state": "Washington",
-"students": 18913,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "634880",
@@ -2371,18 +2137,6 @@
 "url": "https://go.boarddocs.com/wi/gbapsd/Board.nsf/Public",
 "attempts": 1,
 "last": "2026-11-16"
-},
-{
-"nces_id": "5300300",
-"district": "Auburn School District",
-"state": "Washington",
-"students": 18174,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "629580",
@@ -2461,18 +2215,6 @@
 "district": "NEW YORK CITY GEOGRAPHIC DISTRICT #17",
 "state": "New York",
 "students": 17590,
-"code": "no_portal_found",
-"note": "no website in NCES",
-"platform": "none",
-"url": "",
-"attempts": 0,
-"last": "2026-11-07"
-},
-{
-"nces_id": "2201200",
-"district": "Ouachita Parish",
-"state": "Louisiana",
-"students": 17435,
 "code": "no_portal_found",
 "note": "no website in NCES",
 "platform": "none",
@@ -2767,18 +2509,6 @@
 "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030213",
 "attempts": 1,
 "last": "2026-11-24"
-},
-{
-"nces_id": "2628560",
-"district": "Plymouth-Canton Community Schools",
-"state": "Michigan",
-"students": 16083,
-"code": "no_portal_found",
-"note": "unreachable: ConnectionError",
-"platform": "none",
-"url": "http://www.pccs.k12.mi.us",
-"attempts": 0,
-"last": "2026-11-07"
 },
 {
 "nces_id": "1727710",
@@ -17037,6 +16767,18 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "636820",
+"district": "Silver Valley Unified",
+"state": "California",
+"students": 2188,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.svusdk12.net/district_office_departments/school_board/school_board_portal",
+"platform": "site",
+"url": "https://www.svusdk12.net/district_office_departments/school_board",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "3104100",
 "district": "BLAIR COMMUNITY SCHOOLS",
 "state": "Nebraska",
@@ -17085,6 +16827,30 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "604230",
+"district": "Bear Valley Unified",
+"state": "California",
+"students": 2176,
+"code": "bot_wall",
+"note": "bot protection page at https://www.bearvalleyusd.org/214483_2",
+"platform": "site",
+"url": "https://www.bearvalleyusd.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "2803750",
+"district": "Prentiss County School District",
+"state": "Mississippi",
+"students": 2176,
+"code": "bot_wall",
+"note": "bot protection page at https://www.prentisscountyschools.com/link-3/pcsd-school-board-policies",
+"platform": "site",
+"url": "https://www.prentisscountyschools.com/link-3/pcsd-school-board-policies",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "1743860",
 "district": "Zion ESD 6",
 "state": "Illinois",
@@ -17121,6 +16887,18 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "4225740",
+"district": "West Perry SD",
+"state": "Pennsylvania",
+"students": 2161,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/9341/9_14_26_approved_board_meeting_minutes.pdf",
+"platform": "site",
+"url": "https://www.westperry.org/school-board",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "1300810",
 "district": "Candler County",
 "state": "Georgia",
@@ -17131,6 +16909,30 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-09"
+},
+{
+"nces_id": "1810950",
+"district": "Spencer-Owen Community Schools",
+"state": "Indiana",
+"students": 2156,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/9709/board_of_trustees_meeting_schedule.pdf",
+"platform": "site",
+"url": "https://www.socs.k12.in.us/340247_2",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "3701950",
+"district": "Halifax County Schools",
+"state": "North Carolina",
+"students": 2150,
+"code": "robots",
+"note": "robots.txt disallows https://www.halifax.k12.nc.us/fs/resource-manager/view/9125590b-af3b-4eaa-9920-f0478a1360d7",
+"platform": "site",
+"url": "https://www.halifax.k12.nc.us/about/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
 },
 {
 "nces_id": "2803120",
@@ -17145,6 +16947,30 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "4821360",
+"district": "GRAHAM ISD",
+"state": "Texas",
+"students": 2148,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/4696/long-range_facility_plan_-_approved_81126.pdf",
+"platform": "site",
+"url": "https://www.grahamisd.com/259499_2",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "4024870",
+"district": "POTEAU",
+"state": "Oklahoma",
+"students": 2146,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/7307/20260915ieapproved_minutes.pdf",
+"platform": "site",
+"url": "https://www.poteau.k12.ok.us/agendas-and-minutes",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "2201980",
 "district": "West Feliciana Parish",
 "state": "Louisiana",
@@ -17155,6 +16981,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-09"
+},
+{
+"nces_id": "3620190",
+"district": "NANUET UNION FREE SCHOOL DISTRICT",
+"state": "New York",
+"students": 2144,
+"code": "forbidden",
+"note": "HTTP 403 at https://www.nanuetsd.org/410306_2",
+"platform": "site",
+"url": "https://www.nanuetsd.org/112734_1",
+"attempts": 1,
+"last": "2026-11-25"
 },
 {
 "nces_id": "4401170",
@@ -17181,6 +17019,18 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "2104740",
+"district": "Pendleton County",
+"state": "Kentucky",
+"students": 2130,
+"code": "robots",
+"note": "robots.txt disallows https://www.pendleton.kyschools.us/fs/resource-manager/view/1e62fce2-3650-4fa2-9a2d-20127d878526",
+"platform": "site",
+"url": "https://www.pendleton.kyschools.us/board-of-education/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "1710530",
 "district": "Coal City CUSD 1",
 "state": "Illinois",
@@ -17193,6 +17043,18 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "3619170",
+"district": "MEXICO CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"students": 2126,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/5062/6-9-16_boe_meeting_minutes.pdf",
+"platform": "site",
+"url": "https://www.mexicocsd.org/108511_2",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "600043",
 "district": "Scotts Valley Unified",
 "state": "California",
@@ -17203,6 +17065,30 @@
 "url": "http://www.scottsvalleyusd.org",
 "attempts": 0,
 "last": "2026-11-09"
+},
+{
+"nces_id": "2012300",
+"district": "Circle",
+"state": "Kansas",
+"students": 2122,
+"code": "robots",
+"note": "robots.txt disallows https://www.usd375.org/fs/pages/1703",
+"platform": "site",
+"url": "https://www.usd375.org/our-district/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "3616740",
+"district": "LANSINGBURGH CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"students": 2117,
+"code": "robots",
+"note": "robots.txt disallows https://www.lansingburgh.org/fs/resource-manager/view/c4176f77-e13b-4249-aa81-946a9dd7e1ab",
+"platform": "site",
+"url": "https://www.lansingburgh.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
 },
 {
 "nces_id": "405360",
@@ -17277,6 +17163,42 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "900840",
+"district": "Colchester School District",
+"state": "Connecticut",
+"students": 2101,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/6845/12_12_23_minutes_of_boe_regular_meeting.pdf",
+"platform": "site",
+"url": "https://www.colchesterct.org/board-of-education-office",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "905010",
+"district": "Weston School District",
+"state": "Connecticut",
+"students": 2101,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/8849/august_21_–_executive_600_pm__regular_session_agenda.pdf",
+"platform": "site",
+"url": "https://www.westonps.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "905280",
+"district": "Wolcott School District",
+"state": "Connecticut",
+"students": 2100,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/e384/05/05/22/170611-d2f90522-5c25-4ec7-bfa0-6ba3274cc56b.pdf",
+"platform": "site",
+"url": "https://www.wolcottps.org/apps/pages/index.jsp?uREC_ID=2807814&type=d&pREC_ID=2752699",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "3904436",
 "district": "Maumee City",
 "state": "Ohio",
@@ -17349,6 +17271,18 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "2105640",
+"district": "Union County",
+"state": "Kentucky",
+"students": 2087,
+"code": "robots",
+"note": "robots.txt disallows https://1.cdn.edl.io/vma3gLxzaelSkgYTUdkZ77mvEXFFX2lvWRubetDeJz9eh9u7.pdf",
+"platform": "site",
+"url": "https://www.union.kyschools.us/apps/pages/index.jsp?uREC_ID=491280&type=d&pREC_ID=1021046",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "3303330",
 "district": "Governor Wentworth Regional School District",
 "state": "New Hampshire",
@@ -17385,6 +17319,30 @@
 "last": "2026-11-09"
 },
 {
+"nces_id": "506270",
+"district": "FORREST CITY SCHOOL DISTRICT",
+"state": "Arkansas",
+"students": 2078,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/6564/july_2026_regular.pdf",
+"platform": "site",
+"url": "https://www.mustang.grsc.k12.ar.us/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
+"nces_id": "3910019",
+"district": "Marietta City",
+"state": "Ohio",
+"students": 2078,
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4110 | fallback: Blocked",
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4110",
+"attempts": 1,
+"last": "2026-11-25"
+},
+{
 "nces_id": "5305730",
 "district": "North Franklin School District",
 "state": "Washington",
@@ -17395,6 +17353,18 @@
 "url": "",
 "attempts": 0,
 "last": "2026-11-09"
+},
+{
+"nces_id": "2630120",
+"district": "Romulus Community Schools",
+"state": "Michigan",
+"students": 2077,
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/9c85/04/10/26/124013-8aa40580-002f-420e-861a-4aa08a6c011e.pdf",
+"platform": "site",
+"url": "https://www.romulusk12.org/apps/pages/index.jsp?uREC_ID=2839179&type=d",
+"attempts": 1,
+"last": "2026-11-25"
 },
 {
 "nces_id": "1712450",
@@ -17431,6 +17401,18 @@
 "url": "http://valleystream13.com/",
 "attempts": 0,
 "last": "2026-11-09"
+},
+{
+"nces_id": "3414310",
+"district": "Roselle Park Public School District",
+"state": "New Jersey",
+"students": 2071,
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/10033/november_17_2026_agenda_1.pdf",
+"platform": "site",
+"url": "https://www.rpsd.org/board-of-education",
+"attempts": 1,
+"last": "2026-11-25"
 },
 {
 "nces_id": "2900591",
