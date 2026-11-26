@@ -1,13 +1,12 @@
 {
-"generated": "2026-11-25T05:27:46+00:00",
+"generated": "2026-11-26T05:26:07+00:00",
 "by_code": {
 "forbidden": 382,
-"robots": 438,
+"robots": 441,
 "error": 1,
 "rate_limited": 1,
 "not_found": 7,
-"bot_wall": 138,
-"timeout": 2
+"bot_wall": 140
 },
 "failures": [
 {
@@ -804,6 +803,19 @@
 "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4082"
 },
 {
+"nces_id": "2201020",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031128 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-26",
+"retry_after": "2026-12-10",
+"district": "Livingston Parish",
+"state": "Louisiana",
+"students": 26499,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031128"
+},
+{
 "nces_id": "600028",
 "code": "bot_wall",
 "note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030186",
@@ -950,9 +962,9 @@
 "nces_id": "3700012",
 "code": "rate_limited",
 "note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/Agenda%2010.2.2017.pdf",
-"attempts": 4,
-"last": "2026-11-23",
-"retry_after": "2026-11-25",
+"attempts": 5,
+"last": "2026-11-26",
+"retry_after": "2026-11-28",
 "district": "Pitt County Schools",
 "state": "North Carolina",
 "students": 24470,
@@ -7346,9 +7358,9 @@
 "nces_id": "2512270",
 "code": "not_found",
 "note": "404 Client Error: Not Found for url: https://www.wellesleyps.org/schoolcommittee/minutes-archive/agendas-presentations-minutes-2026-27/",
-"attempts": 1,
-"last": "2026-11-18",
-"retry_after": "2026-11-25",
+"attempts": 2,
+"last": "2026-11-26",
+"retry_after": "2026-12-03",
 "district": "Wellesley",
 "state": "Massachusetts",
 "students": 3986,
@@ -9098,19 +9110,6 @@
 "url": "https://www.bolivarschools.org/board-of-education"
 },
 {
-"nces_id": "2314779",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='rsu18.org', port=443): Max retries exceeded with url: /about-us/school-board/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='rsu18.org', port=443) at 0x722c7250fad0>, ",
-"attempts": 1,
-"last": "2026-11-24",
-"retry_after": "2026-11-25",
-"district": "RSU 18",
-"state": "Maine",
-"students": 2725,
-"platform": "site",
-"url": "https://rsu18.org/about-us/school-board/"
-},
-{
 "nces_id": "4111580",
 "code": "robots",
 "note": "robots.txt disallows https://files.smartsites.parentsquare.com/13276/6-10approvedminutes.pdf",
@@ -9775,11 +9774,11 @@
 },
 {
 "nces_id": "1908910",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.denison.k12.ia.us', port=443): Max retries exceeded with url: /district/board-of-education.aspx (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.denison.k12.ia.u",
-"attempts": 1,
-"last": "2026-11-24",
-"retry_after": "2026-11-25",
+"code": "bot_wall",
+"note": "bot protection page at https://www.denison.k12.ia.us/district/board-of-education.aspx",
+"attempts": 2,
+"last": "2026-11-26",
+"retry_after": "2026-12-10",
 "district": "Denison Comm School District",
 "state": "Iowa",
 "students": 2274,
@@ -10240,6 +10239,45 @@
 "students": 2071,
 "platform": "site",
 "url": "https://www.rpsd.org/board-of-education"
+},
+{
+"nces_id": "2103900",
+"code": "robots",
+"note": "robots.txt disallows https://4.files.edl.io/be76/11/13/26/210822-e8c1dbcb-c8f1-40a9-bd0b-b6ca1d1ea647.pdf",
+"attempts": 1,
+"last": "2026-11-26",
+"retry_after": "2026-12-26",
+"district": "Mayfield Independent",
+"state": "Kentucky",
+"students": 2063,
+"platform": "site",
+"url": "https://www.mayfield.kyschools.us/apps/pages/index.jsp?uREC_ID=1443890&type=d&pREC_ID=1606179"
+},
+{
+"nces_id": "4107200",
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/12456/26may27_special_board_meeting_work_session_minutes.pdf",
+"attempts": 1,
+"last": "2026-11-26",
+"retry_after": "2026-12-26",
+"district": "La Grande SD 1",
+"state": "Oregon",
+"students": 2061,
+"platform": "site",
+"url": "https://www.lagrandesd.org/our-school-board"
+},
+{
+"nces_id": "3606240",
+"code": "robots",
+"note": "robots.txt disallows https://files.smartsites.parentsquare.com/12903/1_agenda_7-2-26docx.pdf",
+"attempts": 1,
+"last": "2026-11-26",
+"retry_after": "2026-12-26",
+"district": "CAMDEN CENTRAL SCHOOL DISTRICT",
+"state": "New York",
+"students": 2044,
+"platform": "site",
+"url": "https://www.camdenschools.org/board-of-education"
 },
 {
 "nces_id": "1200210",

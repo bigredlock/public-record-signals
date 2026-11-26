@@ -1,59 +1,62 @@
 {
-"generated": "2026-11-25T05:28:00+00:00",
-"run_id": "20261125T030745Z",
+"generated": "2026-11-26T05:26:27+00:00",
+"run_id": "20261126T030559Z",
 "status": "partial",
-"last_agenda_run": "2026-11-25",
-"districts_read": 144,
-"new_matches": 12,
-"feed_size": 4064,
-"walked_total": 5719,
-"checked_last_7_days": 3748,
-"failed_total": 969,
-"deferred": 717,
+"last_agenda_run": "2026-11-26",
+"districts_read": 63,
+"new_matches": 70,
+"feed_size": 4093,
+"walked_total": 5750,
+"checked_last_7_days": 2918,
+"failed_total": 972,
+"deferred": 1257,
 "ledger": {
-"records": 6167,
-"review": 1099,
+"records": 6237,
+"review": 1106,
 "changed": 1,
-"low": 2964,
-"duplicate": 2103,
-"groups": 3886,
-"next_seq": 6168
+"low": 2986,
+"duplicate": 2144,
+"groups": 3913,
+"next_seq": 6238
 },
 "counts": {
-"classified": 35,
-"discovered": 882,
-"queued": 882,
-"fetched": 144,
-"parsed_matches": 239,
-"duplicated": 232,
-"failed": 21,
-"failed_forbidden": 2,
-"fallback_reads": 19,
-"failed_bot_wall": 3,
-"new_records": 12,
-"disp_low": 7,
-"failed_robots": 16,
-"disp_duplicate": 5,
-"deferred": 717,
+"classified": 0,
+"discovered": 1327,
+"queued": 1327,
+"fetched": 63,
+"fallback_reads": 22,
+"parsed_matches": 223,
+"new_records": 70,
+"disp_low": 22,
+"disp_duplicate": 41,
+"duplicated": 194,
+"failed": 7,
+"failed_bot_wall": 2,
+"failed_rate_limited": 1,
+"disp_review": 7,
+"qualified": 7,
+"failed_not_found": 1,
+"failed_robots": 3,
+"deferred": 1257,
 "not_queued": 0,
-"money_matches": 154
+"money_matches": 143
 },
 "sources": {
 "classify": {
-"last_attempted": "2026-11-25T03:07:58+00:00",
-"last_success": "2026-11-25T03:07:58+00:00"
+"last_attempted": "2026-11-26T03:05:59+00:00",
+"last_success": "2026-11-26T03:05:59+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-25T05:27:46+00:00",
+"last_attempted": "2026-11-26T05:26:07+00:00",
 "last_success": "2026-11-22T03:03:04+00:00"
 },
 "usaspending": {
-"last_attempted": "2026-11-25T05:27:53+00:00",
-"last_success": "2026-11-25T05:27:53+00:00"
+"last_attempted": "2026-11-26T05:26:16+00:00",
+"last_success": "2026-11-26T05:26:16+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-25T05:27:56+00:00",
-"last_success": "2026-11-25T05:27:56+00:00"
+"last_attempted": "2026-11-26T05:26:22+00:00",
+"last_success": "2026-11-26T05:26:22+00:00"
 }
 },
 "blocked": [
@@ -828,9 +831,9 @@
 "nces_id": "3700012",
 "code": "rate_limited",
 "note": "HTTP 429 at https://www.pitt.k12.nc.us/cms/lib/NC01001178/Centricity/Domain/13/Agenda%2010.2.2017.pdf",
-"attempts": 4,
-"last": "2026-11-23",
-"retry_after": "2026-11-25",
+"attempts": 5,
+"last": "2026-11-26",
+"retry_after": "2026-11-28",
 "district": "Pitt County Schools",
 "state": "North Carolina",
 "students": 24470,
@@ -2658,7 +2661,7 @@
 "url": "https://go.boarddocs.com/wi/janesville/Board.nsf/Public"
 }
 ],
-"blocked_count": 821,
+"blocked_count": 824,
 "errors": [
 {
 "nces_id": "3701500",
@@ -2776,6 +2779,19 @@
 "students": 27257,
 "platform": "simbli",
 "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=4082"
+},
+{
+"nces_id": "2201020",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031128 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-26",
+"retry_after": "2026-12-10",
+"district": "Livingston Parish",
+"state": "Louisiana",
+"students": 26499,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031128"
 },
 {
 "nces_id": "600028",
@@ -4107,9 +4123,9 @@
 "nces_id": "2512270",
 "code": "not_found",
 "note": "404 Client Error: Not Found for url: https://www.wellesleyps.org/schoolcommittee/minutes-archive/agendas-presentations-minutes-2026-27/",
-"attempts": 1,
-"last": "2026-11-18",
-"retry_after": "2026-11-25",
+"attempts": 2,
+"last": "2026-11-26",
+"retry_after": "2026-12-03",
 "district": "Wellesley",
 "state": "Massachusetts",
 "students": 3986,
@@ -4312,19 +4328,6 @@
 "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030807"
 },
 {
-"nces_id": "2314779",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='rsu18.org', port=443): Max retries exceeded with url: /about-us/school-board/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='rsu18.org', port=443) at 0x722c7250fad0>, ",
-"attempts": 1,
-"last": "2026-11-24",
-"retry_after": "2026-11-25",
-"district": "RSU 18",
-"state": "Maine",
-"students": 2725,
-"platform": "site",
-"url": "https://rsu18.org/about-us/school-board/"
-},
-{
 "nces_id": "613290",
 "code": "bot_wall",
 "note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030657 | fallback: Blocked",
@@ -4430,11 +4433,11 @@
 },
 {
 "nces_id": "1908910",
-"code": "timeout",
-"note": "HTTPSConnectionPool(host='www.denison.k12.ia.us', port=443): Max retries exceeded with url: /district/board-of-education.aspx (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.denison.k12.ia.u",
-"attempts": 1,
-"last": "2026-11-24",
-"retry_after": "2026-11-25",
+"code": "bot_wall",
+"note": "bot protection page at https://www.denison.k12.ia.us/district/board-of-education.aspx",
+"attempts": 2,
+"last": "2026-11-26",
+"retry_after": "2026-12-10",
 "district": "Denison Comm School District",
 "state": "Iowa",
 "students": 2274,
@@ -4585,5 +4588,5 @@
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032159"
 }
 ],
-"minutes": 139.8
+"minutes": 140.1
 }
