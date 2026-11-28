@@ -1,65 +1,61 @@
 {
-"generated": "2026-11-27T05:30:32+00:00",
-"run_id": "20261127T031001Z",
+"generated": "2026-11-28T05:22:44+00:00",
+"run_id": "20261128T030231Z",
 "status": "partial",
-"last_agenda_run": "2026-11-27",
-"districts_read": 826,
-"new_matches": 95,
-"feed_size": 4161,
+"last_agenda_run": "2026-11-28",
+"districts_read": 159,
+"new_matches": 33,
+"feed_size": 4185,
 "walked_total": 5751,
-"checked_last_7_days": 3676,
-"failed_total": 1027,
-"deferred": 434,
+"checked_last_7_days": 3653,
+"failed_total": 1030,
+"deferred": 290,
 "ledger": {
-"records": 6332,
-"review": 1111,
-"changed": 1,
-"low": 3049,
-"duplicate": 2171,
-"groups": 3976,
-"next_seq": 6333
+"records": 6365,
+"review": 1115,
+"changed": 2,
+"low": 3068,
+"duplicate": 2180,
+"groups": 3995,
+"next_seq": 6366
 },
 "counts": {
 "classified": 0,
-"discovered": 1326,
-"queued": 1326,
-"failed": 66,
-"failed_error": 1,
-"fetched": 826,
-"failed_bot_wall": 16,
-"failed_robots": 25,
-"fallback_reads": 104,
-"parsed_matches": 1682,
-"duplicated": 1614,
-"new_records": 95,
-"disp_low": 63,
-"disp_duplicate": 27,
-"failed_rate_limited": 1,
-"disp_review": 5,
+"discovered": 454,
+"queued": 454,
+"fetched": 159,
+"fallback_reads": 33,
+"parsed_matches": 397,
+"new_records": 33,
+"disp_low": 19,
+"disp_duplicate": 9,
+"duplicated": 373,
+"disp_review": 4,
 "qualified": 5,
-"failed_forbidden": 19,
-"failed_not_found": 2,
-"failed_timeout": 2,
-"deferred": 434,
+"disp_changed": 1,
+"failed": 5,
+"failed_bot_wall": 2,
+"failed_forbidden": 3,
+"deferred": 290,
 "not_queued": 0,
 "money_matches": 141
 },
 "sources": {
 "classify": {
-"last_attempted": "2026-11-27T03:10:01+00:00",
-"last_success": "2026-11-27T03:10:01+00:00"
+"last_attempted": "2026-11-28T03:02:31+00:00",
+"last_success": "2026-11-28T03:02:31+00:00"
 },
 "agendas": {
-"last_attempted": "2026-11-27T05:30:08+00:00",
+"last_attempted": "2026-11-28T05:22:31+00:00",
 "last_success": "2026-11-22T03:03:04+00:00"
 },
 "usaspending": {
-"last_attempted": "2026-11-27T05:30:23+00:00",
-"last_success": "2026-11-27T05:30:23+00:00"
+"last_attempted": "2026-11-28T05:22:38+00:00",
+"last_success": "2026-11-28T05:22:38+00:00"
 },
 "grants_gov": {
-"last_attempted": "2026-11-27T05:30:26+00:00",
-"last_success": "2026-11-27T05:30:26+00:00"
+"last_attempted": "2026-11-28T05:22:41+00:00",
+"last_success": "2026-11-28T05:22:41+00:00"
 }
 },
 "blocked": [
@@ -2664,7 +2660,7 @@
 "url": "https://go.boarddocs.com/wa/osd111/Board.nsf/Public"
 }
 ],
-"blocked_count": 859,
+"blocked_count": 860,
 "errors": [
 {
 "nces_id": "3701500",
@@ -4812,6 +4808,32 @@
 "url": "https://www.lawcosd.org/77401_2"
 },
 {
+"nces_id": "631170",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
+"district": "Plumas Unified",
+"state": "California",
+"students": 1671,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385"
+},
+{
+"nces_id": "2905580",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
+"district": "BOONVILLE R-I",
+"state": "Missouri",
+"students": 1662,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045"
+},
+{
 "nces_id": "1929310",
 "code": "bot_wall",
 "note": "district site: bot protection page at https://www.vscsd.org/school-board",
@@ -4851,5 +4873,5 @@
 "url": "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032159"
 }
 ],
-"minutes": 140.1
+"minutes": 140.0
 }

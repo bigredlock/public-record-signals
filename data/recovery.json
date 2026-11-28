@@ -1,15 +1,15 @@
 {
-"generated": "2026-11-27T05:30:34+00:00",
-"count": 2242,
+"generated": "2026-11-28T05:22:45+00:00",
+"count": 2245,
 "by_code": {
-"forbidden": 391,
+"forbidden": 392,
 "no_reader_civicclerk": 3,
 "no_reader_eboard": 132,
 "robots": 466,
 "site_blocked": 226,
 "no_reader_diligent": 50,
 "no_portal_found": 803,
-"bot_wall": 156,
+"bot_wall": 158,
 "error": 1,
 "rate_limited": 2,
 "not_found": 9,
@@ -20223,6 +20223,18 @@
 "last": "2026-11-10"
 },
 {
+"nces_id": "631170",
+"district": "Plumas Unified",
+"state": "California",
+"students": 1671,
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385 | fallback: Blocked",
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385",
+"attempts": 1,
+"last": "2026-11-28"
+},
+{
 "nces_id": "2728230",
 "district": "PERHAM-DENT PUBLIC SCHOOL DISTRICT",
 "state": "Minnesota",
@@ -20255,8 +20267,8 @@
 "note": "HTTP 403 at https://www.turnerschools.org/district/board_of_education/school_board_meetings_and_minutes",
 "platform": "site",
 "url": "https://www.turnerschools.org/district/board_of_education",
-"attempts": 1,
-"last": "2026-11-10"
+"attempts": 2,
+"last": "2026-11-28"
 },
 {
 "nces_id": "5101350",
@@ -20269,6 +20281,18 @@
 "url": "https://floydk12va.community.diligentoneplatform.com/Portal/CitizenEngagement.aspx",
 "attempts": 0,
 "last": "2026-11-10"
+},
+{
+"nces_id": "2905580",
+"district": "BOONVILLE R-I",
+"state": "Missouri",
+"students": 1662,
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045 | fallback: Blocked",
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045",
+"attempts": 1,
+"last": "2026-11-28"
 },
 {
 "nces_id": "2510830",
@@ -20425,6 +20449,18 @@
 "url": "https://www.ces95.org/apps/pages/index.jsp?uREC_ID=3839819&type=d&pREC_ID=2474375",
 "attempts": 1,
 "last": "2026-11-10"
+},
+{
+"nces_id": "3904873",
+"district": "Northridge Local",
+"state": "Ohio",
+"students": 1647,
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/nrls/Board.nsf/Public | fallback: HTTPError",
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/nrls/Board.nsf/Public",
+"attempts": 1,
+"last": "2026-11-28"
 },
 {
 "nces_id": "2200600",
@@ -20795,8 +20831,8 @@
 "note": "HTTP 403 at https://go.boarddocs.com/wi/jps/Board.nsf/files/CQ8K7V508ADF/$file/Rules%20Regarding%20Public%20Comment%20at%20Board%20Meetings%200167.3.pdf",
 "platform": "site",
 "url": "https://www.sdoj.org/school-board",
-"attempts": 1,
-"last": "2026-11-11"
+"attempts": 2,
+"last": "2026-11-28"
 },
 {
 "nces_id": "2803000",

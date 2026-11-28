@@ -1,12 +1,12 @@
 {
-"generated": "2026-11-27T05:30:08+00:00",
+"generated": "2026-11-28T05:22:31+00:00",
 "by_code": {
-"forbidden": 391,
+"forbidden": 392,
 "robots": 466,
 "error": 1,
 "rate_limited": 2,
 "not_found": 9,
-"bot_wall": 156,
+"bot_wall": 158,
 "timeout": 2
 },
 "failures": [
@@ -11529,17 +11529,43 @@
 "url": "https://www.breathitt.k12.ky.us/board-of-education/board-information-19-0-2"
 },
 {
+"nces_id": "631170",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
+"district": "Plumas Unified",
+"state": "California",
+"students": 1671,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030385"
+},
+{
 "nces_id": "5501080",
 "code": "forbidden",
 "note": "HTTP 403 at https://www.turnerschools.org/district/board_of_education/school_board_meetings_and_minutes",
-"attempts": 1,
-"last": "2026-11-10",
-"retry_after": "2026-11-24",
+"attempts": 2,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
 "district": "Beloit Turner School District",
 "state": "Wisconsin",
 "students": 1669,
 "platform": "site",
 "url": "https://www.turnerschools.org/district/board_of_education"
+},
+{
+"nces_id": "2905580",
+"code": "bot_wall",
+"note": "bot protection page at https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045 | fallback: Blocked",
+"attempts": 1,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
+"district": "BOONVILLE R-I",
+"state": "Missouri",
+"students": 1662,
+"platform": "simbli",
+"url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031045"
 },
 {
 "nces_id": "601963",
@@ -11592,6 +11618,19 @@
 "students": 1648,
 "platform": "site",
 "url": "https://www.ces95.org/apps/pages/index.jsp?uREC_ID=3839819&type=d&pREC_ID=2474375"
+},
+{
+"nces_id": "3904873",
+"code": "forbidden",
+"note": "HTTP 403 at https://go.boarddocs.com/oh/nrls/Board.nsf/Public | fallback: HTTPError",
+"attempts": 1,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
+"district": "Northridge Local",
+"state": "Ohio",
+"students": 1647,
+"platform": "boarddocs",
+"url": "https://go.boarddocs.com/oh/nrls/Board.nsf/Public"
 },
 {
 "nces_id": "3904888",
@@ -11688,9 +11727,9 @@
 "nces_id": "5507050",
 "code": "forbidden",
 "note": "HTTP 403 at https://go.boarddocs.com/wi/jps/Board.nsf/files/CQ8K7V508ADF/$file/Rules%20Regarding%20Public%20Comment%20at%20Board%20Meetings%200167.3.pdf",
-"attempts": 1,
-"last": "2026-11-11",
-"retry_after": "2026-11-25",
+"attempts": 2,
+"last": "2026-11-28",
+"retry_after": "2026-12-12",
 "district": "Jefferson School District",
 "state": "Wisconsin",
 "students": 1612,
